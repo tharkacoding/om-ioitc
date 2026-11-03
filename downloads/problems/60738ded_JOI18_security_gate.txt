@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI18_security_gate
+
+View problem - Security Gate (JOI18_security_gate) :: oj.uzView problem - Security Gate (JOI18_security_gate)
+
+Security Gate Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o securitygate securitygate.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o securitygate securitygate.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o securitygate securitygate.cpp
+Java/usr/bin/javac -encoding UTF-8 securitygate.java
+/bin/sh -c echo "Main-Class: securitygate" > __manifest__.txt
+/bin/sh -c jar cfm securitygate.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b securitygate.py
+/bin/mv securitygate.pyc __main__.pyc
+/usr/bin/zip securitygate.pyz.zip __main__.pyc
+/bin/mv securitygate.pyz.zip securitygate.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+5000 ms1024 MiB12036925.00%
+
+Problem Source
+2018 JOI Spring Training Camp/Qualifying Trial Day 3 Problem 3
+
+ Attachments
+File nameSize
+securitygate.zip1.13 KiB

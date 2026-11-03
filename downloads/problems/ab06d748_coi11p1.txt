@@ -1,0 +1,104 @@
+https://dmoj.ca/problem/coi11p1
+
+COI '11 #1 Kampanja - DMOJ: Modern Online Judge
+
+        This site works best with JavaScript enabled.
+
+        COI '11 #1 Kampanja
+
+                View as PDF
+
+            Submit solution
+
+    All submissions
+
+    Best submissions
+
+        Read editorial
+
+        Points:
+
+                20 (partial)        
+
+        Time limit:
+        1.0s
+
+        Memory limit:
+        128M
+
+                    Problem type                
+
+                Graph Theory
+
+        The elections are nearing, so President Amabo Kcarab is planning a tour of the States, with speeches in
+WDC and LA. To provide adequate security, the Secret Service needs to constantly monitor all cities
+that the President will pass through (including WDC and LA).
+
+Of course, the federal budget needs to be spent responsibly, so the President will not be using AF1, but
+will be travelling by car. Also, the Secret Service will plan the President's tour from WDC to LA and back to WDC such that the least possible number of cities needs to be monitored.
+
+For this problem, assume that the States consist of ~N~ cities, denoted by numbers from ~1~ to ~N~, and ~M~
+unidirectional Interstates, with each Interstate linking two different cities. WDC is city number ~1~, LA
+number ~2~.
+
+Write a program to compute the minimum number of cities that need to be monitored such that there
+exists a path from WDC to LA and back to WDC passing only through monitored cities.
+
+Input Specification
+
+The first line of input contains the two integers ~N~ and ~M~ ~(2 \le N \le 100, 2 \le M \le 200)~, the number of
+cities and the number of Interstates linking the cities, respectively.
+
+Each of the following ~M~ lines contains two different integers ~A, B~ ~(1 \le A, B \le N)~, the beginning and
+ending city served by the given Interstate. No two Interstates link the same two cities in the same
+direction, but two Interstates can link the same two cities in opposite directions.
+
+Output Specification
+
+The first and only line of output must contain the minimum number of cities that need to be
+monitored.
+
+Scoring
+
+In test data worth a total of ~20~ points, ~N~ will be at most ~20~.
+
+Note: Test data will ensure that a solution will always exist.
+
+Sample Input 1
+
+6 7
+1 3
+3 4
+4 5
+5 1
+4 2
+2 6
+6 3
+Sample Output 1
+
+6
+Explanation for Sample Output 1
+
+The President can take the following route: ~\mathbf 1 \to 3 \to 4 \to \mathbf 2 \to 6 \to 3 \to 4 \to 5 \to \mathbf 1~. Since he needs to pass through each city at least once, the solution is ~6~.
+
+Sample Input 2
+
+9 11
+1 3
+3 4
+4 2
+2 5
+5 3
+3 6
+6 1
+2 7
+7 8
+8 9
+9 1
+Sample Output 2
+
+6
+
+    Comments
+
+        There are no comments at the moment.

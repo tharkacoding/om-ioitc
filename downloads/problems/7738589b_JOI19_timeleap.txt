@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI19_timeleap
+
+View problem - Bitaro, who Leaps through Time (JOI19_timeleap) :: oj.uzView problem - Bitaro, who Leaps through Time (JOI19_timeleap)
+
+Bitaro, who Leaps through Time Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o timeleap timeleap.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o timeleap timeleap.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o timeleap timeleap.cpp
+Java/usr/bin/javac -encoding UTF-8 timeleap.java
+/bin/sh -c echo "Main-Class: timeleap" > __manifest__.txt
+/bin/sh -c jar cfm timeleap.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b timeleap.py
+/bin/mv timeleap.pyc __main__.pyc
+/usr/bin/zip timeleap.pyz.zip __main__.pyc
+/bin/mv timeleap.pyz.zip timeleap.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms512 MiB6401249072.58%
+
+Problem Source
+2019 JOI Spring Training Camp/Qualifying Trial Day 3 Problem 3
+
+ Attachments
+File nameSize
+timeleap.zip1.77 KiB

@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI21_izvanzemaljci
+
+View problem - Izvanzemaljci (COI21_izvanzemaljci) :: oj.uzView problem - Izvanzemaljci (COI21_izvanzemaljci)
+
+Izvanzemaljci Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o izvanzemaljci izvanzemaljci.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o izvanzemaljci izvanzemaljci.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o izvanzemaljci izvanzemaljci.cpp
+Java/usr/bin/javac -encoding UTF-8 izvanzemaljci.java
+/bin/sh -c echo "Main-Class: izvanzemaljci" > __manifest__.txt
+/bin/sh -c jar cfm izvanzemaljci.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b izvanzemaljci.py
+/bin/mv izvanzemaljci.pyc __main__.pyc
+/usr/bin/zip izvanzemaljci.pyz.zip __main__.pyc
+/bin/mv izvanzemaljci.pyz.zip izvanzemaljci.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms512 MiB605611118.03%
+
+Problem Source
+Croatian Olympiad in Informatics 2021 Problem 3

@@ -1,0 +1,166 @@
+https://dmoj.ca/problem/ioi04p6
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:30 (partial)
+Time limit:1.0s
+Memory limit:128M
+Problem type
+IOI '04 - Athens, Greece
+
+The ancient mathematician and philosopher Pythagoras believed that reality is mathematical in nature. Present-day biologists study properties of biosequences. A biosequence is a sequence of 
+𝑀
+ integers, which
+
+contains each of the numbers 
+0
+,
+1
+,
+…
+,
+𝑀
+−
+1
+,
+starts with 
+0
+ and ends with 
+𝑀
+−
+1
+, and
+has no two elements 
+𝐸
+, 
+𝐸
++
+1
+ in adjacent positions in this order.
+
+A subsequence consisting of adjacent elements of a biosequence is called a segment.
+
+A segment of a biosequence is called a framed interval if it includes all integers whose values are between the value of the first element, which must be the smallest element in the segment, and the last element, which must be the largest and different from the first. A framed interval is called an empodio if it does not contain any shorter framed intervals.
+
+As an example, consider the biosequence 
+(
+0
+,
+3
+,
+5
+,
+4
+,
+6
+,
+2
+,
+1
+,
+7
+)
+. The whole biosequence is a framed interval. However, it contains another framed interval 
+(
+3
+,
+5
+,
+4
+,
+6
+)
+ and therefore it is not an empodio. The framed interval 
+(
+3
+,
+5
+,
+4
+,
+6
+)
+ does not contain a shorter framed interval, so it is an empodio. Furthermore, it is the only empodio in that biosequence.
+
+You are to write a program that, given a biosequence, finds all empodia (plural for empodio) in that biosequence.
+
+Input Specification
+
+The first line contains a single integer 
+𝑀
+: the number of integers in the input biosequence. The following 
+𝑀
+ lines contain the integers of the biosequence in the order of the sequence. Each of these 
+𝑀
+ lines contains a single integer.
+
+Output Specification
+
+The first line of output is to contain one integer 
+𝐻
+: the number of empodia in the input biosequence. The following 
+𝐻
+ lines describe all empodia of the input biosequence in the order of appearance of the starting point in the biosequence. Each of these lines is to contain two integers 
+𝐴
+ and 
+𝐵
+ (in that order) separated by a space, where the 
+𝐴
+-th element of the input biosequence is the first element of the empodio and the 
+𝐵
+-th element of the input biosequence is the last element of the empodio.
+
+Sample Input
+Copy
+8
+0
+3
+5
+4
+6
+2
+1
+7
+Sample Output
+Copy
+1
+2 5
+Constraints
+
+In one input, 
+1
+000
+000
+≤
+𝑀
+≤
+1
+100
+000
+. In all other inputs, 
+1
+≤
+𝑀
+≤
+60
+000
+. Additionally, in 
+50
+%
+ of the inputs, 
+𝑀
+≤
+2
+600
+.
+
+Comments
+
+
+1
+Behesht 
+commented on Nov. 9, 2025, 1:21 p.m.
+
+if you're wondering why n goes up to 1.1e6, it's basically there to stop people like me from trying a segment tree solution:_) I got destroyed by memory/time and still ended up with 95/100. So yeah... don't be me :D

@@ -1,0 +1,37 @@
+https://oj.uz/problem/view/COI18_zagonetka
+
+View problem - Zagonetka (COI18_zagonetka) :: oj.uzView problem - Zagonetka (COI18_zagonetka)
+
+Zagonetka Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o zagonetka zagonetka.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o zagonetka zagonetka.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o zagonetka zagonetka.cpp
+Java/usr/bin/javac -encoding UTF-8 zagonetka.java
+/bin/sh -c echo "Main-Class: zagonetka" > __manifest__.txt
+/bin/sh -c jar cfm zagonetka.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b zagonetka.py
+/bin/mv zagonetka.pyc __main__.pyc
+/usr/bin/zip zagonetka.pyz.zip __main__.pyc
+/bin/mv zagonetka.pyz.zip zagonetka.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms1024 MiB629885157.95%
+
+Problem Source
+Croatian Olympiad in Informatics 2018 Problem 4
+
+ Attachments
+File nameSize
+zagonetka_codesample.c813 bytes
+zagonetka_codesample.cpp816 bytes
+zagonetka_codesample_py2.py560 bytes
+zagonetka_codesample_py3.py634 bytes
+zagonetka_test.cpp11.60 KiB

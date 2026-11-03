@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI16_relay
+
+View problem - Relay (COI16_relay) :: oj.uzView problem - Relay (COI16_relay)
+
+Relay Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o relay relay.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o relay relay.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o relay relay.cpp
+Java/usr/bin/javac -encoding UTF-8 relay.java
+/bin/sh -c echo "Main-Class: relay" > __manifest__.txt
+/bin/sh -c jar cfm relay.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b relay.py
+/bin/mv relay.pyc __main__.pyc
+/usr/bin/zip relay.pyz.zip __main__.pyc
+/bin/mv relay.pyz.zip relay.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms512 MiB89241145.83%
+
+Problem Source
+Croatian Olympiad in Informatics 2016 Problem 3

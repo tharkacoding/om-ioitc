@@ -1,0 +1,722 @@
+https://codeforces.com/blog/entry/99837#comment-886584
+
+JOI 2021/2022 Final Round Online Contest - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        E869120
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        E869120's blog
+
+                        JOI 2021/2022 Final Round Online Contest
+
+                By E869120,
+                    5 years ago,
+
+        Hello, everyone!
+The 21st Japanese Olympiad in Informatics (JOI 2021/2022) Final Round Online Contest will be held from February 13, 07:00 GMT to February 13, 11:00 GMT. The contest information is as follows:
+    Contest duration: 4 hours
+   Number of problems: 5 problems
+   Max score for each task: 100 points
+   Style: IOI-Style (There may be some partial scores)
+   Problem statement: Japanese & English
+ The registration page will be announced 10 minutes (Fixed) before the contest start. Details are available in the contest information page.
+We welcome all participants. Good luck and have fun!
+
+    joi,
+
+    ioi
+
+        +211
+
+        E869120
+
+        5 years ago
+
+        14
+
+                Comments (14)
+
+                Write comment?
+
+                                    »
+
+                     Jarif_Rahman
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Jarif_Rahman
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++39
+
+Does that mean ranking will be hidden this year?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     E869120
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        E869120
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++25
+
+                        This year, the live scoreboard will be open at least 30 minutes before the contest starts. You can see scoreboard during the contest.
+
+The description in the contest page will be fixed soon.
+
+                        →
+                        Reply
+
+                                    »
+
+                     E869120
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        E869120
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++33
+
+                        Reminder
+The contest will start in 10 minutes. Now the registration page and live scoreboard is open.
+
+                        →
+                        Reply
+
+                                    »
+
+                     errorgorn
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        errorgorn
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++28
+
+                        What are the intended time complexities for $$$HW \leq 7000$$$ and $$$HW \leq 50000$$$ in sandcastle? I would feel bad if I missed it because I didn't trust the TL cheese :/
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     gyh20
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        gyh20
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++20
+
+                        My $$$O(\min(H,W)(HW)^2)$$$ Solution passed $$$80$$$.
+But I think the intended solution is $$$O((HW)^2)$$$ since I think I know one.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Radewoosh
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Radewoosh
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Indeed $$$\mathcal{O}((HW)^2)$$$ passed. I've also implemented $$$\mathcal{O}(H^2W\log(W))$$$, but it wasn't much faster. I also think that it's possible to get rid of the logarithm.
+
+                        →
+                        Reply
+
+                                    »
+
+                     don2001
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        don2001
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++5
+
+                        Is there an official solution for this contest?
+
+                        →
+                        Reply
+
+                                    »
+
+                     apostoldaniel854
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        apostoldaniel854
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++18
+
+                        How to go from 77 to 100 points in problem 3?
+
+                        →
+                        Reply
+
+                                    »
+
+                     mango_lassi
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        mango_lassi
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++18
+
+                        Is the following wrong for problem E?
+ Given a rectangle, let the parent square of a square be the square with minimum larger value among its neighbours that belong to the rectangle. Similarly let the child square of a square be the square with maximum smaller value. If this neighbour does not exist, say it has no child / parent.
+A rectangle is good if and only if every square's parent's child is that square itself, and there is at most 1 square without a parent.
+ I think this should work, and it does give a $$$\mathcal{O}(M \sqrt{M})$$$ solution where $$$M = 50000$$$, by looping $$$y_0$$$ then $$$y_1$$$ while maintaining for every column, whether that column has a square with no parent and whether it has a square violating the parent-child condition given that there are 0/1/2+ columns to its left and 0/1/2+ columns to its right. Then you can loop over $$$x$$$ while maintaining how many rectangles are currently possible, that have length 0/1/2+/(are 1 from closing) and whether they already have a square with no parent, and also use another loop to count rectangles of width <= 3...
+I wrote this but it didn't work. It might be just bugs, as this is obviously a miserable solution to implement ;_;
+
+                        →
+                        Reply
+
+                                    »
+
+                     Radewoosh
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Radewoosh
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 4
+                                →
+
++146
+
+                        My solutions:
+A) Easy.
+B) Also easy. Firstly do $$$A_i = \max(A_i, B_i)$$$. Binary search to find the answer. Let's do a check for a value $$$X$$$. For each course we'd like to attend the classes $$$\lceil \frac{X}{A_i} \rceil$$$ times, but as we can attend it only $$$M$$$ times then maybe we have to study it $$$\lceil \frac{X - A_i \cdot M}{B_i} \rceil$$$ times. Just check if the sum doesn't exceed $$$N \cdot M$$$. $$$\mathcal{O}(N \cdot \log(N \cdot M))$$$
+C) If $$$B_i = -1$$$ we can treat it like $$$B_i = \infty$$$. Let's assume that we want to get $$$m$$$ collaborators. We are looking for two subsets of states: one of size $$$m$$$ and the second one of size $$$K - m$$$. It's easy to see that we should firstly do all the states from the first subset in order of increasing values $$$B_i$$$ and then all the states from the second subset in any order. We can also notice that if we know the second subset, we should take to the first $$$m$$$ states with the smallest values of $$$B_i$$$ which aren't in this subset.
+Let's then sort states by $$$B_i$$$ and run a dynamic programming. $$$DP[i][j]$$$ -- $$$i$$$ is the number of considered states and $$$j$$$ is the number of states already in the second subset. As we want to take states (which are not in the second subset) to the first subset greedily we also know the number of states in the first subset -- it's $$$\min(i - j, m)$$$. Transitions are simple, for $$$\ell$$$-th state in the first subset we pay $$$\frac{B}{\ell + 1}$$$ and for a guy in second subset we pay $$$\frac{B}{m + 1}$$$ (as we will go to this state at the end).
+So the dynamic programming part takes time $$$\mathcal{O}(N \cdot K)$$$. To find the optimal value of $$$m$$$ we can use ternary search -- the whole algorithm will be $$$\mathcal{O}(N \cdot K \log(K))$$$.
+D) For each station we want to know the interval of stations to which we can get from it using at most one train. It's easy to calculate that, segment tree, stl:sets, DSU, whatever you want. 
+Then, for each value $$$d$$$ and each station $$$i$$$ we want to know the interval of stations to which we can get from station $$$i$$$ using at most $$$2^d$$$ trains. Let's call it $$$range_{d, i}$$$ Notice, that we already know these values for $$$d=0$$$. It's not hard to see that we can firstly look at the interval we can get to using at most $$$2^{d-1}$$$ trains and then look at the same values for each station in this interval. So we need $$$\mathcal{O}(\log(N))$$$ segment trees. Calculation of each pair $$$range_{d, i}$$$ consist of two (or even one) queries to the previous segment tree, so it's fast enough.
+We can solve queries online now. For each query we can firstly check if we can reach the final station at all (by looking at $$$d$$$ which is big enough). If yes, we can iterate the values of $$$d$$$ starting from the greatest ones, maintaining current number of trains and the interval to which this number of trains can take us. To consider a new value of $$$d$$$ we can just check if after adding this number of trains we will still be unable to reach the final station. In this way we build the greatest possible number of trains which still cannot take us to the final station -- the answer is of course greater by one. The whole algorithm takes time $$$\mathcal{O}(m \cdot \log(n) + (n + q)\cdot \log^2(n))$$$.
+E) Firstly, scale the values to the range $$$[1, HW]$$$, just in case.
+Let's learn how to check in a linear time if a rectangle is good. For each cell $$$(i, j)$$$ let's list its neighbors. Between them let's find the one with the greatest value, but smaller than the value of the cell $$$(i, j)$$$. Let's denote it as $$$lower$$$. If there are no neighbors with smaller value, we set $$$lower = 0$$$. In the same way we calculate value $$$upper$$$, which can possibly be equal to $$$HW + 1$$$. Let's denote $$$diff_{i, j} = upper - lower$$$. We can now notice, that if the rectangle is good, then the sum of $$$diff_{i, j}$$$ of all it's cells is equal to $$$HW + 1 + \max - \min$$$ where $$$\max$$$ and $$$\min$$$ are the greatest and the lowest values in this rectangle. We can also notice, that if this rectangle is not good, then the sum can only be strictly greater. This gives us an easy check.
+In my implementation I solved the rectangles with width or height equal to one separately, so I'll stick to it, it's a bit easier in my opinion.
+Let's for each cell and each subset (there are 16 of them) of its neighbors precalculate its $$$diff$$$s. Let's also rotate the board if necessary to assure that $$$H \leq W$$$. The main loop should iterate over the upper side of the rectangle. The inner loop should iterate over the lower side of the rectangle. Doing that, we can for each column maintain the maximum value in it, minimum value in it and the sums of $$$diff$$$ in it assuming that it's going to be either the leftmost, rightmost or middle column in the rectangle. So far we have complexity $$$\mathcal{O}(H^2W)$$$.
+Now we can really easily and really quickly check all the rectangles in time $$$\mathcal{O}(H^2 \cdot W^2)$$$. This turned out to get 100 points, but of course from this point it's easy to optimize it a little bit.
+Just because of curiosity I've implemented a D&C approach. If we know the upper and lower side of the rectangle we should just assume that the the rectangle contains two middle columns and by considering 4 options for where the minimum and maximum values are, we can solve the whole problem in time $$$\mathcal{O}(H^2 \cdot W \cdot \log(W))$$$, as the left and right parts of the interval should just have matching sums of something. The time decreased from around 1.2s to 0.9s if I remember correctly.
+I also think that the last subproblem is kind of classical and it can be solved in a linear time to finish with complexity $$$\mathcal{O}(H^2 \cdot W)$$$. Anyone?
+EDIT: So it was a bit overcomplicated.
+Set $$$diff_{i, j} = A_{i, j} - lower + [$$$there are no neighbors with greater value$$$] \cdot (H \cdot W + 1 - A_{i, j})$$$. Then the rectangle is good if the sum is simply equal to $$$H \cdot W + 1$$$. Now it's easy to do $$$\mathcal{O}(H^2 \cdot W \cdot hashmap)$$$, maybe even faster.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     errorgorn
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        errorgorn
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Do you have a proof of why the function is bitonic for C?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Radewoosh
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Radewoosh
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++9
+
+                        Of course not. It costs nothing to check if it's bitonic in the presented testset, which I did trying to squeeze hungarian algorithm.
+
+                        →
+                        Reply
+
+                                    »
+
+                     square1001
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        square1001
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++46
+
+                        I will write a solution for Problem 5 (Sandcastle 2) briefly, which was explained in real JOI editorial and will be published (in Japanese) in the near future. I think it's somewhat different from Radewoosh's one.
+Subtask 3:
+Brute-force all rectangular regions. The algorithm of checking the validity is the following (let $$$h \times w$$$ the size of region):
+    The player start from the topmost cell in the region.
+   For each step, the player advance to the highest cell among the 4-adjacent cell which is lower than the player's cell.
+   Finally, if all $$$hw$$$ cells are visited, the region is valid.
+ With this algorithm, we can check the validity in $$$O(hw)$$$ time. The overall time is $$$O(H^3 W^3)$$$ with constant of $$$1/36$$$, which passes subtask 3.
+Subtask 4 (Part 1):
+We want to check the validity in $$$O(1)$$$ time for each rectangular region. First, with the idea of subtask 3, the desired "next direction" for each cell is already determined — that is, the direction to the highest adjacent cell which is lower than its cell. (Note that there is no such direction for some cells).
+Let's think about drawing an arrow to the desired "next direction" for each cell. It will be valid if the field of arrows forms only one current. The condition for the field to form one current is "there is only one cell that $$$indegree = 0$$$". So, if we can calculate the number of cells with $$$indegree = 0$$$ in $$$O(1)$$$, it will solve subtask 4.
+Subtask 4 (Part 2):
+The main idea is that the direction of arrow only changes when the cell is in the boundary of the rectangular region — otherwise, it will point the same direction.
+Now, let's think about the arrow flowing to cell $$$(i, j)$$$ from the left (that is, $$$(i, j-1) \rightarrow (i, j)$$$). When the boundary is $$$2$$$ or more cells apart (which means column $$$j-2$$$ or left), the arrow of cell $$$(i, j-1)$$$ will point the same direction, so whether the arrows flows into $$$(i, j)$$$ from the left or not will be the same. It means that "whether the arrows flows into $$$(i, j)$$$ from the left or not" will change by $$$3$$$ patterns of leftmost boundary: column $$$j$$$, column $$$j-1$$$, and column $$$\leq j-2$$$. We need to consider $$$4$$$ directions, so the figure of arrows flowing to $$$(i, j)$$$ will be determined by $$$3^4 = 81$$$ patterns of boundaries.
+Now, we set $$$81$$$ two-dimensional cumulative sums of $$$H \times W$$$ that calculates the number of cells that $$$indegree = 0$$$. It enables to calculate the number of cells with $$$indegree = 0$$$ in $$$O(1)$$$. So, this problem will be solved in $$$O(H^2 W^2)$$$.
+Subtask 5:
+Let the topmost cell of the rectangular region $$$(lx, ly)$$$ and bottom-right cell $$$(rx-1, ry-1)$$$. In subtask 4, we brute-forced $$$(lx, rx, ly, ry)$$$, but for subtask 5, we brute-force $$$(lx, rx)$$$ and calculate the valid combinations of $$$(ly, ry)$$$ in $$$O(W)$$$ time.
+If $$$w \geq 4$$$, the number of cells with $$$indegree = 0$$$ will be expressed in the forms of $$$B_{ry} - A_{ly}$$$, if we set $$$A_i$$$ and $$$B_i$$$ well. So, the problem turns into counting the number of pairs of $$$(i, j)$$$ that $$$0 \leq i \lt j \leq W$$$ and $$$B_j - A_i = 1$$$. This can be solved in $$$O(W)$$$, even without using hashmaps, because we can use array of length $$$HW$$$ due to $$$A_i, B_j \leq HW$$$. So, this problem can be solved in $$$O(H^2 W)$$$.
+For the cases of $$$H \gt W$$$, we can rotate the grid by $$$90$$$ degrees and the answer remains the same. And the time complexity becomes $$$O(HW \cdot \min(H, W))$$$, which passes subtask 5 and get the full score.
+
+                        →
+                        Reply
+
+                                    »
+
+                     ojuz
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        ojuz
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++45
+
+                        You can solve all problems here: https://oj.uz/problems/source/592
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:35 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

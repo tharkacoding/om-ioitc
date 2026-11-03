@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI22_giraffes
+
+View problem - Giraffes (JOI22_giraffes) :: oj.uzView problem - Giraffes (JOI22_giraffes)
+
+Giraffes Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o giraffes giraffes.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o giraffes giraffes.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o giraffes giraffes.cpp
+Java/usr/bin/javac -encoding UTF-8 giraffes.java
+/bin/sh -c echo "Main-Class: giraffes" > __manifest__.txt
+/bin/sh -c jar cfm giraffes.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b giraffes.py
+/bin/mv giraffes.pyc __main__.pyc
+/usr/bin/zip giraffes.pyz.zip __main__.pyc
+/bin/mv giraffes.pyz.zip giraffes.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+7000 ms1024 MiB12235925.71%
+
+Problem Source
+JOI Open Contest 2022 Problem 2
+
+ Attachments
+File nameSize
+giraffes.zip1.09 KiB

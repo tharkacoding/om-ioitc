@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/JOI23_ancient2
+
+View problem - Ancient Machine 2 (JOI23_ancient2) :: oj.uzView problem - Ancient Machine 2 (JOI23_ancient2)
+
+Ancient Machine 2 Interactive Communication Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o ancient2 ancient2.cpp ancient2.h stub.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o ancient2 ancient2.cpp ancient2.h stub.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms1024 MiB350731824.66%
+
+Problem Source
+JOI Open Contest 2023 Problem 1
+
+ Attachments
+File nameSize
+ancient2.zip3.64 KiB

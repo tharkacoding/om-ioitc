@@ -1,0 +1,963 @@
+https://codeforces.com/blog/entry/51198#comment-350995
+
+Croatian Olympiad in Informatics - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        DBradac
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        DBradac's blog
+
+                        Croatian Olympiad in Informatics
+
+                By DBradac,
+                    history,
+                    10 years ago,
+
+        I would like to invite you to participate in the online mirror of the Croatian Olympiad in Informatics which is held this Saturday.
+The problemset will consist of 3-5 IOI stlye tasks and you will have 5 hours to solve them. The expected difficulty is greater than usual COCI rounds, but lesser than IOI.
+Click here to see where the coding begins in your timezone.
+
+        +48
+
+        DBradac
+
+        10 years ago
+
+        22
+
+                Comments (22)
+
+                Write comment?
+
+                                    »
+
+                     TooNewbie
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        TooNewbie
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        I see new backup menu in evaluator. What is that for?
+Thanks in advance :)
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     DBradac
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        DBradac
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++6
+
+                        You can backup files on the judge if you are afraid you will accidentally erase them loacally or something. As far as I know, nobody really uses it.
+
+                        →
+                        Reply
+
+                                    »
+
+                     Waschbar
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Waschbar
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        It tell's me that I am not allowed to log in from this location. Can anyone help me?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     pllk
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        pllk
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        You should select "Croatian Olympiad in Informatics" in the dropdown menu.
+This is a problem in every Croatian contest, so maybe the organizers could fix this?
+
+                        →
+                        Reply
+
+                                    »
+
+                     Fcdkbear
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Fcdkbear
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        Will there be an immediate feedback like in IOI?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     DBradac
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        DBradac
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++4
+
+                        yes
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     tweety
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        tweety
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++1
+
+                        Nice! If I remember correctly, last year there was no feedback during the contest
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     TooNewbie
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        TooNewbie
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++6
+
+                        Unfortunately, there is no full feedback :(
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     DBradac
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        DBradac
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++18
+
+                        sorry, I was wrong, there is no full feedback
+
+                        →
+                        Reply
+
+                                    »
+
+                     giorgosgiapis
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        giorgosgiapis
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
++6
+
+                        Start delayed by 15 minutes?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     AFN
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        AFN
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++1
+
+                        Yeah for me too.
+
+                        →
+                        Reply
+
+                                    »
+
+                     tweety
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+        tweety
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++5
+
+                        .
+
+                        →
+                        Reply
+
+                                    »
+
+                     radoslav11
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+        radoslav11
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
++9
+
+                        There actually isn't real feedback. The system just says whether we have passed the samples or not.
+
+                        →
+                        Reply
+
+                                    »
+
+                     radoslav11
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        radoslav11
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++4
+
+                        Really nice contest.
+How to solve 3 and 2? 
+ On 1 is O(N * M) the intended solution? 
+ On 4 is  with centroid decomposition intended to pass for 100? 
+
+Also when will results be available?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     giorgosgiapis
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        giorgosgiapis
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        How did you solve 1?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     TooNewbie
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        TooNewbie
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        I solved 4 for 40 points. Suffix array + LCP for chain, dfs O(n2) for n ≤ 1000. 
+How to solve for 100?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Sanja
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        Sanja
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++9
+
+                        2) Divide and Conquer
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     radoslav11
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        radoslav11
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++12
+
+                        wow the solution comes really easy when someone tells you to think about divide and conquer :/
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Sanja
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        Sanja
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++9
+
+                        But you need to carefully handle case when "middle row" components are connected in upper and bottom part simultaneously
+
+                        →
+                        Reply
+
+                                    »
+
+                     NirShalmon
+
+                        10 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        NirShalmon
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
++14
+
+                        When will there be results?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     TooNewbie
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        TooNewbie
+
+                        10 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        They are out now :)
+
+                        →
+                        Reply
+
+                                    »
+
+                     ko_osaga
+
+                        10 years ago,
+                        show
+                        #
+
+                                »
+
+        ko_osaga
+
+                        10 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 5
+                                →
+
++43
+
+                        Solution sketch + 100p Codes
+ Problem 1Flood fill from all 0. If x_i don't have to be, we just set them as 1. For all ?s,
+    ? can't be 1 if it can't reach any x_i = 1.
+
+   ? can't be 0 if there exists some c_i = 1 such that, if ? becomes 0 they can't reach any x_i = 1.
+
+ We can check them independently. So let's do that.
+First part can be easily checked in O(N) for each c_i.
+Second part can be checked in O(N^2) for each c_i naively. However, if we run bfs from any x_i = 1, which can't be reached by that ?, we can determine if there exists that c_i. So it can be reduced to O(N) per ?. total O(N^2)
+https://github.com/koosaga/olympiad/blob/master/Croatia/coi17_ili.cpp
+
+ Problem 2If we have the spanning forest, component size = |V| — |E|. Group each column's consecutive 1s as one node. Now let’s make spanning forest for [0, N-1]. Some edges will be in spanning forest, but some are not. However, you can observe that the graph is planar. So we can calculate the cycle which that edges belong. (we should do it enough smart to maintain O(NM) time complexity) If the cycle goes broken, then we should use that edge.
+In conclusion, we can know what edges do [i, N-1] spanning forest contains. This also enables us to know what edges do [i, j] spanning forest contains. To solve it faster, for each edge and vertex, compute how many interval uses them. You can do some math to figure out that. 
+Some details are omitted as they are hard to explain. My implementation is about 100 lines, so it’s not that long.
+total O(NM * Ackermann(NM)) https://github.com/koosaga/olympiad/blob/master/Croatia/coi17_raspad.cpp
+
+ Problem 3We can carefully model the given structure as a grid graph. Something like : 
+                       (N-3, 2) - ........
+                         |
+           (N-2, 1) - (N-2, 2) - (N-2, 3) - ........
+                |                  |
+(N-1, 0) - (N-1, 1) - (N-1, 2) - (N-1, 3) - ........
+    |                    |
+(N  , 0) - (N  , 1) - (N  , 2) - (N  , 3) - ........
+                |                  |
+           (N+1, 1) - (N+1, 2) - (N+1, 3) - ........
+Every block has a center. If the center's position is (X, Y), We color that block as (X + 3 * (Y mod 2)) mod 6 + 1. It's not hard to prove that for every placement this coloring works. So we need to find any block placement which completely covers the grid. I found that with O(4^N * N^2) bitmask dp. I think constant factor is not that bad.. but eh, let's see. https://github.com/koosaga/olympiad/blob/master/Croatia/coi17_trapezi.cpp
+
+ Problem 4Do centroid decomposition. Say the centroid is "(", then we append some others to make it as L(R. Find all possible L, and (R with DFS. correct L should look like ((( + expression + (( + expression + ... . For R it's simillar. Now we find all pairs of correct L and correct R, with same extra ( and )s. this can be done by storing counts. total O(NlgN) https://github.com/koosaga/olympiad/blob/master/Croatia/coi17_zagrade.cpp
+
+For p3, constant factor was not a problem. (worst tc in 0.05s) I fixed one typo (y -> y + 1) and got 100 points. So sad to miss 400p
+Sad news : Problem 4 was already posed at JAG contest. (http://jag2015spring.contest.atcoder.jp/tasks/icpc2015spring_a)
+Still, the problems were really interesting. I really enjoyed solving it. Thanks for the great effort!
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:35 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

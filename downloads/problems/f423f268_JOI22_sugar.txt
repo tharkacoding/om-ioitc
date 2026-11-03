@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/JOI22_sugar
+
+View problem - Ants and Sugar (JOI22_sugar) :: oj.uzView problem - Ants and Sugar (JOI22_sugar)
+
+Ants and Sugar Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o sugar sugar.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o sugar sugar.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o sugar sugar.cpp
+Java/usr/bin/javac -encoding UTF-8 sugar.java
+/bin/sh -c echo "Main-Class: sugar" > __manifest__.txt
+/bin/sh -c jar cfm sugar.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b sugar.py
+/bin/mv sugar.pyc __main__.pyc
+/usr/bin/zip sugar.pyz.zip __main__.pyc
+/bin/mv sugar.pyz.zip sugar.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms1024 MiB253653350.77%
+
+Problem Source
+2022 JOI Spring Training Camp/Qualifying Trial Day 3 Problem 3

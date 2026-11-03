@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/IOI13_game
+
+View problem - Game (IOI13_game) :: oj.uzView problem - Game (IOI13_game)
+
+Game Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o game game.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o game game.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o game game.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+13000 ms250 MiB487547524351.16%
+
+Problem Source
+IOI 2013 Day 2 Problem 3
+
+ Attachments
+File nameSize
+game.zip2.89 KiB

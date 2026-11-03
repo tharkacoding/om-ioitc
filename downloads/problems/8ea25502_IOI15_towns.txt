@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/IOI15_towns
+
+View problem - Towns (IOI15_towns) :: oj.uzView problem - Towns (IOI15_towns)
+
+Towns Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o towns towns.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o towns towns.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o towns towns.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms512 MiB394732715146.18%
+
+Problem Source
+IOI 2015 Day 2 Problem 3
+
+ Attachments
+File nameSize
+graders.zip6.58 KiB

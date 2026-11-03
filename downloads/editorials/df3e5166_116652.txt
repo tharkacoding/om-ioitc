@@ -1,0 +1,685 @@
+https://codeforces.com/blog/entry/116652#comment-1031304
+
+Croatian Olympiad in Informatics 2023 - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        ppavic
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        Problemsetting
+
+        ppavic's blog
+
+                        Croatian Olympiad in Informatics 2023
+
+                By ppavic,
+                    history,
+                    3 years ago,
+
+        Croatian Open Competition in Informatics — COCI 2022/2023
+Internet online contest series
+As part of the COCI series, we are hosting an Internet online contest with problems from the Croatian Olympiad in Informatics 2023. The contest is primarily intended for high school contestants, but is open to all interested!
+This contest is used in Croatia to select members of the IOI 2023 team. There will be three to five tasks and the contest will be five hours long. The contestants will have full feedback with at most 50 submissions per task.
+The problems were set by dorijanlendvaj, ipaljak, keko37 and myself.
+It will be held on Sunday, May 21, starting at 15:30 (GMT/UTC).
+We have been notified about the clash with the AtCoder round. The starting time has changed, the new starting time is the one above, the old one was 14:00 GMT/UTC.
+Check out your local times at https://hsin.hr/coci/next_contest.html.
+You may use Python, Pascal, C, C++ or Java as your programming language of choice.
+The two relevant websites are:
+https://hsin.hr/coci/ — information about the contest
+https://evaluator.hsin.hr/ — judging system
+We hope that you will join us or encourage your students to do so!
+
+        +103
+
+        ppavic
+
+        3 years ago
+
+        14
+
+                Comments (14)
+
+                Write comment?
+
+                                    »
+
+                     Adam_GS
+
+                        3 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Adam_GS
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
++15
+
+                        Clashes with AGC...
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ppavic
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ppavic
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++16
+
+                        We have been made aware. The contest has been postponed for an hour and a half. The new starting time is 15:30 (GMT/UTC).
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Alon-Tanay
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        Alon-Tanay
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++13
+
+                        It also clashed with APIO for some, second year in a row :(
+
+                        →
+                        Reply
+
+                                    »
+
+                     AkibAzmain
+
+                        3 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        AkibAzmain
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Is it possible to participate within a time window of, say 24 hours? Fixed time contest is not accessible all over the world due to time zone problems.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     AkibAzmain
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        AkibAzmain
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++14
+
+                        Can anyone tell me that why did I get those downvotes? What did do I do wrong by "requesting" a time window? Is it wrong even to request something?
+
+                        →
+                        Reply
+
+                                    »
+
+                     SNX03
+
+                        3 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        SNX03
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++10
+
+                        The Task statements text file is empty
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     AkibAzmain
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        AkibAzmain
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        They were uploaded 5 minutes after the contest started.
+
+                        →
+                        Reply
+
+                                    »
+
+                     Olympia
+
+                        3 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Olympia
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Can discussion start now? If so, what is the solution to problem 4?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Mamedov
+
+                        3 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        Mamedov
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 8
+                                →
+
++3
+
+                        For each number $$$i (1 \lt =i \lt =n)$$$ let $$$l[i], r[i]$$$ be the start position of the first and the last segment of size $$$K$$$ in permutation $$$q$$$ containing $$$i$$$ respectively. 
+Now you can iterate over $$$p$$$ and add $$$1$$$ to range $$$[l[p[i]], r[p[i]]]$$$ and add $$$-1$$$ to range $$$[l[p[i — k], r[p[i — k]]]$$$ and keep track of Max and their Counts (this is just sliding window). This can be done using lazy segment tree.
+In order to get $$$100$$$ points, you can store $$$N$$$ versions of this segment tree (make it persistent) and for each swap of consecutive numbers you only need to update $$$2$$$ out of these $$$N$$$ segment trees. Let $$$t$$$ and $$$t+1$$$ be the positions we swap. One can easily notice that only the segments ending at $$$t$$$ and starting at $$$t+1$$$ changes (for sure if such a segment of size $$$K$$$ exists). 
+You can use another segment tree (a simple one) in order to find $$$(Max, Count)$$$ over the roots of these $$$N$$$ segment trees. 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     dorijanlendvaj
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        dorijanlendvaj
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++5
+
+                        Instead of using a persistent segment tree, you can do everything offline; when you get to the i-th version of the segment tree, do the updates that you're supposed to do for that segment tree and then revert them before going to the (i+1)-th version.
+
+                        →
+                        Reply
+
+                                    »
+
+                     wxhtzdy
+
+                        3 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        wxhtzdy
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
++6
+
+                        Where can we submit solutions?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ppavic
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ppavic
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++11
+
+                        They will be added soon.
+EDIT: It is now available under the categories Srednje škole > 2023 > HIO.
+
+                        →
+                        Reply
+
+                                    »
+
+                     Abito
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+        Abito
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Why don't you publish standings? 
+
+                        →
+                        Reply
+
+                                    »
+
+                     MODDI
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+        MODDI
+
+                        3 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Can anyone explain problem 3?
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:33 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

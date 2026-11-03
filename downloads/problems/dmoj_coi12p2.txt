@@ -1,0 +1,188 @@
+https://dmoj.ca/problem/coi12p2
+
+Submit solution
+All submissions
+Best submissions
+Points:30 (partial)
+Time limit:0.5s
+Memory limit:256M
+Problem types
+
+The famous archaeologist Diana Jones has discovered a secret passageway leading to hidden treasure near Nowhere, Kansas. The passageway is blocked by a stone gate which has an ancient unlocking mechanism chiselled into it. Fortunately, she has immediately recognized the chiselled symbols:
+
+The unlocking mechanism is a table with 
+𝑅
+ rows and 
+𝐶
+ columns. Each cell contains a unique positive integer between 
+1
+ and 
+𝑅
+×
+𝐶
+, inclusive. At first glance, the numbers appear to be ordered randomly.
+The mechanism contains cogwheels which Diana can use to rearrange the table cells. In one move, she can rotate any 
+2
+-by-
+2
+ group of adjacent cells clockwise by 
+90
+ degrees.
+The gate will be unlocked when the numbers are rearranged in sorted row-major order (the upper left cell must contain 
+1
+, the cell to the right of it 
+2
+, and so on until the lower right cell, which must contain 
+𝑅
+×
+𝐶
+).
+
+For example, for the initial arrangement shown in the first picture, two moves are sufficient to unlock the mechanism:
+
+Write a program that, given the initial arrangement of cells, finds a sequence of moves that unlocks the mechanism. The number of moves needn't be optimal, however it must not exceed 
+100
+000
+.
+
+Input Specification
+
+The first line of input contains the two positive integers 
+𝑅
+ and 
+𝐶
+ 
+(
+2
+≤
+𝑅
+≤
+𝐶
+≤
+25
+)
+.
+
+Each of the following 
+𝑅
+ lines contains 
+𝐶
+ positive integers 
+𝑍
+𝑖
+,
+𝑗
+ 
+(
+1
+≤
+𝑍
+𝑖
+,
+𝑗
+≤
+𝑅
+×
+𝐶
+)
+, the numbers chiselled into the corresponding mechanism cells, which describes the initial arrangement.
+
+Output Specification
+
+The output must contain the required sequence of moves, one per line. For each move, output two positive integers 
+𝑀
+ and 
+𝑁
+ 
+(
+1
+≤
+𝑀
+≤
+𝑅
+−
+1
+,
+1
+≤
+𝑁
+≤
+𝐶
+−
+1
+)
+ representing the row and column index of the upper left cell in the 
+2
+-by-
+2
+ group rotated in that move.
+
+Note: For the given input data, a solution, not necessarily unique, will always exist.
+
+Scoring
+
+In test data worth a total of 
+40
+ points, 
+𝑅
+×
+𝐶
+≤
+9
+.
+
+In test data worth a total of 
+40
+ points, 
+𝑅
+=
+2
+.
+
+In test data worth a total of 
+60
+ points, at least one of the two constraints above will hold.
+
+Sample Input 1
+Copy
+2 3
+3 2 6
+1 4 5
+Sample Output 1
+Copy
+1 1
+1 2
+Explanation for Sample Output 1
+
+According to the picture in the problem description, the initial arrangement can be ordered in two moves: we first rotate the group with the upper left corner in row 
+1
+ and column 
+1
+, and then the group with the upper left corner in row 
+1
+ and column 
+2
+.
+
+Sample Input 2
+Copy
+3 3
+1 2 3
+4 6 9
+7 5 8
+Sample Output 2
+Copy
+2 2
+Sample Input 3
+Copy
+2 4
+1 2 7 3
+5 6 8 4
+Sample Output 3
+Copy
+1 3
+1 3
+1 3
+Comments
+
+There are no comments at the moment.

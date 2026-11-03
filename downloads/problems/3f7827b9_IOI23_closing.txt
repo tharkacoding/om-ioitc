@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI23_closing
+
+View problem - Closing Time (IOI23_closing) :: oj.uzView problem - Closing Time (IOI23_closing)
+
+Closing Time Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o closing closing.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o closing closing.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms2048 MiB367338711429.46%
+
+Problem Source
+IOI 2023 Day 1 Problem 1
+
+ Attachments
+File nameSize
+closing.zip1.89 KiB

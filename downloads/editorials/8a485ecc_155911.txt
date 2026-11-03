@@ -1,0 +1,1300 @@
+https://codeforces.com/blog/entry/155911#comment-1389898
+
+IOI 2026 Problem Discussion - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        maroonrk
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        Problemsetting
+
+        Streams
+
+        maroonrk's blog
+
+                        IOI 2026 Problem Discussion
+
+                By maroonrk,
+                    history,
+                    3 months ago,
+
+        I didn't see a discussion blog yet so let me post it.
+    Official Website
+   Ranking
+   Upsolving in QOJ
+   Judging Data
+   Official Live Stream in Day1
+   Unofficial Commentary from Errichto
+
+        +162
+
+        maroonrk
+
+        3 months ago
+
+        34
+
+                Comments (34)
+
+                Write comment?
+
+                                    »
+
+                     maroonrk
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        maroonrk
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++1
+
+                        Auto comment: topic has been updated by maroonrk (previous revision, new revision, compare).
+
+                        →
+                        Reply
+
+                                    »
+
+                     Nakagawa.Kanon
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Nakagawa.Kanon
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 7
+                                →
+
++12
+
+                        P3 unusually being the most easy one there. Assumes S is always 3, we can divide the 2x2 square into 4 case based on the empty square touching left, right, up, down borders and observe that the condition only hold when for each row, the 2x2 square that got its left border touched are all to the right of the ones with right border touched, and the same hold for each column with up and down border. From that we can skillfully insert the newly one of 4 type of 2x2 square so that the "blank" 2x2 square formed a connected region and each row and column got filled step by step from its left, right, up, down. Specifically, we will insert square into the leftmost, rightmost, up-most, down-most row, collumn with empty 2x2 square, the empty square of that row-col will form a continous segment and choose which end of that segment to put new squares.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     bobthemathenthusiast
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        bobthemathenthusiast
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Alternatively, let P be the corner of the rectangle opposite of the white square (any white square if S is not 3). Then place the 2x2 square such that the euclidean distance to P is minimal. This can be seen to work and takes less than 10 lines to implement.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     MINGZHEXU
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        MINGZHEXU
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        ？！*1400！？
+
+                        →
+                        Reply
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        I did make a discussion blog here, but that got hidden from review bombing. Now that there is a solution blog, at least it won't be IOI23 again
+P3 being the easiest IOI task (in terms of ACs) of the last 5 years probably indicates a higher bottom line for Day2 tasks, since the last time something got close to being this easy, it was being emergency-nerfed to oblivion after a nightmarish D1
+
+                        →
+                        Reply
+
+                                    »
+
+                     PavelKunyavskiy
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        PavelKunyavskiy
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++45
+
+                        Upsolving is also now available on codeforces.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     PavelKunyavskiy
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        PavelKunyavskiy
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++13
+
+                        And day 2 is also availiable!
+
+                        →
+                        Reply
+
+                                    »
+
+                     misytnikita
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        misytnikita
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        When I see IOI problems every day — incredibly difficult ones — and recall that I can't solve them, I feel like I’m stagnating, even though that’s not logical at all. Thinking about the problems I try and fail to solve daily, and then opening an IOI problem, feels like the difference between kindergarten and graduate school.
+
+                        →
+                        Reply
+
+                                    »
+
+                     hirayuu_cf
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        hirayuu_cf
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++54
+
+                        Full solution to ballmachine (translated by ChatGPT)
+ SpoilerLet $$$B$$$ be a constant. First, similarly to the 47-point solution, we construct a tree consisting of $$$B+1$$$ leaves and all of their ancestors.
+From this point, our goal is to determine the DFS order of this tree using $$$t$$$ values. Once we can do this, we can add the remaining $$$B+1-t$$$ leaves in the same manner.
+This goal can be achieved if, for every leaf, we can detect when that leaf is reached by ensuring that the sequence of values along the path from the root to that leaf is distinct from the corresponding sequence for every other vertex.
+First, the following observations hold:
+    For a vertex that has a non-leaf child, there is no need to visit the leaves attached directly to that vertex.
+   For a vertex that has two or more leaves as children, it is sufficient to visit just one of those leaves.
+ After removing and reorganizing the leaves in this way, it is sufficient to make the sequences obtained by looking up to two vertices ahead distinct for every vertex. If the current number of leaves is $$$m$$$, we can achieve this with $$$t=\lceil\sqrt{m}\rceil$$$.
+Taking $$$B=22$$$, we can achieve $$$C=38$$$.
+
+                        →
+                        Reply
+
+                                    »
+
+                     leg
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        leg
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++24
+
+                        Solution for 74 points on P1:
+ Hint 1Consider repeatedly placing balls of value $$$m-1$$$ on leaf $$$m-1$$$ until you reach the leaf, then place balls of value $$$m-2$$$ on leaf $$$m-2$$$, and follow this pattern all the way to leaf $$$0$$$. What information can we get from this query?
+
+ Solution for 47 pointsNotice that all the nodes in the tree have a ball, the subgraph consisting of balls of the same value will always be an ancestor-descendant path, and each node's value is the greater than or equal to all the values in its subtree. Combining these observations, we can reconstruct the entire tree.
+We iterate through the array given by the query from left to right. At any point, we maintain the current structure of the tree (which is always a connected component containing the root), and the current node. 
+If the current value $$$x$$$ has never appeared before, we repeatedly move the current node to its parent until its value is greater than $$$x$$$. Then we add a new node as a child of the current node and set the current node to the new node.
+Otherwise, we can simply find the last node of value $$$x$$$ that has been added, and add a new node as a child of it, then set the current node to the new node. This uses a maximum ball value of $$$m-1$$$ and $$$1$$$ query, giving $$$47$$$ points.
+
+ Hint 2What if we use the same querying strategy as the previous solution, but we only choose a subset of leaves?
+
+ Hint 3If we do the query in hint 2, will get the structure of the virtual tree containing this subset of leaves. How can we combine the structures of multiple virtual trees to get the full tree?
+
+ Hint 4If we have the depth of each leaf, and the depth of $$$\mathrm{lca}(x,y)$$$ for all pairs of leaves $$$(x, y)$$$, we can determine the structure of the tree (we can add leaves to the tree one by one, and find the leaf who has the deepest lowest common ancestor with the new leaf before we add it. Then, we can simply add a simple path from this lowest common ancestor to the new leaf, since we also know the depth of the leaves). We can see that we can get the depth of $$$\mathrm{lca}(x,y)$$$ if both $$$x$$$ and $$$y$$$ appear in the same query, so we just need to construct a set of subsets of leaves, such that any two leaves appear in the same subset at least once. 
+
+ Solution for 71.6 pointsWe split the leaves into $$$8$$$ groups, each containing at most $$$25$$$ leaves. We query each pair of groups, requiring $$$\binom82 = 28$$$ queries using maximum ball value of at most $$$49$$$. This gives $$$C=77$$$, for a score of $$$71.6$$$ points. 
+
+ Solution for 74 pointsWe split the leaves into $$$21$$$ groups ($$$20$$$ should be better, but for some reason my greedy algorithm mentioned later gets a better solution for $$$21$$$), each containing at most $$$10$$$ leaves. In each query, we include $$$5$$$ of these groups. We need each pair of groups to be included in the same query at least once. Using a greedy algorithm that always picks the subset that has the maximum number of unvisited pairs of groups, we have a strategy that uses $$$21$$$ queries with maximum ball value $$$49$$$. This gives a solution with $$$C=70$$$ for $$$74$$$ points. 
+
+ Bonus: Solution for 75 pointsAfter the contest, I found that my solution was identical to jer033's solution, except he split the leaves into $$$25$$$ groups of $$$8$$$, also querying $$$5$$$ groups at a time. Constructing the queries by hand, a solution using $$$30$$$ queries and maximum ball value $$$39$$$ can be achieved, giving $$$75$$$ points. 
+
+                        →
+                        Reply
+
+                                    »
+
+                     DilshodbekX
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        DilshodbekX
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++2
+
+                        Day 2 statements and translations are published.
+
+                        →
+                        Reply
+
+                                    »
+
+                     assemblyx86
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        assemblyx86
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        deleted
+
+                        →
+                        Reply
+
+                                    »
+
+                     Kevin114514
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Kevin114514
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++270
+
+                        Nice problems!
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     potatoArmy
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        potatoArmy
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        holy orz
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     _LeMinhVoid_VnXD
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        _LeMinhVoid_VnXD
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Nice You play very good
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     GOAT786
+
+                        2 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        GOAT786
+
+                        2 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++3
+
+                        But you played bad and got banned. (Cheater)
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     DuyMinh3005
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        DuyMinh3005
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++1
+
+                        Kevin114514 is the definition of aura
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     MINGZHEXU
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        MINGZHEXU
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Qiwen orz.
+
+                        →
+                        Reply
+
+                                    »
+
+                     square1001
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        square1001
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++18
+
+                        For the problem "Ball Machine" (Day 1), I'd like to discuss how small the score $$$C := K + B$$$ can be. We already have a solution with $$$C \leq 38$$$ (in the comment of hirayuu_cf), or the order of $$$C = O(\sqrt{m})$$$, but there may be a better algorithm. (For example, I tried to prove the impossibility of logarithmic bound, but I failed. So I even think that $$$C = O(\log M)$$$ may not be impossible.)
+My guess is that with $$$B = 0$$$ (that is, all balls have number zero, meaning that true/false in the function insert gives information), there might be a better solution than what we have already figured out. I'd like to know: is $$$o(M)$$$ queries, or even $$$O(\log M)$$$ queries, possible?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     LovelyStar
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        LovelyStar
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I don't think it's possible to do much better than O(sqrt m). Consider a tree with a bunch of branches, each has length of 2. Now it's super hard to distingush them. So doing better than O(sqrt m) might require a completely different class of solution.
+Personally, when I tried to solve this problem, all of my solutions failed due to the case when the branch is 1 (a star tree). But then I realized it's different because if the branch is 1, we just don't care about it (it's not the case when the branch is 2). So I exploited the long branches and luckily got AC
+
+                        →
+                        Reply
+
+                                    »
+
+                     Nakagawa.Kanon
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        Nakagawa.Kanon
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++9
+
+                        My solution for D1 problems : https://codeforces.com/blog/entry/155972
+
+                        →
+                        Reply
+
+                                    »
+
+                     Qingyu
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Qingyu
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++30
+
+                        Day 2 is also available on QOJ.
+I would also like to hear any comments of tasks, either privately or publicly, please :)
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ezdp
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ezdp
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++10
+
+                        Is it possible to submit a zip file containing output files for problem "Magic City"? Thanks for uploading the tasks so soon after the competition!
+
+                        →
+                        Reply
+
+                                    »
+
+                     AksLolCoding
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        AksLolCoding
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++9
+
+                        Solution to D2P2 Magic City
+ 51.15 pointsSince each node has degree at most $$$K$$$, this motivates us to use cliques of size $$$K+1$$$. It can be shown that the minimum number of cliques needed is $$$2K$$$ (for $$$K \gt 1$$$). One way to achieve this is two split the types into two groups of size $$$K$$$, and to build a clique for each type containing that type and all types in the opposite group. This uses $$$2K(K+1)$$$ nodes and fully solves the subtasks for $$$K\leq 4$$$.
+
+ 96.76 pointsWe first solve for even $$$K$$$. Split the types into $$$4$$$ groups.
+There are $$$3$$$ ways to cyclically permute these groups up to reflection and rotation. For each of these $$$3$$$ permutations, add a subgraph of $$$2K$$$ nodes of different types where each node is connected to all nodes in both adjacent groups adjacent to its own group. This covers all triplets of types from three different groups. Additionally, for each of the $$$6$$$ pairs of groups, build a clique of size $$$K$$$ containing all nodes in both groups. This covers all triplets of types that span either one or two groups.
+For odd $$$K$$$, we can build a the graph for $$$K-1$$$ and then add nodes of types $$$2K-1$$$ and $$$2K-2$$$ to each of the $$$6$$$ cliques.
+This solution uses $$$12K$$$ nodes and fully solves all subtasks where $$$K\geq 6$$$.
+
+ 100 pointsCombining the two solutions above fully solves all subtasks except $$$K=5$$$. For this subtask, a specialized construction is needed. One possible construction is this:
+Create $$$5$$$ groups of $$$10$$$ nodes of types $$$0\ldots9$$$. In group $$$1$$$, connect each node $$$i$$$ to nodes $$$i+2,i+3,i+5\pmod{10}$$$. In group $$$2$$$, connect each node $$$i$$$ to nodes $$$i+1,i+4,i+5\pmod{10}$$$. In group $$$3$$$, connect each node $$$i$$$ to nodes $$$i+2,i+4\pmod{10}$$$ and also $$$i+1$$$ if $$$i$$$ is even. In group $$$4$$$, connect each node $$$i$$$ to nodes $$$i+2,i+3\pmod{10}$$$ and also $$$i+1$$$ if $$$i$$$ is odd. In group $$$2$$$, connect each node $$$i$$$ to nodes $$$i+3,i+4\pmod{10}$$$ and also $$$i+1$$$ if $$$i$$$ is even.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     square1001
+
+                        2 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        square1001
+
+                        2 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        By the way, we can prove that your 100-points answer is optimal. Congratulations!
+The minimum possible number of vertices are $$$2, 12, 24, 40, 50$$$ for $$$K = 1, 2, 3, 4, 5$$$, and $$$12K$$$ for all $$$K \geq 6$$$. For now we leave the proof to the readers, I think that it's not that difficult compared to getting 100 points :)
+
+                        →
+                        Reply
+
+                                    »
+
+                     square1001
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        square1001
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++95
+
+                        We're really honored to author 2 problems this year (with E869120): Monuments (Day 1) and Magic City (Day 2). I hope you enjoyed the problems!
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Wawi
+
+                        3 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        Wawi
+
+                        3 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++14
+
+                        Thank you for providing these problems, they're really cool and I enjoyed thinking about them a lot.
+If you don't mind, I would like to ask something about the monuments problem day 1. I managed to get the 71 points solution, but I got stuck there.
+After I looked up some solutions it seemed like there is a trick behind it, including some priority queue and a slope trick. Is that the intended full solution or is there another solution for it? Asking just so I know when to stop thinking about it. Thank you again for the problem.
+UPDATE: I managed to come up with some observations and took a different route, at the end I managed to get a full score on it. Absolutely stunning problem.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     square1001
+
+                        2 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        square1001
+
+                        2 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++9
+
+                        Monuments is a problem that involves DP, but a most basic solution takes $$$O(N^3)$$$ time, so we make use of the optimal solution structure to reduce the problem to a one-dimensional DP. This will reduce to solving the following data structure problem:
+ The Data Structure ProblemYou are given an array $$$a_1, \dots, a_n$$$ and $$$b_1, \dots, b_n$$$, which are non-decreasing ($$$a_1 \leq \dots \leq a_n$$$ and $$$b_1 \leq \dots \leq b_n$$$). You are given the following queries $$$q$$$ times:
+    Given $$$x, y, d$$$, compute $$$|a_x - b_y| + \dots + |a_{x+d-1} - b_{y+d-1}|$$$.
+ Answer the queries offline, with constraints like $$$n, q \leq 10^6$$$.
+
+ SolutionThis data structure problem can be solved in offline $$$O((n+q) \log n)$$$ time. This can be done by utilizing the fact that the arrays $$$a$$$ and $$$b$$$ are non-decreasing.
+We consider the contribution of each $$$a_i$$$ to the sum (that is, "whether $$$a_i$$$ contributes $$$+a_i$$$ or $$$-a_i$$$; we also consider the same for each $$$b_j$$$). The idea is that, due to monotonicity, for some $$$j_0$$$, $$$b_j \geq a_i$$$ holds if and only if $$$j \geq j_0$$$. This means that the contribution is $$$-a_i$$$ if $$$y-x$$$ is at least some "threshold" (that is, $$$j_0 - i$$$) and $$$+a_i$$$ if $$$y-x$$$ is less than the threshold.
+Therefore, we process each query in the increasing order of $$$y-x$$$, and the answer can be computed with Fenwick Tree in $$$O(\log n)$$$ time. The total time is $$$((n+q) \log n)$$$, and this enables to solve the original Monuments problem in $$$O(N \log N)$$$ time.
+
+I heard that "slope trick" solution is based on the idea which interprets the problem with Minimum Cost Flow. I honestly didn't expect this solution and thought that this is a solution of a parallel world. However, it seems like some manages to solve in this way.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Wawi
+
+                        2 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        Wawi
+
+                        2 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++8
+
+                        Thank you for your response, I managed to come up with the observations you just well explained. And knowing that the solution I had with is the intended solution just makes me happier!
+Thank you for your efforts!
+Here is the link of my code for anyone interested
+ CodeIdeone code
+
+                        →
+                        Reply
+
+                                    »
+
+                     sammyuri
+
+                        3 months ago,
+                        show
+                        #
+
+                                »
+
+        sammyuri
+
+                        3 months ago,
+                        hide
+                        #
+                        |
+
++73
+
+                        myst-6 and I were the authors of Classroom Game (day 2)! We hope you enjoyed the problem.
+
+                        →
+                        Reply
+
+                                    »
+
+                     awu
+
+                        2 months ago,
+                        show
+                        #
+
+                                »
+
+        awu
+
+                        2 months ago,
+                        hide
+                        #
+                        |
+
++56
+
+                        I am honoured that my problem Ball Machine was selected for the set this year, it's nice to be back on the other side after being a contestant in 2024. I hope the problem was interesting!
+
+                        →
+                        Reply
+
+                                    »
+
+                     bmerry
+
+                        2 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        bmerry
+
+                        2 months ago,
+                        hide
+                        #
+                        |
+
++12
+
+                        I don't think I've seen a solution to Classroom in this thread, so here's mine.
+ It actually solves a slightly harder version of the problem:   It doesn't require the permutation to be the same between steps.
+   It doesn't require the teachers to know the number of steps (but they need to know the number of their own step, and the headmaster needs to know the number of steps).
+
+ SolutionIt's rather messy in the implementation and took a while to get right, but the concepts are not too difficult. Each student holds one of the following records in their array (where r is a round number and j is a student number):
+    HAND(r, j)
+   INVERT(r)
+   SHORT_NOHAND(j)
+   SHORT_ROUND(r)
+   EMPTY
+ These can be encoded as [r, j], [63, r], [j], [r, 63] and [] respectively. It doesn't matter which student holds which records; the records are just a set of information.
+The information about which hands were raised in round r can be encoded in one of several ways: 1. HAND(r, j) for every j that raised their hand (must be at least one) 2. HAND(r, j) for every j that did not raise their hand and had not previously raised their hand (must be at least one), together with an INVERT(r) record. 3. SHORT_NOHAND(j) for every j that did not raise their hand and had not previously raised their hand (must be at least one), together with a SHORT_ROUND(r) record (there can be at most one such record). 4. As for (3), but the SHORT_ROUND(r) record is absent if r was the most recent round. 5. If no student raised their hand but there are still students have never raised their hands, (a) an INVERT(r) record with no HAND(r, j) records; or (b) no records at all. 6. No records at all for the round where all remaining students raised their hand, or where no students raised their hand.
+Some care is needed to distinguish 5(b) from 6. If there are still hands to raise, case 6 applies only if there are no records for any later rounds.
+Now we can consider how to pick one of these schemes for a given round. Let U be the set of students whose hand has not yet been raised (and are not raised in the current round). The invariant we'll maintain is that the number of records, excluding those for case 5a, is less than or equal to the number of hands previously raised. If we need to add any records for the current round, then we can overwrite a previous case 5a INVERT. Thus, there are always at least |U| slots we can write to. A further invariant is that if there are SHORT_NOHAND records but no SHORT_ROUND record, there are at least |U|+1 slots we can write to.
+    If all hands have been raised in previous rounds, do nothing.
+   Add a SHORT_ROUND record if there isn't one but there are SHORT_NOHAND records.
+   If |U| = 0, do nothing further.
+   Otherwise, if |T| = 0, then |U| > 0 so there is a slot to add an INVERT (5a).
+   Otherwise, if |T| <= |U|, we can just add HAND(r, j) records for j in T.
+   Otherwise, if there is space we can add HAND(r, j) records for j in U plus an INVERT(r) record.
+   Otherwise, if there is insufficient space, add SHORT_HAND(j) records for all j in U. But we cannot do this if there is a SHORT_ROUND record for a previous round. In such a case, we can replace it with an INVERT record for that round, and the old SHORT_HAND records with HAND records. This works because the only way the space can be this tight is if all the interesting (i.e. not EMPTY or INVERT (5a)) records are held by students who did't raise their hand, and hence they can be rewritten. Because |T| > |U|, there will definitely be space next round to add the SHORT_ROUND record.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     gultai4ukr
+
+                        2 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        gultai4ukr
+
+                        2 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Legend!
+
+                        →
+                        Reply
+
+                                    »
+
+                     Qingyu
+
+                        7 weeks ago,
+                        show
+                        #
+
+                                »
+
+        Qingyu
+
+                        7 weeks ago,
+                        hide
+                        #
+                        |
+
++21
+
+                        Maybe a fun fact: Ball Machine can be solved in $$$C \le 28$$$. Tutorial written by GPT
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:34 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

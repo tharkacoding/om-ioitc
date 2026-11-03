@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/IOI11_elephants
+
+View problem - Dancing Elephants (IOI11_elephants) :: oj.uzView problem - Dancing Elephants (IOI11_elephants)
+
+Dancing Elephants Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o elephants elephants.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o elephants elephants.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o elephants elephants.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+9000 ms256 MiB335936520756.71%
+
+Problem Source
+IOI 2011 Day 2 Problem 2
+
+ Attachments
+File nameSize
+elephants.zip3.01 KiB

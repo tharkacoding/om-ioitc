@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI25_festival
+
+View problem - Festival (IOI25_festival) :: oj.uzView problem - Festival (IOI25_festival)
+
+Festival Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o festival festival.cpp festival.h grader.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o festival festival.cpp festival.h grader.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms2048 MiB231527612043.48%
+
+Problem Source
+IOI 2025 Day 2 Problem 1
+
+ Attachments
+File nameSize
+festival.zip2.62 KiB

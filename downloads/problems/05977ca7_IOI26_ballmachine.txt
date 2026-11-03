@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI26_ballmachine
+
+View problem - Ball Machine (IOI26_ballmachine) :: oj.uzView problem - Ball Machine (IOI26_ballmachine)
+
+Ball Machine Interactive Communication Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o ballmachine ballmachine.cpp ballmachine.h grader.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o ballmachine ballmachine.cpp ballmachine.h grader.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3500 ms2048 MiB377842327.38%
+
+Problem Source
+IOI 2026 Day 1 Problem 1
+
+ Attachments
+File nameSize
+ballmachine.zip2.56 KiB

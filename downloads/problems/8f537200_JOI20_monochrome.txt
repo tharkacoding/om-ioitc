@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI20_monochrome
+
+View problem - Monochrome Points (JOI20_monochrome) :: oj.uzView problem - Monochrome Points (JOI20_monochrome)
+
+Monochrome Points Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o monochrome monochrome.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o monochrome monochrome.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o monochrome monochrome.cpp
+Java/usr/bin/javac -encoding UTF-8 monochrome.java
+/bin/sh -c echo "Main-Class: monochrome" > __manifest__.txt
+/bin/sh -c jar cfm monochrome.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b monochrome.py
+/bin/mv monochrome.pyc __main__.pyc
+/usr/bin/zip monochrome.pyz.zip __main__.pyc
+/bin/mv monochrome.pyz.zip monochrome.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms512 MiB79516610462.65%
+
+Problem Source
+JOI Open Contest 2020 Problem 2
+
+ Attachments
+File nameSize
+monochrome.zip1.14 KiB

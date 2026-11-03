@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/JOI24_ho_t4
+
+View problem - Gift Exchange (JOI24_ho_t4) :: oj.uzView problem - Gift Exchange (JOI24_ho_t4)
+
+Gift Exchange Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o Main Main.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Main Main.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Main Main.cpp
+Java/usr/bin/javac -encoding UTF-8 Main.java
+/bin/sh -c echo "Main-Class: Main" > __manifest__.txt
+/bin/sh -c jar cfm Main.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b Main.py
+/bin/mv Main.pyc __main__.pyc
+/usr/bin/zip Main.pyz.zip __main__.pyc
+/bin/mv Main.pyz.zip Main.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2500 ms1024 MiB4671167060.34%
+
+Problem Source
+The 23rd Japanese Olympiad in Informatics Final Round Problem 4

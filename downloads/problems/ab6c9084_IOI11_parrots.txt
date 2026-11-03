@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/IOI11_parrots
+
+View problem - Parrots (IOI11_parrots) :: oj.uzView problem - Parrots (IOI11_parrots)
+
+Parrots Two steps Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o encoder encoder.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o encoder encoder.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o encoder encoder.cpp
+
+Step #2
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o decoder decoder.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o decoder decoder.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o decoder decoder.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms256 MiB337051212223.83%
+
+Problem Source
+IOI 2011 Day 2 Problem 3
+
+ Attachments
+File nameSize
+parrots.zip6.54 KiB

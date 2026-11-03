@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI19_izlet
+
+View problem - Izlet (COI19_izlet) :: oj.uzView problem - Izlet (COI19_izlet)
+
+Izlet Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o izlet izlet.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o izlet izlet.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o izlet izlet.cpp
+Java/usr/bin/javac -encoding UTF-8 izlet.java
+/bin/sh -c echo "Main-Class: izlet" > __manifest__.txt
+/bin/sh -c jar cfm izlet.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b izlet.py
+/bin/mv izlet.pyc __main__.pyc
+/usr/bin/zip izlet.pyz.zip __main__.pyc
+/bin/mv izlet.pyz.zip izlet.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms512 MiB401815567.90%
+
+Problem Source
+Croatian Olympiad in Informatics 2019 Problem 1

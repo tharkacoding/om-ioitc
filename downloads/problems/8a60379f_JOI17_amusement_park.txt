@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI17_amusement_park
+
+View problem - Amusement Park (JOI17_amusement_park) :: oj.uzView problem - Amusement Park (JOI17_amusement_park)
+
+Amusement Park Two steps Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Joi Joi.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Joi Joi.cpp
+
+Step #2
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Ioi Ioi.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Ioi Ioi.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms256 MiB231024114258.92%
+
+Because of the competition rules, we ONLY ALLOW C++14 for this problem.
+
+Problem Source
+JOI Open Contest 2017 Problem 1
+
+ Attachments
+File nameSize
+amusement_park.zip3.00 KiB

@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI18_snake_escaping
+
+View problem - Snake Escaping (JOI18_snake_escaping) :: oj.uzView problem - Snake Escaping (JOI18_snake_escaping)
+
+Snake Escaping Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o snake_escaping snake_escaping.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o snake_escaping snake_escaping.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o snake_escaping snake_escaping.cpp
+Java/usr/bin/javac -encoding UTF-8 snake_escaping.java
+/bin/sh -c echo "Main-Class: snake_escaping" > __manifest__.txt
+/bin/sh -c jar cfm snake_escaping.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b snake_escaping.py
+/bin/mv snake_escaping.pyc __main__.pyc
+/usr/bin/zip snake_escaping.pyz.zip __main__.pyc
+/bin/mv snake_escaping.pyz.zip snake_escaping.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms64 MiB244448341084.89%
+
+Problem Source
+The 17th Japanese Olympiad in Informatics Final Round Problem 5
+
+ Attachments
+File nameSize
+snake_escaping.zip726 bytes

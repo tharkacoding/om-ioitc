@@ -1,0 +1,550 @@
+https://blog.brucemerry.org.za/2013/07/ioi-2013-day-1-analysis.html
+
+Entropy always increases: IOI 2013 day 1 analysis
+
+Wednesday, July 17, 2013
+
+IOI 2013 day 1 analysis
+
+I finally got around to actually solving the IOI day 1 tasks in the contest system - I'd had ideas, but no time to test them out. So here are my solutions (I haven't looked around for any other writeups, although no doubt they exist). I'm hoping to have time to tackle day 2 before the contest system is shut down.
+
+Art class
+
+This is a heuristic problem that can probably be solved in many ways. Since it was a hammer I have, I decided to hit it with a very simple wavelet-based spectral analysis. To find the highest-frequency components, downsample the image, upsample it again, and subtract it from the original. Then take the sum of squared values in the residual. Now start with the downsampled image and repeat recursively to get progressively lower frequencies. For the downsample and upsample I took a simple box filter. I kept 6 frequencies, since 26 is less than the minimum image size.
+
+For each style, I computed the mean and standard deviation of each of the 6 power values from the examples. To classify a picture, I sum up the squared differences from the means, with the differences scaled using the standard deviations. It's not 100% accurate, but good enough to get a perfect score.
+
+Dreaming
+
+This is a combination of a few common tree processing tasks. Firstly, the longest path might just be within one of the original trees, i.e., a tree diameter. This can be computed recursively on a tree by determining, for each node, the two longest paths downwards via different children (one or both can be zero if there are fewer than 2 children). The diameter path will have a highest node, and so the diameter will be the sum of these two lengths.
+
+When add an edge to a tree, we must decide where to make the connection. The longest path from the connection point to anywhere in the tree ought to be as short as possible, and so for each point in the tree we need to know the distance to the furthest point. This is slightly more complex than before, since we also have to consider paths that start upwards. However, a second recursive walk (this time computing top-down instead of bottom-up) allows the shortest such paths to be found. For a given tree, let the radius be the distance from the optimal connection point to the furthest point in the tree.
+
+Finally, we must decide how to connect the trees together. Sort the trees by decreasing radius r1 > r2 > .... Clearly, there will be a path of at least length r1 + r2 + L. If there at least three trees, they can't all be connected to each other, so there must also be a path of at least length r2 + r3 + 2L. Conversely, by connecting the first tree to every other tree (always using the optimal connection points), it is not hard to see that there are no other paths that can be longer than the worst of these.
+
+Wombats
+
+I found this to be the most difficult of the tasks. Apart from being conceptually difficult, it also required a reasonably amount of tuning, and my solution still takes over 10s in many cases.
+
+The basis of the solution is to note that C is relatively small, and so it is feasible to precompute the costs to get from any point on row X to any point on row Y, for some X and Y. Let's write such a table as {X, Y}. What's less obvious is that it's possible to combine {X, Y} and {Y, Z} to produce {X, Z} in O(C2) time. The trick is to use the fact that optimal paths won't cross over each other. Thus, if i < j, (X, i) to (Z, j-1) goes via (Y, p), and (X, i+1) to (Z, j) goes via (Y, q), then the optimal path from (X, i) to (Z, j) will go via (Y, r) where p ≤ r ≤ q. By iterating in order of increasing j - i, it is possible to compute {X, Z} in quadratic time.
+
+We can combine this observation with a segment tree: for each appropriate i and a, we maintain {a·2i, (a+1)·2i}, computing it either directly (i = 0) or by combining two smaller intervals as above (where the upper bound exceeds R - 1, it is clamped). Each change invalidates O(log R) of these, so the time to update after a change is O(C^2 log R). Queries can be answered in O(1) time using the root of the segment tree.
+
+The catch with this approach is that it requires too much memory: we can't even afford R different {X, Y} tables. Instead of keeping {X, X+1} at the finest level of the segment tree, we can instead store, say, {10X, 10X+10} for each X, and use 1/10th the memory. The cost is that updating the base level of the segment tree will now take 10 times as long.
+
+Posted by
+
+Bruce Merry
+
+at
+
+2:52 AM
+
+Email ThisBlogThis!Share to XShare to FacebookShare to Pinterest
+
+5 comments:
+
+Unknown
+said...
+
+Thank you, struggled to find a solution to Wombats for quite a while :)
+
+4:14 AM
+
+Farhan Nasim
+said...
+
+Thanks for the solutions. I tried to solve Dreaming with your idea. But I passed only 122 of the 176 cases.
+
+Here is my code. I think something is wrong with the compRadius function. And here are my outputs and the correct answers for some of the input files I got wrong:
+
+forest-c-0.in
+11100 12000
+forest-c-1.in
+11100 12000
+forest-c-2.in
+11100 12000
+forest-c-3.in
+11100 12000
+forest-c-4.in
+11100 12000
+
+Please see if you can find something wrong. Thanks in advance.
+
+12:58 PM
+
+Farhan Nasim
+said...
+
+I found my mistake. I didn't consider the cases:  If there at least three trees, they can't all be connected to each other, so there must also be a path of at least length r2 + r3 + 2L. All cases passed now!
+
+12:43 AM
+
+Bristy
+said...
+
+Can you please explain the solutions of Art Class ? What does down sampled and Up-Sampled mean?
+
+9:38 AM
+
+achref
+said...
+
+Hi what is the solution of the problem dreaming is maximum of (r1+r2+L,r2+r3+2L) if we have 3 components ?????
+
+6:48 PM
+
+Post a Comment
+
+Newer Post
+
+Older Post
+
+Home
+
+Subscribe to:
+Post Comments (Atom)
+
+Blog Archive
+
+        ► 
+
+2025
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2023
+
+(3)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+November
+
+(2)
+
+        ► 
+
+2022
+
+(2)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+2021
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+2020
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2018
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2017
+
+(3)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+2016
+
+(6)
+
+        ► 
+
+November
+
+(4)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2015
+
+(1)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2014
+
+(11)
+
+        ► 
+
+October
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+June
+
+(6)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+February
+
+(1)
+
+        ▼ 
+
+2013
+
+(4)
+
+        ► 
+
+November
+
+(1)
+
+        ▼ 
+
+July
+
+(2)
+
+IOI 2013 day 2 analysis
+
+IOI 2013 day 1 analysis
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+2012
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+2011
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2010
+
+(5)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(2)
+
+        ► 
+
+2009
+
+(10)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+August
+
+(3)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2008
+
+(30)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+August
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+March
+
+(6)
+
+        ► 
+
+February
+
+(5)
+
+        ► 
+
+January
+
+(5)
+
+        ► 
+
+2007
+
+(15)
+
+        ► 
+
+November
+
+(2)
+
+        ► 
+
+October
+
+(3)
+
+        ► 
+
+June
+
+(9)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2006
+
+(14)
+
+        ► 
+
+November
+
+(5)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+August
+
+(4)
+
+        ► 
+
+July
+
+(3)

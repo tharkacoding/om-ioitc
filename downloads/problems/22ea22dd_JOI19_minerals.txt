@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/JOI19_minerals
+
+View problem - Minerals (JOI19_minerals) :: oj.uzView problem - Minerals (JOI19_minerals)
+
+Minerals Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o minerals minerals.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o minerals minerals.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms256 MiB224127712946.57%
+
+Problem Source
+2018 JOI Spring Training Camp/Qualifying Trial Day 4 Problem 3
+
+ Attachments
+File nameSize
+minerals.zip2.42 KiB

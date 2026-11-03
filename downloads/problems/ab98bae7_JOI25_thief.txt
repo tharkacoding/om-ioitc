@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI25_thief
+
+View problem - Space Thief (JOI25_thief) :: oj.uzView problem - Space Thief (JOI25_thief)
+
+Space Thief Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o thief thief.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o thief thief.cpp grader.cpp thief.h
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o thief thief.cpp grader.cpp thief.h
+Java/usr/bin/javac -encoding UTF-8 thief.java
+/bin/sh -c echo "Main-Class: thief" > __manifest__.txt
+/bin/sh -c jar cfm thief.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b thief.py
+/bin/mv thief.pyc __main__.pyc
+/usr/bin/zip thief.pyz.zip __main__.pyc
+/bin/mv thief.pyz.zip thief.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms1024 MiB4544100.00%
+
+Problem Source
+2025 JOI Spring Training Camp/Qualifying Trial Day 2 Problem 3
+
+ Attachments
+File nameSize
+thief-dist.zip1.51 KiB

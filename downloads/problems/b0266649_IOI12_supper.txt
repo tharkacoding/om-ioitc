@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/IOI12_supper
+
+View problem - Last supper (IOI12_supper) :: oj.uzView problem - Last supper (IOI12_supper)
+
+Last supper Two steps Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o advisor advisor.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o advisor advisor.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o advisor advisor.cpp
+
+Step #2
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o assistant assistant.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o assistant assistant.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o assistant assistant.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2500 ms256 MiB179529019968.62%
+
+Problem Source
+IOI 2012 Day 2 Problem 2
+
+ Attachments
+File nameSize
+grader.zip4.00 KiB

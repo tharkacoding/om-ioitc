@@ -1,0 +1,151 @@
+https://dmoj.ca/problem/coi13p2/editorial
+
+Remember to use this editorial only when stuck, and not to copy-paste code from it. Please be respectful to the problem author and editorialist.
+Submitting an official solution before solving the problem yourself is a bannable offence.
+
+We solve this task with dynamic programming. Let 
+dp
+[
+𝑋
+]
+ mark the minimal mistake of constructing a histogram with given points such that the rightmost point of the histogram is on the 
+𝑥
+-coordinate 
+𝑋
+. Now we could conceptually solve this problem by trying to connect each point on the coordinate 
+𝑋
+ with the points left to it on the same height (
+𝑦
+-coordinate), which would lead us to the correct solution of complexity 
+𝑂
+(
+𝑁
+3
+)
+, which is too slow.
+
+This complexity implicitly assumes that the problem of determining the function 
+abserror
+ or 
+diffcount
+ between two points is solved in complexity of 
+𝑂
+(
+𝑁
+)
+.
+
+In order to speed up the given algorithm, let's notice that when calculating 
+dp
+[
+𝑋
+]
+ it is enough to observe only the previous 
+𝑥
+ coordinate of a certain point (because the histogram can arbitrarily change the height without any additional errors).
+
+This observation, along with a careful implementation, leads us to complexity 
+𝑂
+(
+𝑁
+2
+)
+ which was enough for 
+50
+%
+ of points.
+
+To further speed up the algorithm, it is necessary to calculate 
+diffcount
+ and 
+abserror
+ between two points in complexity 
+𝑂
+(
+1
+)
+ instead of 
+𝑂
+(
+𝑁
+)
+. Let's show that this is possible for 
+abserror
+ (the more difficult case), whereas we'll leave 
+diffcount
+ for you to practice.
+
+Let's notice that 
+abserror
+ between two points on the same 
+𝑦
+ coordinates 
+𝑎
+ and 
+𝑏
+ is equal to 
+abserror
+(
+𝑎
+,
+𝑏
+)
+=
+abserror
+(
+0
+,
+𝑏
+)
+−
+abserror
+(
+0
+,
+𝑎
+)
+, where 
+0
+ marks a point (sometimes fictional) on 
+𝑥
+-coordinate 
+0
+ with equal height as 
+𝑎
+ and 
+𝑏
+. In other words, it is necessary for each point 
+𝑝
+ to determine only 
+abserror
+(
+0
+,
+𝑝
+)
+.
+
+This problem can be solved for all points in complexity 
+𝑂
+(
+𝑁
+log
+⁡
+𝑁
+)
+ by using Fenwick tree (logarithmic structure) or segment (tournament) tree and scanline algorithm in the direction of the increasing 
+𝑥
+-coordinate.
+
+Complexity: 
+𝑂
+(
+𝑁
+log
+⁡
+𝑁
+)
+
+Comments
+
+There are no comments at the moment.

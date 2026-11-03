@@ -1,0 +1,31 @@
+https://oj.uz/problem/view/JOI20_stray
+
+View problem - Stray Cat (JOI20_stray) :: oj.uzView problem - Stray Cat (JOI20_stray)
+
+Stray Cat Two steps Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Anthony Anthony.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Anthony Anthony.cpp
+
+Step #2
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Catherine Catherine.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Catherine Catherine.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms512 MiB154919513468.72%
+
+Problem Source
+2020 JOI Spring Training Camp/Qualifying Trial Day 3 Problem 3
+
+ Attachments
+File nameSize
+stray.zip4.09 KiB

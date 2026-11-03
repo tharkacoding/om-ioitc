@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/JOI22_jail
+
+View problem - Jail (JOI22_jail) :: oj.uzView problem - Jail (JOI22_jail)
+
+Jail Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o jail jail.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o jail jail.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o jail jail.cpp
+Java/usr/bin/javac -encoding UTF-8 jail.java
+/bin/sh -c echo "Main-Class: jail" > __manifest__.txt
+/bin/sh -c jar cfm jail.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b jail.py
+/bin/mv jail.pyc __main__.pyc
+/usr/bin/zip jail.pyz.zip __main__.pyc
+/bin/mv jail.pyz.zip jail.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+5000 ms1024 MiB232129317459.39%
+
+Problem Source
+2022 JOI Spring Training Camp/Qualifying Trial Day 1 Problem 1

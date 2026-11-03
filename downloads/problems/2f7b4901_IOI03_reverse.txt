@@ -1,0 +1,89 @@
+https://oj.uz/problem/view/IOI03_reverse
+
+View problem - Reverse (IOI03_reverse) :: oj.uzView problem - Reverse (IOI03_reverse)
+
+Reverse Output Only Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-01.txt reverse-out-01.o.txt
+
+Step #2
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-02.txt reverse-out-02.o.txt
+
+Step #3
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-03.txt reverse-out-03.o.txt
+
+Step #4
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-04.txt reverse-out-04.o.txt
+
+Step #5
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-05.txt reverse-out-05.o.txt
+
+Step #6
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-06.txt reverse-out-06.o.txt
+
+Step #7
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-07.txt reverse-out-07.o.txt
+
+Step #8
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-08.txt reverse-out-08.o.txt
+
+Step #9
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-09.txt reverse-out-09.o.txt
+
+Step #10
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-10.txt reverse-out-10.o.txt
+
+Step #11
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-11.txt reverse-out-11.o.txt
+
+Step #12
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-12.txt reverse-out-12.o.txt
+
+Step #13
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-13.txt reverse-out-13.o.txt
+
+Step #14
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-14.txt reverse-out-14.o.txt
+
+Step #15
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-15.txt reverse-out-15.o.txt
+
+Step #16
+LanguageCompilation command
+Text/usr/bin/cp reverse-out-16.txt reverse-out-16.o.txt
+
+Statement
+Submit
+Statistics
+All submissions
+# of submissions# of submitted usersSolved #Accepted user ratio
+40540717.50%
+
+File names should be reverse-out-%02d.txt for each K = 1 to 16.
+
+{{viewpdf:statement_en}}
+
+Problem Source
+IOI 2003 Day 1 Problem 3
+
+ Attachments
+File nameSize
+tests.zip2.45 KiB

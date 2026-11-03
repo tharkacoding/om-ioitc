@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI26_monuments
+
+View problem - Monuments (IOI26_monuments) :: oj.uzView problem - Monuments (IOI26_monuments)
+
+Monuments Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o monuments monuments.cpp grader.cpp monuments.h
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o monuments monuments.cpp grader.cpp monuments.h
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms2048 MiB677792430.38%
+
+Problem Source
+IOI 2026 Day 1 Problem 2
+
+ Attachments
+File nameSize
+monuments.zip2.59 KiB

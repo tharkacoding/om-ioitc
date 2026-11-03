@@ -1,0 +1,740 @@
+https://codeforces.com/blog/entry/66506#comment-505659
+
+Croatian Olympiad in Informatics (COI) 2019 - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        ipaljak
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        ipaljak's blog
+
+                        Croatian Olympiad in Informatics (COI) 2019
+
+                By ipaljak,
+                    history,
+                    8 years ago,
+
+        Hi all,
+Croatian Olympiad in Informatics (COI) represents the first major step towards forming the Croatian IOI team. This year's edition will take place on Sunday, April 14th at 15:00 UTC. As usual, we will host an online mirror of the contest for which you can register here.
+The contest format is similar to IOI — it lasts for 5 hours and will contain 3 to 5 problems. The test cases for each problem are divided into subtasks of varying difficulties so it is possible to receive partial score. The contestants will be able to receive full feedback on a limited number of submissions per task.
+The contest is organized by Mr. Malnar and the problemset was prepared by satja, DBradac, mislav_bradac, tonkosi and myself. We hope you'll enjoy the contest. 
+See you on Sunday!
+
+    coi,
+
+    coci,
+
+    ioi
+
+        +72
+
+        ipaljak
+
+        8 years ago
+
+        16
+
+                Comments (16)
+
+                Write comment?
+
+                                    »
+
+                     Noam527
+
+                        8 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Noam527
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        "The contestants will be able to receive full feedback on a limited number of submissions per task."
+Can you give more details about this? Sounds like a new feature. How many submissions are allowed per task, and how many of those can get full feedback?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        Most likely, each contestant will be able to submit at most 10 submissions for each task and will receive full feedback for all of those. The submission which received the highest score is the one that counts.
+The exact details will be visible in the judging system before the start of the contest and may differ slightly from the information above, so take that with a grain of salt. 
+
+                        →
+                        Reply
+
+                                    »
+
+                     ekrem
+
+                        8 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        ekrem
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        I think the registration link is not correct.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        Fixed, thanks.
+
+                        →
+                        Reply
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Auto comment: topic has been updated by ipaljak (previous revision, new revision, compare).
+
+                        →
+                        Reply
+
+                                    »
+
+                     ko_osaga
+
+                        8 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        ko_osaga
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
++16
+
+                        It's April 14th, right?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        Yeah, don't know how I messed that up, thanks :)
+
+                        →
+                        Reply
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Auto comment: topic has been updated by ipaljak (previous revision, new revision, compare).
+
+                        →
+                        Reply
+
+                                    »
+
+                     JustInCase
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+        JustInCase
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++17
+
+                        Reminder: less than 50 minutes to start
+
+                        →
+                        Reply
+
+                                    »
+
+                     vamaddur
+
+                        8 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        vamaddur
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Is it open to discussion now?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Yeah, feel free to discuss the contest here.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     kobortor
+
+                        8 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        kobortor
+
+                        8 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        When do results come out?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     ipaljak
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        ipaljak
+
+                        8 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++16
+
+                        Sometime in the morning (local time), but I can share them unofficially.
+Results
+
+                        →
+                        Reply
+
+                                    »
+
+                     HellAngel
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+        HellAngel
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Can anyone explain me the solution of problem "Tenis" ? :((
+
+                        →
+                        Reply
+
+                                    »
+
+                     tictaccat
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+        tictaccat
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
++2
+
+                        Would any kind user mind posting 2-3 sentences / code for their solutions? It would be very much appreciated, thank you!
+
+                        →
+                        Reply
+
+                                    »
+
+                     DBradac
+
+                        8 years ago,
+                        show
+                        #
+
+                                »
+
+        DBradac
+
+                        8 years ago,
+                        hide
+                        #
+                        |
+
++59
+
+                        Hi all, here are brief descriptions of the solutions.
+Segway (author: satja)
+Let's call any moment when a racer reaches an accelerator (using it or not) an event. We will process events in chronological order using a set. For every accelerator we store the number of racers who have already passed its beginning. Total complexity $$$O(NM \log(NM))$$$
+Ljepotica (author: ipaljak)
+Let $$$f(X)$$$ denote the sum for all valid sequences less than or equal to $$$X$$$. We need to calculate $$$f(B) - f(A-1)$$$. We will calculate $$$f(X)$$$ using dynamic programming. Our state is the following $$$(i, k, smaller, last)$$$ with the following meaning: the current position (i.e. depth in the tree), the number of times Ena changed her opinion about what left means, whether the constructed prefix is already smaller than $$$X$$$ and current Ena's opinion on what left means. Total complexity $$$O(NK)$$$.
+Izlet (author DBradac)
+Let $$$f(u, v)$$$ denote the number of different colors on the path from $$$u$$$ to $$$v$$$. Clearly $$$f(u, u) = 1$$$ and $$$f(u, v) = f(v, u)$$$. Let 1-comp denote a maximum (i.e. cannot be extended) set of nodes which all have $$$f(u, v) = 1$$$. These can be found using a dfs and they surely form a connected subtree of the original tree. For every 1-comp we will choose one node, connect all the others directly to it and ignore them from now. 
+Suppose now that for every $$$u \neq v$$$ we have $$$f(u, v) \geq 2$$$. Define a 2-comp as a maximum set of nodes which all have $$$f(u, v) = 2$$$ for $$$u \neq v$$$. These can be found quickly in the following manner. Find a pair of nodes $$$(a, b)$$$ such that $$$f(a, b) = 2$$$ and there is no 2-comp already found containing both of them. Add to the 2-comp all nodes $$$c$$$ such that $$$f(a, c) = f(b, c) = 2$$$. It's easy to see this is a maximum 2-comp. Also, note that a 2-comp forms a connected subtree of the original tree.
+Any two different 2-comps can have at most one node in common. Suppose the contrary, since they are both connected subtrees, they must share an edge and therefore have the same two colors. So, they are actually the same 2-comp.
+Now we can connect the nodes in each 2-comp arbitrarily as long as they form a connected subtree.
+Once we have constructed the tree, finding a valid coloring is easy. Run a dfs/bfs. When choosing the color of a new node $$$v$$$, run dfs from it through all the nodes colored so far. When the number of distinct colors doesn't increase, we have found a node with the same color as $$$v$$$. If we haven't found any, color $$$v$$$ with a new color. Total complexity $$$O(n^2)$$$.
+Using induction we can prove the correctness of the algorithm, i.e. that we can connect every 1-comp and every 2-comp arbitrarily.
+Tenis DBradac
+Claim 1: It's easy to see that if $$$x$$$ can win a tournament and $$$y$$$ can beat $$$x$$$, then $$$y$$$ can also win a tournament.
+Let $$$S$$$ denote the set of players that can win a tournament. Also let $$$T$$$ denote the minimum nonempty set of players such that no player not in $$$T$$$ can beat a player in $$$T$$$. We claim that $$$S = T$$$.
+First we show that $$$S \subseteq T$$$. By definition of $$$T$$$, no player outside $$$T$$$ can win the tournament.
+By claim 1 we have that no player outside $$$S$$$ can beat a player in $$$S$$$. By definition of $$$T$$$ we have $$$|T| \leq |S|$$$. Suppose that there exists $$$x \in T, x \not\in S$$$. Since $$$|T| \leq |S|$$$, there is $$$y \in S, y \not\in T$$$. By defintion of $$$T$$$, $$$y$$$ can not beat $$$x$$$, so $$$x$$$ can beat $$$y$$$. But then by Claim 1, $$$x \in S$$$ which is a contradiction. We have $$$T \subseteq S$$$ and therefore $$$S = T$$$.
+Let $$$M(p)$$$ be the maximum rank of a player $$$p$$$ among all surfaces. Let $$$C(k)$$$ be the number of players $$$p$$$ with $$$M(p) \leq k$$$. It's easy to see that $$$C(k) \leq k$$$. Let $$$t$$$ be the minimum number such that $$$C(k) = k$$$. Then $$$T$$$ is the set of all players $$$p$$$ with $$$M(p) \leq t$$$. Let $$$D(k) := k - C(k)$$$. Finding $$$t$$$ corresponds to finding the first zero value in a nonnegative array of values $$$D$$$. Each update changes only two values of $$$M(p)$$$ so we can use a segment tree to manage these updates efficiently. Total complexity $$$O(N + Q \log N)$$$.
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:35 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

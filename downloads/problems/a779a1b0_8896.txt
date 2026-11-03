@@ -1,0 +1,111 @@
+https://qoj.ac/problem/8896
+
+Ministarstvo - Problem - QOJ.ac
+
+									Login
+
+					Register
+
+				QOJ.ac
+
+				QOJ
+
+	QOJ
+
+			 Contests
+
+			 Category
+
+			 Problems
+
+			 Submissions
+
+			 Hack!
+
+			 Blogs
+
+			 Day 1
+
+			Time Limit:			1 s		
+				Memory Limit:			1024 MB		
+				Total points:			100		
+
+	#8896. Ministarstvo	
+
+		Statistics	
+
+			Statement		
+
+     Languages
+
+		Default
+
+							简体中文
+
+				Submit			
+
+					Custom Test				
+
+				Attachments			
+
+				Discussions & Issues							
+
+			The problem was used in the following contests:
+			Croatian Olympiad in Informatics 2024
+
+Submit
+
+Run
+
+					 Discussions
+
+						About Discussions
+
+						The discussion section is only for posting: General Discussions (problem-solving strategies, alternative approaches), and Off-topic conversations.
+
+						This is NOT for reporting issues! If you want to report bugs or errors, please use the Issues section below.
+
+					Open Discussions 0
+
+					No discussions in this category.
+
+					 Issues
+
+						About Issues
+
+						If you find any issues with the problem (statement, scoring, time/memory limits, test cases, etc.), you may submit an issue here. A problem moderator will review your issue.
+
+						Guidelines:
+
+							This is not a place to publish discussions, editorials, or requests to debug your code. Issues are only visible to you and problem moderators.
+
+							Do not submit duplicated issues.
+
+							Issues must be filed in English or Chinese only.
+
+				Active Issues 0
+
+				No issues in this category.
+
+				Closed/Resolved Issues 0
+
+				No issues in this category.
+
+						 English					
+
+					العربية
+						English
+						Español
+						Français
+						日本語
+						한국어
+							Türkçe
+							简体中文
+						繁體中文
+
+				QOJ.ac
+ |  QOJ 4.5.48 (2019-2026)
+
+				Made with ❤️ by Qingyu✨ | Contact us: [email protected]
+
+				Server Time: 2026-11-02 16:28:27 (UTC+8)

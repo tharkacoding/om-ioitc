@@ -1,0 +1,20 @@
+https://usaco.guide/problems/joi-2018airline/solution
+
+Solution - Airline Map (JOI 2018) · USACO Guide
+USACO Guide
+
+Settings
+Contact Us
+
+Hint 1
+
+Hint 2
+
+Hint 3
+
+Solution
+
+Join the USACO Forum!
+Stuck on a problem, or don't understand a module? Join the USACO Forum and get help from other competitive programmers!
+
+Join Forum

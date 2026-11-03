@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI19_ho_t5
+
+View problem - Unique Cities (JOI19_ho_t5) :: oj.uzView problem - Unique Cities (JOI19_ho_t5)
+
+Unique Cities Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o joi2019_ho_t5 joi2019_ho_t5.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o joi2019_ho_t5 joi2019_ho_t5.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o joi2019_ho_t5 joi2019_ho_t5.cpp
+Java/usr/bin/javac -encoding UTF-8 joi2019_ho_t5.java
+/bin/sh -c echo "Main-Class: joi2019_ho_t5" > __manifest__.txt
+/bin/sh -c jar cfm joi2019_ho_t5.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b joi2019_ho_t5.py
+/bin/mv joi2019_ho_t5.pyc __main__.pyc
+/usr/bin/zip joi2019_ho_t5.pyz.zip __main__.pyc
+/bin/mv joi2019_ho_t5.pyz.zip joi2019_ho_t5.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms268 MiB55715511372.90%
+
+Problem Source
+The 18th Japanese Olympiad in Informatics Final Round Problem 5
+
+ Attachments
+File nameSize
+2019-ho-t5.zip1.42 KiB

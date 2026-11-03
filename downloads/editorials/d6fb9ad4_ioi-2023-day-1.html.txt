@@ -1,0 +1,526 @@
+https://blog.brucemerry.org.za/2023/11/ioi-2023-day-1.html
+
+Entropy always increases: IOI 2023: Day 1
+
+Sunday, November 19, 2023
+
+IOI 2023: Day 1
+
+I've finally gotten around to looking at the day 1 problems from IOI 2023, and they're really tough. Congratulations to those who solved any of them. It's been pointed out that writeups of solutions seem to be absent from the internet, so I'll try to remedy that, at least for day 1 (I haven't had time to read the problems for day 2 yet, and probably won't until early next year).
+For now I'll leave out Closing Time, since there is a solution at the link above, and I don't have a good proof of efficiency for my own solution. I might come back to it.
+Longest trip
+Finding the longest path in general graphs is NP-hard, so we should expect that we'll need to exploit the density condition in some way. I'll only discuss D=1, since the other cases are strictly easier. Let's first consider how many components there can be. There cannot be 3 (or more), because then we could pick one vertex from each component and this triple would violate the density condition. If there are two components, then when picking any two vertices from one component and one vertex from the other, we see that the two vertices in the same component must be connected i.e. both components are complete graphs. In that case the longest path is easy to find: just walk the vertices of the larger component in any order.
+
+What about when there is only a single component? It's certainly not required to be complete (the first example shows that), but perhaps we're still guaranteed to be able to find a Hamiltonian path?
+
+Building a single path a step at a time will be difficult, but we can get close by building two paths at once. We can initialise the paths with the first two vertices, and then take each other vertex in turn and try to append it to one of the paths. If it doesn't have an edge to the end of either path, then the ends of the two paths must be connected to each other. In this case they can be joined into a single path, and we can start a new second path with the vertex we just tried to add.
+
+Once we've processed all the vertices, we will have them organised in two paths, but we don't know if they're separate components or not. A single query can determine that. If so, we just return the longer of the paths. If not, we want to find a way to link the paths together. The following procedure will do the trick:
+Test if either end of one path is connected to either end of the other. If so, then we can just chain them together trivially.
+If not, then the density condition requires that the end of each path is connected to its beginning, so the paths are in fact cycles. Now find any edge that connects one cycle to the other. By cutting each cycles next to this edge, we obtain a Hamiltonian path.
+This algorithm requires O(N) queries, but without careful implementation, the constant factor will be too high to keep q below 400. Let's see how we can improve things.
+Let's start with the first part of the algorithm, where we build two paths. Let's call the current last elements of each path P and Q, and the element we're adding R. In some cases we will have information that P and Q are definitely not connected. If that's the case, and we learn that P and R are also not connected, then we know that Q and R are connected, without needing a query. So when we know P and Q are not connected, only one query is needed to make progress. When P and Q might be connected, we might need two queries, but if so we have a good chance of transitioning to a state where we know P' and Q' are not connected. The only time we won't is if
+P is connected to Q; and
+neither P nor Q is connected to R; and
+both paths have more than one element.
+The above conditions cannot apply twice in a row (because afterwards one of the paths has a single element), but this still allows for an average of 5/3 queries per element. However, we're also given the information that the grader is not adaptive, and simply randomising the order of elements seems to be sufficient to keep the actual number of queries down.
+We can also optimise the final steps in attempting to merge the two paths together. To check whether it is possible to connect the two paths end-to-end, a single query can be used to determine whether either end of the one is connected to either end of the other; if this returns true, further queries can be used to isolate the specific connection. While that requires more queries in the true case, it reduces the queries for the false case (which is more expensive, because we then have to find some other edge between the cycles). Finding an edge between the cycles can be done in logarithmic time, by first binary searching on the one path, then the other.
+The official model solution does some slightly more complicated things in the case that P and Q are connected; I suspect this might guarantee that the solution completes within 400 queries without depending on randomisation. A solution that can guarantee no more than 1.5 queries to add each R will have the following budget:
+381 queries for the first phase (only 254 elements need to be added, since the first two are used to initialise the paths)
+1 query to check whether there is any connection between the paths
+1 query to check whether there is a connection between the edges of the paths
+15 queries for the binary search (8 for the larger side, 7 for the smaller), 
+for a total of 398. 
+
+Soccer
+Let's start by figuring out what a "regular" field looks like. Within each row, let's call all the cells that form part of the field a "span". A span has to be contiguous, since there is no way to kick a ball around a gap in a row in only two straight kicks. Now consider two spans (in different rows). Each span can be seen as an interval of column numbers, and if neither of them is a (non-strict) sub-interval of the other, then field is not regular: there will be a cell in each span whole column does not belong to the other span, and there is no way to kick a ball between these two cells with only two straight kicks.
+
+Let's consider the longest span (ties can be broken arbitrarily), which by the observations above is also a super-interval for every other span. Moving away from this longest span either upwards or downwards, one must encounter progressively shorter spans (again, non-strictly) as otherwise there will be a column with non-contiguous cells in the field. It shouldn't be too hard to convince yourself that these conditions are also sufficient for a field to be regular.
+
+We can think about constructing a maximal field by adding spans one at a time, starting with the longest span and then adding spans either above or below. This naturally leads to a recursive solution: given a partially constructed field (consisting of spans in contiguous rows), consider adding a new span either above or below the existing spans, whose extent must be limited to the intersection of all the existing spans. We need to start the recursion from the widest span and we don't know where that will be, so we can just use an outer loop that considers all possibilities.
+
+This recursion will consider all possible regular fields, but since we only want to know about the biggest one, we can immediately do some pruning. Consider a span to be "maximal" if it cannot be expanded (under whatever conditions it is being selected) by adding more cells to the left or right. When recursing, we only need to consider maximal spans, since this adds more cells to the field and does not reduce our choices later in the recursion. Similarly, only maximal spans need be considered as the initial (widest) span.
+
+This exponential-time solution can be reduced to polynomial time with memoisation in a pretty standard way. The only state needed in each recursive call is the range of rows for which we already have spans and the range of columns that is the intersection of all chosen spans.
+
+This gives O(N⁴) states and an even larger number of edges between states, so we need to optimise this to solve the final subtask. Let's start with a few optimisations that won't obviously reduce the big-O. Immediately after adding a new span, see if we can add more spans (on both sides) without narrowing the column range at all. It will never be suboptimal to add these now, so we can do it immediately. We want this process to be efficient, which we can achieve by building lookup tables for the next tree upwards and downwards of any given position, and precomputing a range-max query structure along each row. We can also use lookup tables of next tree and next non-tree along each row to quickly find all the maximal spans in the new row we're adding.
+
+While this will clearly help in some special cases, it's not clear why it should improve the big-O. Let a "maximal rectangle" be one that doesn't include a tree and cannot be made into a bigger rectangle by adding more cells to it (without including a tree). Then it is not difficult to show that each time we need to decide on the next span, the current row and column range define a maximal rectangle: our recent optimisation is to extend the rectangle vertically, and our choice to only include maximal spans mean it cannot be extended horizontally. So the number of memoisation states is bounded by the number of maximal rectangles.
+
+What's the maximal number of maximal rectangles? It is O(N²). Consider fixing the bottom row, and fixing the tree that bounds the top edge (treat the boundary as surrounded by trees). Since this tree must be the lowest in its column above the bottom edge, there are only O(N) such trees for each choice of bottom row. Once those two parameters are fixed, it is easy to see that the rest of the maximal rectangle is fixed too (simply grow leftwards and rightwards of the chosen tree as far as possible). Note that not all such rectangles are maximal, because we haven't considered that the bottom could be extended. So in fact, the number of rectangles bounded by trees on 3 sides is O(N²).
+
+This means that we have O(N²) states, but what about the number of state transitions? We'll consider only transitions that start by adding a new row on top (adding to the bottom is symmetrical). At first glance, it appears that this could be O(N³), because from each state there could be O(N) successor states. However, we can associate each transition with a unique rectangle bounded on top, left and right; and we showed earlier that there are only O(N²) of these. Specifically, for each transition, consider the intersection of the old and new state rectangles, and call it the "transition rectangle". This will differ from the new state only in the bottom edge, so it will be 3-side bounded as claimed. We can reconstruct the new state from the transition rectangle simply by extending the bottom edge as far as it can go; we can also reconstruct the old state as follows:
+
+Remove one row at a time from the top until it is possible to extend the left or right edges.
+
+Extend the left and right edges as much as possible.
+Since we're able to reconstruct the old and new states from the transition rectangle, the transition rectangle must be unique to the transition, and hence there can only be O(N²) transitions.
+The overall complexity depends on the implementation of the range max query and of the data structure used for memoisation. With practical implementations the algorithm will have O(N² log N) time and either O(N²) or O(N² log N) space, depending on the range max data structure used.
+Incidentally, while the official model solution explicitly computes all the maximal rectangles, it's not actually necessary to do so. In my solution they are needed only to prove the efficiency.
+
+Posted by
+
+Bruce Merry
+
+at
+
+2:07 AM
+
+Email ThisBlogThis!Share to XShare to FacebookShare to Pinterest
+
+No comments:
+
+Post a Comment
+
+Newer Post
+
+Older Post
+
+Home
+
+Subscribe to:
+Post Comments (Atom)
+
+Blog Archive
+
+        ► 
+
+2025
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ▼ 
+
+2023
+
+(3)
+
+        ► 
+
+December
+
+(1)
+
+        ▼ 
+
+November
+
+(2)
+
+IOI 2023: Beech Tree
+
+IOI 2023: Day 1
+
+        ► 
+
+2022
+
+(2)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+2021
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+2020
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2018
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2017
+
+(3)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+2016
+
+(6)
+
+        ► 
+
+November
+
+(4)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2015
+
+(1)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2014
+
+(11)
+
+        ► 
+
+October
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+June
+
+(6)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+2013
+
+(4)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+2012
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+2011
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2010
+
+(5)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(2)
+
+        ► 
+
+2009
+
+(10)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+August
+
+(3)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2008
+
+(30)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+August
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+March
+
+(6)
+
+        ► 
+
+February
+
+(5)
+
+        ► 
+
+January
+
+(5)
+
+        ► 
+
+2007
+
+(15)
+
+        ► 
+
+November
+
+(2)
+
+        ► 
+
+October
+
+(3)
+
+        ► 
+
+June
+
+(9)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2006
+
+(14)
+
+        ► 
+
+November
+
+(5)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+August
+
+(4)
+
+        ► 
+
+July
+
+(3)

@@ -1,0 +1,28 @@
+https://oj.uz/problem/view/IOI19_rect
+
+View problem - Rectangles (IOI19_rect) :: oj.uzView problem - Rectangles (IOI19_rect)
+
+Rectangles Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o rect rect.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o rect rect.cpp
+Java/usr/bin/javac -encoding UTF-8 rect.java
+/bin/sh -c echo "Main-Class: rect" > __manifest__.txt
+/bin/sh -c jar cfm rect.jar __manifest__.txt *.class
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+5000 ms1024 MiB602162329947.99%
+
+Problem Source
+IOI 2019 Day 1 Problem 3
+
+ Attachments
+File nameSize
+rect.zip3.60 KiB

@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/JOI17_rope
+
+View problem - Rope (JOI17_rope) :: oj.uzView problem - Rope (JOI17_rope)
+
+Rope Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o rope rope.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o rope rope.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o rope rope.cpp
+Java/usr/bin/javac -encoding UTF-8 rope.java
+/bin/sh -c echo "Main-Class: rope" > __manifest__.txt
+/bin/sh -c jar cfm rope.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b rope.py
+/bin/mv rope.pyc __main__.pyc
+/usr/bin/zip rope.pyz.zip __main__.pyc
+/bin/mv rope.pyz.zip rope.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2500 ms256 MiB5811159986.09%
+
+Problem Source
+The 16th Japanese Olympiad in Informatics Final Round Problem 5

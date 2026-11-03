@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI23_longesttrip
+
+View problem - Longest Trip (IOI23_longesttrip) :: oj.uzView problem - Longest Trip (IOI23_longesttrip)
+
+Longest Trip Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o longesttrip longesttrip.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o longesttrip longesttrip.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms2048 MiB451643116838.98%
+
+Problem Source
+IOI 2023 Day 1 Problem 2
+
+ Attachments
+File nameSize
+longesttrip.zip7.69 KiB

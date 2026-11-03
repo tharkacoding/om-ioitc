@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI19_tenis
+
+View problem - Tenis (COI19_tenis) :: oj.uzView problem - Tenis (COI19_tenis)
+
+Tenis Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o tenis tenis.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o tenis tenis.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o tenis tenis.cpp
+Java/usr/bin/javac -encoding UTF-8 tenis.java
+/bin/sh -c echo "Main-Class: tenis" > __manifest__.txt
+/bin/sh -c jar cfm tenis.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b tenis.py
+/bin/mv tenis.pyc __main__.pyc
+/usr/bin/zip tenis.pyz.zip __main__.pyc
+/bin/mv tenis.pyz.zip tenis.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+500 ms512 MiB327907381.11%
+
+Problem Source
+Croatian Olympiad in Informatics 2019 Problem 4

@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/JOI21_monster
+
+View problem - Monster Game (JOI21_monster) :: oj.uzView problem - Monster Game (JOI21_monster)
+
+Monster Game Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o monster monster.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o monster monster.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms1024 MiB7771457048.28%
+
+Problem Source
+JOI Open Contest 2021 Problem 3
+
+ Attachments
+File nameSize
+monster.zip1.82 KiB

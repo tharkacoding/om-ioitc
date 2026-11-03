@@ -1,0 +1,137 @@
+https://misaka18931.github.io/2022/04/05/JOISC-2022/
+
+JOISC 2022 | misaka18931's blog
+
+    0%
+
+  Theme NexT works best with JavaScript enabled
+
+        day1
+
+jail
+
+It can be proved that if the answer is Yes, we always have a
+construction in which each prisoner take consecutive moves.
+
+Tips: if 2 moves by one prisoner is not consecutive, let it be \(u \rightarrow w\) and \(w \rightarrow v\). No moves via \(w\) can be made between the 2 moves.
+
+By moving all moves via \(v\) in the
+interval before \(u \rightarrow w\) and
+all moves via \(u\) after \(w \rightarrow v\), the construction should
+remain valid.
+
+The problem now reduced to report if a topo order of prisoners
+exiets.
+
+Reduce the edges to \(O(n\log n)\)
+by binary lifting.
+
+kyoto
+
+in a 2x2 grid, if \(A_2-A_1\lt B_2 -
+B_1\), we will never turn right at \((1,2)\).
+
+get the difference array of \(A\)
+and \(B\).
+
+observation: assume \(A_j -
+A_{j-1}\) is the maximum of all differences, we will never turn
+left at \((j,*)\), we simply delete
+road \(A_j\).
+
+with several road deleted we write the difference as \(\frac{A_i -
+A_{\mathrm{prev}(i)}}{i-\mathrm{prev}(i)}\) and the observation
+still works.
+
+misspelling
+
+observation \[
+T_A = T_B \iff S_A=S_{A+1} \dots = S_B\ (A\lt B)
+\] \[
+\text{let}\ x\ \text{be the first index between }[A, B] \text{ where }
+S_x \neq S_{x+1}.
+\] \[
+T_A \lt T_B \iff \begin{cases}
+S_x \lt S_{x+1} & A \gt B\\
+S_x \gt S_{x+1} & A \lt B
+\end{cases}
+\]
+
+let \(dp[n][c] = \#[S_{n-1} \neq S_n \land
+S_n = c]\)
+
+optimize it.
+
+day2
+
+copypaste3
+
+write an interval DP.
+
+system test passed...
+
+actually, count of all possible Operation B & C combo is \(O(n^2\ln n)\).
+
+team
+
+Elementary 3D partial order practice.
+
+Can be implemented in \(O(n\log n)\)
+time though.
+
+day3
+
+sprinkler
+
+\(D_i \le 40\), wow!
+
+sadly \(L\) is not a prime, if we
+implement an inclusion-exclution principle + BIT, it would be \(O(N \log D \log maxA)\).
+
+why not design a tiling strategy that eliminates 2 logs in one
+go?
+
+\(O(ND)\).
+
+sugar
+
+render this as a bipartite matching problem. review Hall's marriage
+theorem (quantitative version).
+
+\(Ans = \sum ants + \min_{S \subseteq
+Ants}|\mathrm{Adj}(S)| - |S|\), where \(\mathrm{Adj}(S)\) is all sugar reachable
+from ants in \(S\).
+
+subtask2: the matching has strong locality (choose of ant only
+affect adjacent sugars). This can be easily maintained by a segment
+tree.
+
+observation: assume sugar in \(|\mathrm{Adj}(S)|\), that can be reached by
+ants in interval \([l, r]\), if \(\exists s, t \in S\cap [l, r]\), if we just
+include all ants in interval \([s,
+t]\), the answer will only be lesser. which implies the optimal
+choose of \(S\) has all its element
+form a substring in all it's adjacent sugars.
+
+with this observation, we can apply the inclusion-exclution
+principle: for each sugar, let any \(x\in [l,
+r], x \in S\) have \(+1\)
+contribution, and any \(x \in [l, r-1], x, x+1
+\in S\) have \(-1\)
+contribution. And once again, we have strong locality guaranteed.
+
+How to handle the insertion of sugar?
+
+for a whole node in segment tree, the answer will always increase by
+number of sugar inserted.
+
+to handle the gap between nodes, we can record for each node, sugars
+that affect the gap between it's two childrens.
+
+day4
+
+dango3
+
+devide and conquer. ### fish2
+
+reconstruction

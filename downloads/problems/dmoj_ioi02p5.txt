@@ -1,0 +1,242 @@
+https://dmoj.ca/problem/ioi02p5
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:30 (partial)
+Time limit:1.0s
+Memory limit:32M
+Problem type
+IOI '02 - Yong-In, Korea
+
+Yong-In city plans to build a bus network with 
+𝑁
+ bus stops. Each bus stop is at a street corner. Yong-In is a modern city, so its map is a grid of square blocks of equal size. Two of these bus stops are to be selected as hubs 
+𝐻
+1
+ and 
+𝐻
+2
+. The hubs will be connected to each other by a direct bus line and each of the remaining 
+𝑁
+−
+2
+ bus stops will be connected directly to either 
+𝐻
+1
+ or 
+𝐻
+2
+ (but not to both), but not to any other bus stop.
+
+The distance between any two bus stops is the length of the shortest possible route following the streets. That is, if a bus stop is represented as 
+(
+𝑥
+,
+𝑦
+)
+ with 
+𝑥
+-coordinate 
+𝑥
+ and 
+𝑦
+-coordinate 
+𝑦
+, then the distance between two bus stops 
+(
+𝑥
+1
+,
+𝑦
+1
+)
+ and 
+(
+𝑥
+2
+,
+𝑦
+2
+)
+ is 
+|
+𝑥
+1
+−
+𝑥
+2
+|
++
+|
+𝑦
+1
+−
+𝑦
+2
+|
+. If bus stops 
+𝐴
+ and 
+𝐵
+ are connected to the same hub 
+𝐻
+1
+, then the length of the route from 
+𝐴
+ to 
+𝐵
+ is the sum of the distances from 
+𝐴
+ to 
+𝐻
+1
+ and from 
+𝐻
+1
+ to 
+𝐵
+. If bus stops 
+𝐴
+ and 
+𝐵
+ are connected to different hubs, e.g., 
+𝐴
+ to 
+𝐻
+1
+ and 
+𝐵
+ to 
+𝐻
+2
+, then the length of the route from 
+𝐴
+ to 
+𝐵
+ is the sum of the distances from 
+𝐴
+ to 
+𝐻
+1
+, from 
+𝐻
+1
+ to 
+𝐻
+2
+, and from 
+𝐻
+2
+ to 
+𝐵
+.
+
+The planning authority of Yong-In city would like to make sure that every citizen can reach every point within the city as quickly as possible. Therefore, city planners want to choose two bus stops to be hubs in such a way that in the resulting bus network the length of the longest route between any two bus stops is as short as possible.
+
+One choice 
+𝑃
+ of two hubs and assignments of bus stops to those hubs is better than another choice 
+𝑄
+ if the length of the longest bus route is shorter in 
+𝑃
+ than in 
+𝑄
+. Your task is to write a program to compute the length of this longest route for the best choice 
+𝑃
+.
+
+Input Specification
+
+Your program is to read from standard input. The first line contains one positive integer 
+𝑁
+ 
+(
+2
+≤
+𝑁
+≤
+500
+)
+, the number of bus stops. Each of the remaining 
+𝑁
+ lines contains the 
+𝑥
+-coordinate followed by the 
+𝑦
+-coordinate of a bus stop. The 
+𝑥
+- and 
+𝑦
+-coordinates are positive integers 
+≤
+5
+000
+. No two bus stops are at the same location.
+
+Output Specification
+
+Your program is to write to standard output. The output contains one line with a single positive integer, the minimum length of the longest bus route for the input.
+
+Sample Input 1
+Copy
+6
+1 7
+16 6
+12 4
+4 4
+1 1
+11 1
+Sample Output 1
+Copy
+20
+Sample Input 2
+Copy
+7
+7 9
+10 9
+5 3
+1 1
+7 2
+15 6
+17 7
+Sample Output 2
+Copy
+25
+
+The following figures show the bus networks for the inputs given above. If in Example 
+1
+ bus stops 
+3
+ and 
+4
+ are selected as hubs then the longest route is either between bus stops 
+2
+ and 
+5
+ or between bus stops 
+2
+ and 
+1
+. There is no better choice for the hubs, and the answer is 
+20
+.
+
+For the bus network in Example 
+2
+, if bus stops 
+5
+ and 
+6
+ are selected as hubs then the longest route is obtained between bus stops 
+2
+ and 
+7
+. There is no better choice for the hubs, and the answer is 
+25
+.
+
+Comments
+
+There are no comments at the moment.

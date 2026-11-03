@@ -1,0 +1,524 @@
+https://blog.brucemerry.org.za/2012/09/ioi-2012-day-2-analysis.html
+
+Entropy always increases: IOI 2012 Day 2 analysis
+
+Thursday, September 27, 2012
+
+IOI 2012 Day 2 analysis
+
+Last Supper
+
+Firstly, it's not even obvious how to simulate Leonardo's strategy efficiently. It can be done though. First, you need to be able to tell, for each request, what the next request of the same colour will be (we'll see why later). This can be computed by making a backwards pass over the data, while keeping track of the last seen request for each colour. Now we can implement Leonardo's strategy in a forward pass. Over time, let's keep track of the next time each colour will be needed. After each request, we need to update this for the just-requested colour to the point to the next instance for this colour. Each time Leonardo requests a paint colour that isn't on the scaffold, we can examine all the colours on the scaffold to determine which will be needed the furthest in the future. That would still require O(NK) time, but we can keep the next-needed-time for all the scaffold colours in a max priority queue. Since keys need to be changed as we go, a multi_set is a good choice in C++ for O(N log K) time.
+
+With that in place, it's straightforward to implement the cases where we have at least ceil(log K) bits per request, because we can just encode the index of the colour on the scaffold to replace. However, to solve subtasks 4 and 5 you need something smarter. The key point is that you don't have to exactly implement Leonardo's algorithm. Let's do a thought experiment: Leonardo has two shelves on his scaffold, top and bottom. The top shelf contains the colours he will use at least once more before they're taken away. The bottom shelf contains the colours he knows will be taken away before they're used again. Since he knows the sequence of colours and he assumes his assistant follows his strategy, he can arrange the initial K paints on the right shelves, and every time he uses a paint he also puts it back on the right shelf. His assistant will only ever take away a colour from the bottom shelf, and Leonardo will only pick up paint either from his assistant or from the top shelf.
+
+And now for the key observation: Leonardo never looks at the bottom shelf. Thus, it doesn't actually matter which colour the assistant takes off the bottom shelf. If he instead takes away an arbitrary colour from the bottom shelf, the set of top shelf paints will still be exactly as before, step after step. The only possible difference is that a requested colour might turn out now to already be on the bottom shelf, but this can't happen because it would contradict the optimality of Leonardo's strategy.
+
+Thus, it is sufficient for the advice to provide enough information to know which colours are on which shelf, and the assistant can pick bottom-shelf colours arbitrary to take away. We need K bits to indicate the shelf for each of the initial K colours, and we need N bits to indicate which shelf each paint goes back on after it has been used. N + K bits is enough to solve all subtasks, and in fact subtask 5 can be solved with only 125000 bits.
+
+Jousting tournament
+
+There are a number of observations one can make. Firstly, let's say a knight is a candidate for a tournament if he either participates in the tournament or in another tournament whose winner was a candidate (recursively). Then it is easy to see that the candidates for a tournament form a contiguous interval of the original line of knights, and that the location of the interval is independent of the ranks of the knights. Computing this interval efficiently is not completely trivial, but let's come back to that and assume we know the candidate interval for every tournament. We can also see that the winner of any tournament is the candidate with highest rank.
+
+Suppose the popular knight is a candidate for a tournament. We can immediately determine who all the other candidates for that tournament are, regardless of exactly where he is in the line. We can also compute whether he will win. Now, for each tournament going backwards in time, we can compute how many times he will win if that is his first tournament: if he loses it will be 0, otherwise it will be more one that the number for the tournament he advances to. We can also find the leftmost slot (if any) he could occupy that doesn't require advancement from a previous tournament. We then pick the tournament with the highest such score and take the leftmost slot (breaking ties leftwards as required).
+
+Done naively this will require O(N2) time, which should suffice for the first 2 subtasks. We need a few  operations to make this small enough to tackle the final subtask. Firstly, we need to be able to determine the candidate ranges. This can be done with a binary indexed tree. As the tournaments are played, store an array of N values in a BIT, where each value is 1 for knights that haven't competed or that had the lowest index (not rank) of all candidates in their last tournament, and 0 for all others. For a new tournament (S, E), the first candidate will be the first knight whose (inclusive) prefix sum is S+1, and the last candidate will be one to the left of the first knight whose (inclusive) prefix sum is E+2. Binary searching for a given prefix sum can be implemented in O(log N) time, but we also need to find the bits to zero out in the BIT. These can be found by keeping the locations of all 1 bits in a linked list. Each bit is zeroed at most once, so this process takes O(N log N) time.
+
+For each tournament, we also need to know to which tournament the winner advances. This can be computed at the same time as the previous step, by storing the tournament index in the linked list and building a tournament tree as we go.
+
+Finally, we need to be able to determine the winner of each tournament, assuming it contains the popular knight. For this we need to determine the maximum value within a range of values. This is the standard range max query problem, for which there are a number of O(N log N) and even O(N) algorithms to answer O(N) queries on N items. A simple one is to precompute for each element the maximum of the next 1, 2, 4, 8, ... elements in O(N log N) time, which then allows queries to be answered in O(1) time.
+
+UPDATE:  a commenter made a good observation: we don't care about the ranks of the other knights, only whether they are higher or lower than that of the popular knight. The range max queries can all be done on a boolean array, which is simpler. For example, by precomputing prefix sums one can determine the number of higher-ranked knights in an interval, and the popular knight will win a tournament if and only if the corresponding sum is zero.
+
+Ideal City
+
+This one had me totally stumped yesterday, but I woke up this morning with what I think is a solution. It depends on a conjecture. Let's call the x-weight of a path the number of horizontal steps, and similarly for y-weight. Let's call a path from A to B x-shortest if it has minimal x-weight, and let the x-distance from A to B be x-weight of this path (again, similarly for y-shortest and y-weight). I conjecture that the distance from A to B is the sum of the x-distance and the y-distance. Put another way, I conjecture that the shortest path from A to B is both x-shortest and y-shortest. I can't formally prove it, but the intuition is that any x-shortest path can be "straightened out" until it matches a shortest path, because there are no internal obstacles to get in the way.
+
+Given that, we can separate the problem into finding the sum of x-distances and the sum of y-distances. Let's look at just the y-distances. The city can be divided into contiguous horizontal strips. Consider each such strip as a node in a graph, where two nodes are connected if the strips are directly connected. In fact, the graph must be a tree, since a cycle would imply that the city is not ideal. Also, travel within a strip is free when computing y-distance, so the y-distance between two blocks is equal to the number of tree edges between their corresponding nodes.
+
+Computing the sum of all distances in a tree is a more conventional problem with conventional recursive techniques. For each subtree, compute the sum of all distances within the subtree, the number of blocks, and the sum of distances from every block to the root. When merging two trees at their roots, these values can be computed in O(1) time for the combined tree using the values for the original tree and the new subtree, so the process takes O(N) time.
+
+UPDATE:  I realised that this construction can also prove the conjecture (as did a commenter). Consider the shortest path, and assume it is not y-shortest. Project it onto the tree of horizontal strips. It is then not a shortest path through this tree, since all y steps are projected to steps in this tree. But a non-shortest path through a tree must visit some vertex twice, which means that the original path exits some strip and then re-enters it. We could then shorten the path by short-cutting directly between the exit and entry points along the path.
+
+Posted by
+
+Bruce Merry
+
+at
+
+11:49 AM
+
+Email ThisBlogThis!Share to XShare to FacebookShare to Pinterest
+
+2 comments:
+
+ffao
+said...
+
+I may be wrong, but isn't the fact that the graph is a tree a proof of your original conjecture? As, on a tree, any two vertices have a unique path between them, any vertical movement that doesn't take you from one strip to the next strip on that path will eventually have to be undone, that is, it could never be present on an optimal route. Do the same thing to a graph of the vertical strips to prove it for the x-distance.
+
+10:43 PM
+
+Nadeem Moidu
+said...
+
+Is the following observation correct for "Jousting tournament":
+As long as some candidate is above the late knight, we don't care what his actual rank is. So we can replace everyone's rank as 0 (knights lower than the late knight), 1 (late knight) or 2(knights higher).
+So the range maximum query reduces to finding whether a range is completely filled with 0, which is simpler.
+
+4:48 AM
+
+Post a Comment
+
+Newer Post
+
+Older Post
+
+Home
+
+Subscribe to:
+Post Comments (Atom)
+
+Blog Archive
+
+        ► 
+
+2025
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2023
+
+(3)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+November
+
+(2)
+
+        ► 
+
+2022
+
+(2)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+2021
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+2020
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2018
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2017
+
+(3)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+2016
+
+(6)
+
+        ► 
+
+November
+
+(4)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2015
+
+(1)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2014
+
+(11)
+
+        ► 
+
+October
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+June
+
+(6)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+2013
+
+(4)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+February
+
+(1)
+
+        ▼ 
+
+2012
+
+(2)
+
+        ▼ 
+
+September
+
+(2)
+
+IOI 2012 Day 2 analysis
+
+IOI 2012 day 1 analysis
+
+        ► 
+
+2011
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2010
+
+(5)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(2)
+
+        ► 
+
+2009
+
+(10)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+August
+
+(3)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2008
+
+(30)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+August
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+March
+
+(6)
+
+        ► 
+
+February
+
+(5)
+
+        ► 
+
+January
+
+(5)
+
+        ► 
+
+2007
+
+(15)
+
+        ► 
+
+November
+
+(2)
+
+        ► 
+
+October
+
+(3)
+
+        ► 
+
+June
+
+(9)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2006
+
+(14)
+
+        ► 
+
+November
+
+(5)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+August
+
+(4)
+
+        ► 
+
+July
+
+(3)

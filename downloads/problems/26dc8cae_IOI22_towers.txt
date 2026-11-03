@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI22_towers
+
+View problem - Radio Towers (IOI22_towers) :: oj.uzView problem - Radio Towers (IOI22_towers)
+
+Radio Towers Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o towers towers.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o towers towers.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms2048 MiB288136712132.97%
+
+Problem Source
+IOI 2022 Day 1 Problem 3
+
+ Attachments
+File nameSize
+towers.zip1.76 KiB

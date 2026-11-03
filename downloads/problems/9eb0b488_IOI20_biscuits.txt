@@ -1,0 +1,28 @@
+https://oj.uz/problem/view/IOI20_biscuits
+
+View problem - Packing Biscuits (IOI20_biscuits) :: oj.uzView problem - Packing Biscuits (IOI20_biscuits)
+
+Packing Biscuits Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o biscuits biscuits.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o biscuits biscuits.cpp
+Java/usr/bin/javac -encoding UTF-8 biscuits.java
+/bin/sh -c echo "Main-Class: biscuits" > __manifest__.txt
+/bin/sh -c jar cfm biscuits.jar __manifest__.txt *.class
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms2048 MiB437157631454.51%
+
+Problem Source
+IOI 2020 Day 2 Problem 1
+
+ Attachments
+File nameSize
+public.zip4.62 KiB

@@ -1,0 +1,61 @@
+https://oj.uz/problem/view/IOI19_line
+
+View problem - Broken Line (IOI19_line) :: oj.uzView problem - Broken Line (IOI19_line)
+
+Broken Line Output Only Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+Text/usr/bin/cp 01.out.txt 01.out.o.txt
+
+Step #2
+LanguageCompilation command
+Text/usr/bin/cp 02.out.txt 02.out.o.txt
+
+Step #3
+LanguageCompilation command
+Text/usr/bin/cp 03.out.txt 03.out.o.txt
+
+Step #4
+LanguageCompilation command
+Text/usr/bin/cp 04.out.txt 04.out.o.txt
+
+Step #5
+LanguageCompilation command
+Text/usr/bin/cp 05.out.txt 05.out.o.txt
+
+Step #6
+LanguageCompilation command
+Text/usr/bin/cp 06.out.txt 06.out.o.txt
+
+Step #7
+LanguageCompilation command
+Text/usr/bin/cp 07.out.txt 07.out.o.txt
+
+Step #8
+LanguageCompilation command
+Text/usr/bin/cp 08.out.txt 08.out.o.txt
+
+Step #9
+LanguageCompilation command
+Text/usr/bin/cp 09.out.txt 09.out.o.txt
+
+Step #10
+LanguageCompilation command
+Text/usr/bin/cp 10.out.txt 10.out.o.txt
+
+Statement
+Submit
+Statistics
+All submissions
+# of submissions# of submitted usersSolved #Accepted user ratio
+40615076212.23%
+
+Problem Source
+IOI 2019 Day 2 Problem 1
+
+ Attachments
+File nameSize
+line.zip5.37 MiB

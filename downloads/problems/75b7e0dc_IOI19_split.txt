@@ -1,0 +1,28 @@
+https://oj.uz/problem/view/IOI19_split
+
+View problem - Split the Attractions (IOI19_split) :: oj.uzView problem - Split the Attractions (IOI19_split)
+
+Split the Attractions Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o split split.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o split split.cpp
+Java/usr/bin/javac -encoding UTF-8 split.java
+/bin/sh -c echo "Main-Class: split" > __manifest__.txt
+/bin/sh -c jar cfm split.jar __manifest__.txt *.class
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms1024 MiB618165328844.10%
+
+Problem Source
+IOI 2019 Day 1 Problem 2
+
+ Attachments
+File nameSize
+split.zip3.67 KiB

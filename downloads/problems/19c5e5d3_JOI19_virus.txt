@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI19_virus
+
+View problem - Virus Experiment (JOI19_virus) :: oj.uzView problem - Virus Experiment (JOI19_virus)
+
+Virus Experiment Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o virus virus.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o virus virus.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o virus virus.cpp
+Java/usr/bin/javac -encoding UTF-8 virus.java
+/bin/sh -c echo "Main-Class: virus" > __manifest__.txt
+/bin/sh -c jar cfm virus.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b virus.py
+/bin/mv virus.pyc __main__.pyc
+/usr/bin/zip virus.pyz.zip __main__.pyc
+/bin/mv virus.pyz.zip virus.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms256 MiB6371247157.26%
+
+Problem Source
+JOI Open Contest 2019 Problem 3
+
+ Attachments
+File nameSize
+virus.zip618 bytes

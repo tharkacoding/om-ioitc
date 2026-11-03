@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI21_malnarisc
+
+View problem - MalnaRISC (COI21_malnarisc) :: oj.uzView problem - MalnaRISC (COI21_malnarisc)
+
+MalnaRISC Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o malnarisc malnarisc.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o malnarisc malnarisc.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o malnarisc malnarisc.cpp
+Java/usr/bin/javac -encoding UTF-8 malnarisc.java
+/bin/sh -c echo "Main-Class: malnarisc" > __manifest__.txt
+/bin/sh -c jar cfm malnarisc.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b malnarisc.py
+/bin/mv malnarisc.pyc __main__.pyc
+/usr/bin/zip malnarisc.pyz.zip __main__.pyc
+/bin/mv malnarisc.pyz.zip malnarisc.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2500 ms512 MiB469803341.25%
+
+Problem Source
+Croatian Olympiad in Informatics 2021 Problem 4

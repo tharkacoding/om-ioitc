@@ -1,0 +1,550 @@
+https://codeforces.com/blog/entry/145228
+
+A solution for IOI Day 2, Problem 2: Migrations with M <= 11 messages (and Z <= 4) - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        indjev99
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        indjev99's blog
+
+                        A solution for IOI Day 2, Problem 2: Migrations with M <= 11 messages (and Z <= 4)
+
+                By indjev99,
+                    history,
+                    15 months ago,
+
+        EDIT: I have read the code for the author solution for $$$M \leq 8$$$ and it is mostly in this style and includes a chunking like here and a similar case breakdown at the final chunk of size $$$3$$$. I'd say all of the ideas here are a subset of the ideas in the full solution, though it also has one more clever element and a few more deails around it. I'll sum up the main clever part (as I understand it) at the end of the post.
+I came up with this solution with $$$M \leq 11$$$ to the problem and noticed the best solution at the competition was with $$$M \leq 12$$$, so I decided to post about it. This solution is quite complicated (I also have a simpler scheme with $$$12$$$), so it is understandable that no one had time for it (and I imagine $$$M \leq 8$$$ is even harder and/or cleverer).
+Here is a link to the problem: https://drive.google.com/file/d/1jMpszX2nPZ79jrK8yzDFIZXNb0CG_efi/view
+First notice that we can keep a state of which two nodes are opposite ends of some diameter. Then on a given node, either both ends stay the same or one end moves to the new node and the other end remains.
+We will solve the problem by splitting the $$$N$$$ nodes into some number of chunks. Each chunk will have a size $$$K_i$$$ and will allow up to $$$M_i$$$ messages. We want $$$\sum_i K_i = N$$$ and to minimize $$$M_i$$$.
+The core idea is that each chunk will encode the updates to the state (which 2 nodes are ends of diameters) up to the end of the previous chunk (say of size $$$K$$$). Updates can be of the form:
+    No update: 1 option.
+   Overwrite one end: $$$2K$$$ options (we partition basedon whether we overwrite smaller or larger (by index) end).
+   Overwrite both ends: $$$K (K - 1) / 2$$$ options.
+ Therefore the total number of updates for a "generic" chunk is $$$F(K) = 1 + 2K + K(K-1)/2$$$. We actually need only case 3 for the first chunk, since both ends must be in it (though this turns out not to be needed for my solution, since the linear term is quite small for the first chunk, which is very large).
+A given "generic" chunk can encode $$$E(K, M) = \sum_j {K_i \choose j} 4^j$$$ options about the previous chunk. Therefore, we just want to maintain $$$E(K_{i + 1}, M_{i + 1}) \geq F(K_i)$$$ for all $$$i$$$.
+However, we still have to deal with one issue -- no one encodes for the final chunk, so it has to encode for itself as well as the penultimate chunk, i.e. it needs a custom scheme.
+We have such a custom scheme for $$$K=3$$$, $$$M=3$$$, which will encode for itself and a previous chunk of size $$$4$$$. There is one helpful observation: if an ends lies in the last chunks, we can skip encoding (part of) the state after the penultimate chunk.
+Therefore, we just have the chunks $$$(K_i, M_i)$$$ in reverse order like so:
+    $$$(3, 3)$$$: custom scheme for itself and the previous chunk.
+   $$$(4, 3)$$$: $$$E(4, 3) = 369 \geq F(5) = 351$$$.
+   $$$(25, 5)$$$: $$$E(25, 5) = 57795621 \geq F(9968) = 49695465$$$.
+   $$$(9968, 0)$$$: we are done.
+ Finally, let us describe the custom scheme for the final chunk. Let the $$$3$$$ final nodes be $$$A, B, C$$$ and the previous $$$4$$$ be $$$X, Y, Z, W$$$.
+    At $$$A$$$:        If $$$A$$$ is an end:            If 0 of $$$X, Y, Z, W$$$ are still ends: send $$$0$$$.
+       If 1 of $$$X, Y, Z, W$$$ is still an end: send $$$1$$$.
+
+     If $$$A$$$ is not an end:            If 0 of $$$X, Y, Z, W$$$ are ends: send $$$2$$$.
+       If 1 of $$$X, Y, Z, W$$$ is an end: send $$$3$$$.
+       If 2 of $$$X, Y, Z, W$$$ are ends: send $$$4$$$.
+
+   At $$$B$$$:        $$$A$$$ sent $$$0$$$ (we will know the full state after this):            $$$B$$$ is an end:                Together with $$$A$$$: send $$$0$$$.
+         Overwrites $$$A$$$ which overwrote the smaller end: send $$$1$$$.
+         Overwrites $$$A$$$ which overwrote the larger end: send $$$2$$$.
+
+       $$$B$$$ is not an end:                $$$A$$$ overwrote the smaller end: send $$$3$$$.
+         $$$A$$$ overwrote the larger end: send $$$4$$$.
+
+     $$$A$$$ sent $$$1$$$:            $$$B$$$ is an end together with $$$A$$$ (we will know the full state after this): send $$$0$$$.
+       $$$B$$$ is not an end or $$$B$$$ overwrites $$$A$$$: send $$$1-4$$$ to encode which of $$$X, Y, Z, W$$$ is an end.
+
+     $$$A$$$ sent $$$2$$$ (we will know the full state after this):            $$$B$$$ is not an end: send $$$0$$$.
+       $$$B$$$ overwrites the smaller end: send $$$1$$$.
+       $$$B$$$ overwrites the larger end: send $$$2$$$.
+
+     $$$A$$$ sent $$$3$$$:            $$$B$$$ overwrites the $$$X, Y, Z, W$$$ end: send $$$0$$$.
+       $$$B$$$ is not an end or $$$B$$$ is an end together with the $$$X, Y, Z, W$$$ end: send $$$1-4$$$ to encode which of $$$X, Y, Z, W$$$ is an end.
+
+     $$$A$$$ sent $$$4$$$:            $$$B$$$ is an end:                With $$$X$$$ or $$$Y$$$: send $$$0$$$.
+         With $$$Z$$$ or $$$W$$$: send $$$1$$$.
+
+       $$$B$$$ is not an end:                The ends are $$$X-Y$$$ or $$$X-W$$$: send $$$2$$$.
+         The ends are $$$Y-Z$$$ or $$$Y-W$$$: send $$$3$$$.
+         The ends are $$$X-Z$$$ or $$$Z-W$$$: send $$$4$$$.
+
+   At $$$C$$$:        If we know the full state up to now:            $$$C$$$ is not an end: send $$$0$$$.
+       $$$C$$$ overwrites the smaller end: send $$$1$$$.
+       $$$C$$$ overwrites the larger end: send $$$2$$$.
+
+     $$$A$$$ sent $$$1$$$ and $$$B$$$ sent $$$1-4$$$:            $$$C$$$ is an end with the $$$X, Y, Z, W$$$ end: send $$$0$$$.
+       $$$B$$$ is an end with the $$$X, Y, Z, W$$$ end: send $$$1$$$.
+       $$$A$$$ is an end with the $$$X, Y, Z, W$$$ end: send $$$2$$$.
+       $$$C$$$ is an end with $$$B$$$: send $$$3$$$.
+       $$$C$$$ is an end with $$$A$$$: send $$$4$$$.
+
+     $$$A$$$ sent $$$3$$$ and $$$B$$$ sent $$$0$$$:            $$$C$$$ is an end:                $$$C$$$ is an end $$$B$$$: send $$$0$$$.
+         $$$C$$$ overwrites $$$B$$$ which overwrote the smaller end: send $$$1$$$.
+         $$$C$$$ overwrites $$$B$$$ which overwrote the larger end: send $$$2$$$.
+
+       $$$C$$$ is not an end:                $$$B$$$ overwrote the smaller end: send $$$3$$$.
+         $$$B$$$ overwrote the smaller end: send $$$4$$$.
+
+     $$$A$$$ sent $$$3$$$ and $$$B$$$ sent $$$1-4$$$:            $$$C$$$ is an end with the $$$X, Y, Z, W$$$ end: send $$$0$$$.
+       $$$B$$$ is an end with the $$$X, Y, Z, W$$$ end: send $$$1$$$.
+       $$$C$$$ is an end with $$$B$$$: send $$$2$$$.
+       $$$C$$$ and $$$B$$$ are not ends:                The $$$X, Y, Z, W$$$ end overwrote the smaller end: send $$$3$$$.
+         The $$$X, Y, Z, W$$$ end overwrote the smaller end: send $$$4$$$.
+
+     $$$A$$$ sent $$$4$$$ and $$$B$$$ sent $$$0-1$$$:            $$$C$$$ is an end with $$$B$$$: send $$$0$$$.
+       $$$C$$$ is not an end:                The other end is $$$X$$$ or $$$Z$$$: send $$$1$$$.
+         The other end is $$$Y$$$ or $$$W$$$: send $$$2$$$.
+
+       $$$C$$$ is an end and $$$B$$$ is not:                The other end is $$$X$$$ or $$$Z$$$: send $$$3$$$.
+         The other end is $$$Y$$$ or $$$W$$$: send $$$4$$$.
+
+     $$$A$$$ sent $$$4$$$ and $$$B$$$ sent $$$2-4$$$:            $$$C$$$ is not an end: Each case for what $$$B$$$ sent has 2 options for the ends -- encode which by sending $$$0$$$ or $$$1$$$.
+       $$$C$$$ is an end: Each case for what $$$B$$$ sent has 3 possible nodes as ends -- encode which of those is an end with $$$C$$$ by sending $$$2$$$, $$$3$$$ or $$$4$$$.
+
+ EDIT: Seems like the core idea of the full solution with 8 messages is to not keep the state fully defined between chunks, but insead keep 4 possible candidates per end. This lets us cover multiple possible updates with the same configuration, thus using fewer messages/expanding the chunks faster. The key part is that the final 3 nodes can additionally resolve this ongoing ambiguity if they need to (i.e. if no update overwrote it in the penultimate or final chunk) -- this happens through a slightly more efficient scheme than mine and/or exploiting the cases that are not tight in my scheme.
+
+        +102
+
+        indjev99
+
+        15 months ago
+
+        5
+
+                Comments (5)
+
+                Write comment?
+
+                                    »
+
+                     Benq
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Benq
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 5
+                                →
+
++6
+
+                        I have a solution for 9 queries that seems simpler than the above and doesn't involve any complicated custom scheme for the last chunk (though for full credit such a scheme is probably necessary).
+ 14 Queries (87.89 points)https://oj.uz/submission/1252114
+Let's aim for roughly $$$2\log_5(10^4)$$$ queries. Send zeros until the last $$$14$$$ queries while maintaining the current diameter. For the last $$$14$$$ queries, maintain two lists where each diameter endpoint lies in one list. Let $$$(s_0,s_1)$$$ denote the sizes of the two lists. Before the last $$$14$$$ queries, $$$(s_0,s_1)=(N-14, N-14)$$$. We want to reduce $$$(s_0,s_1)$$$ to $$$(1,1)$$$.
+After calling $$$\text{send_message}(i)$$$, both of the lists increase in size by one, then we can send a message to reduce the list size(s). For example, in one message we can reduce $$$(s_0,s_1)$$$ to $$$(\lceil (s_0+1)/2\rceil,\lceil (s_1+1)/2\rceil)$$$ by sending one of four possible messages (one bit for each list), or $$$(\lceil (s_0+1) / 5\rceil, s_1+1)$$$ by sending one of five possible messages.
+Also, we can reduce $$$(s_0,s_1)=(2,2)$$$ to $$$(2,1)$$$ by sending one of four possible messages, or $$$(2,1)$$$ to $$$(1,1)$$$ using one of five possible messages. 
+So we can guarantee that $$$(s_0,s_1)$$$ takes on the following values before each of the $$$14$$$ queries:
+ (9986, 9986)
+(9987, 1998)
+(1999, 1998)
+(1999, 400)
+(401, 400)
+(401, 81)
+(82, 81)
+(82, 17)
+(18, 17)
+(18, 4)
+(5, 4)
+(3, 3)
+(2, 2)
+(2, 1)
+
+ 9 Queries (97.45 points)Let's aim for $$$\propto \log \log N$$$ queries.
+Instead of waiting for the very end to send nonzeros, let's do this earlier. For example, say we currently have $$$s$$$ candidates for each diameter endpoint. Then if we define a chunk of size $$$B$$$ and send at most one message in it, we can reduce $$$s$$$ to $$$\lceil \frac{s}{\lfloor \sqrt{4B+1}\rfloor}\rceil+B$$$.
+We do this $$$3$$$ times with $$$B=[182,25,6]$$$ to reduce $$$s$$$ from $$$10^4$$$ to $$$23$$$, then use $$$6$$$ additional queries from the previous solution to reduce $$$(s_0,s_1)$$$ from $$$(23,23)$$$ to $$$(1,1)$$$. In total this is $$$3+6=9$$$ nonzeros.
+ // (s, B)
+// 10000, 182 (1 move)
+// 553, 25 (1 move)
+// 81, 6 (1 move)
+// 23, rest (6 moves)
+https://oj.uz/submission/1252169
+
+ 8 Queries?From looking at the model code, I believe the $$$M=8$$$ solution looks similar to this, with the following changes:
+    The first chunk specifically can be optimized a bit since we can assume the first diameter endpoint is less than the second endpoint WLOG.
+   For every other chunk we can reduce $$$s$$$ by an additional one.
+   The above should get to $$$(s_0,s_1)=(4,4)$$$ in five queries. Then we can hardcode some transitions to get to $$$(s_0,s_1)=(1,1)$$$ in three additional queries.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     indjev99
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        indjev99
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Nice! That's a clever way of looking at it more abstractly. The full solution also utilizes this idea of keeping multiple possibilities, though with a custom scheme at the end (I think its scheme is similar to mine).
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     bachbeo2007
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        bachbeo2007
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I don't think $$$s$$$ is actually reduced by one. It's just the way the model code is written. 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Benq
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Benq
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I believe it reduces $$$s$$$ to $$$\lceil \frac{s+1}{\lfloor \sqrt{4B+1}\rfloor}\rceil+B-1$$$, which is usually one better than my original reduction.
+Anyway, I was able to AC with this: https://oj.uz/submission/1253151
+
+                        →
+                        Reply
+
+                                    »
+
+                     Edu175
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+        Edu175
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        I have a solution for which I expected it to work with $$$M\leq 18$$$ messages but it somehow worked with $$$M\leq 11$$$ messages ($$$93.11$$$ pts) submission.
+I don't think this solution is much different from the other $$$M\leq18$$$ ($$$82.45$$$ pts) solutions, and I just got lucky by the way I implemented it.
+The idea is not very complicated:
+ SpoilerThe idea is to maintain the endpoints $$$(u,v)$$$ of the diameter, and at each new node, only one of $$$u$$$ or $$$v$$$ will change (or none).
+Then I will make blocks of sizes $$$6, 6, 2, 2, 1, 1$$$. Which have information about $$$u$$$ and $$$v$$$ alternating (first block holds information about $$$u$$$, second about $$$v$$$, third about $$$u$$$ and so on).
+Each of the blocks has enough $$$5$$$-base digits to send information about the updates of its variable ($$$u$$$ or $$$v$$$), and an update is a number from $$$0$$$ to (the distance from the last update), which means $$$0$$$ if it has not changed or $$$1+$$$ the distance to the new value (of $$$u$$$ or $$$v$$$) from the beginning of the block.
+Additionally, there is another special block of size $$$1$$$ at the end which holds information about $$$u$$$ and $$$v$$$ at the same time, given that we need to know if $$$u$$$ updated in the last $$$2$$$ nodes and if $$$v$$$ updated in the last node. As we have $$$(2+1)\times (1+1)=6$$$ combinations for this, and we can send only one of $$$5$$$ numbers, we can discard the combination of both updating in the last node since only one will update in every node.
+
+This solution uses $$$18$$$ messages having a number from $$$0$$$ to $$$4$$$, it clearly depends on the number of $$$0$$$'s in the final message, but I can't see why we can't have a worst case using all non-zero digits (or at least more than $$$11$$$ (also, this is only achieved in one testcase)). My guess is that the testcases are just weak or the worst case is very solution dependent.
+I think it is very easy to make a counterexample by having no $$$0$$$'s in base $$$5$$$, but maybe the authors didn't think of solutions sending $$$i-u$$$ instead of $$$u$$$, so the testcases are just not prepared for it.
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:34 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

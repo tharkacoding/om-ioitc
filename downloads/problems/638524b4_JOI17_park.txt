@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/JOI17_park
+
+View problem - Park (JOI17_park) :: oj.uzView problem - Park (JOI17_park)
+
+Park Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o park park.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o park park.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o park park.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms256 MiB7541064845.28%
+
+Problem Source
+2017 JOI Spring Training Camp/Qualifying Trial Day 3 Problem 3
+
+ Attachments
+File nameSize
+park.zip4.42 KiB

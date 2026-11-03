@@ -1,0 +1,27 @@
+https://oj.uz/problem/view/IOI25_triples
+
+View problem - Triple Peaks (IOI25_triples) :: oj.uzView problem - Triple Peaks (IOI25_triples)
+
+Triple Peaks Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o triples triples.cpp triples.h grader.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o triples triples.cpp triples.h grader.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms2048 MiB28572954214.24%
+
+Although the problem statement says output file submission is possible, due to technical difficulties (note that this task type was introduced this year), you can only submit with code for now, sorry for the inconvenience.
+
+Problem Source
+IOI 2025 Day 1 Problem 2
+
+ Attachments
+File nameSize
+triples.zip3.12 KiB

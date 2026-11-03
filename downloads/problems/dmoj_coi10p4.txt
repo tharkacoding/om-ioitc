@@ -1,0 +1,174 @@
+https://dmoj.ca/problem/coi10p4
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:30 (partial)
+Time limit:3.0s
+Memory limit:64M
+Problem types
+
+Mirko is a truck driver. His job is to travel between cities by roads, loading and unloading the cargo. His truck is so big that it can load an unlimited number of packages, but the automated loading system enables only the last loaded package to be unloaded. There exist 
+26
+ different types of packages, each of which is denoted by a letter of the English alphabet.
+
+The cities are connected by one-way roads of length 
+1
+ kilometer. More precisely, there exist 
+3
+ types of roads, conveniently denoted by 
+1
+, 
+2
+, and 
+3
+:
+
+Type 
+1
+ – each time Mirko drives down the road of this type, he must load exactly one package of the appropriate type for that road.
+Type 
+2
+ – each time Mirko drives down the road of this type, he must unload exactly one package of the appropriate type for that road.
+Type 
+3
+ – Mirko can drive down the road of this type without loading or unloading packages (no loading/unloading).
+
+Mirko is required not to load/unload any cargo except when driving down the roads of type 
+2
+ or 
+3
+, as stated above.
+
+Mirko can travel along 
+𝐸
+ roads connecting 
+𝑁
+ cities. He starts in city 
+1
+ and his goal is to reach city 
+𝑁
+. When arriving in city 
+𝑁
+, Mirko's truck is not required to be empty.
+
+Write a program which computes the number of different ways that Mirko can travel so that he traverses at most 
+𝐾
+ kilometers.
+
+Input Specification
+
+The first line of input contains positive integers 
+𝑁
+, 
+𝐸
+ and 
+𝐾
+ 
+(
+2
+≤
+𝑁
+≤
+50
+,
+1
+≤
+𝐸
+≤
+2
+450
+,
+1
+≤
+𝐾
+≤
+50
+)
+, which denote the number of cities, the number of roads and the maximum number of kilometers that Mirko may traverse before reaching his destination.
+
+The following 
+𝐸
+ lines contain the description of the roads along which Mirko can travel. Each type of road has its own format:
+
+Type 
+1
+ – x y C, where 
+𝑥
+ and 
+𝑦
+ are positive integers which describe the direction of the road and 
+𝐶
+ is an uppercase letter of the English alphabet which denotes the type of package that Mirko must load onto the truck.
+Type 
+2
+ – x y c, where 
+𝑥
+ and 
+𝑦
+ are positive integers which describe the direction of the road and 
+𝑐
+ is a lowercase letter of the English alphabet which denotes the type of package that Mirko must unload from the truck.
+Type 
+3
+ – x y, where 
+𝑥
+ and 
+𝑦
+ are positive integers which describe the direction of the road.
+
+In the above formats, the road is traversable when traveling from city 
+𝑥
+ to city 
+𝑦
+. Also, it will always be true that 
+1
+≤
+𝑥
+,
+𝑦
+≤
+𝑁
+, 
+𝑥
+≠
+𝑦
+, and no two roads will connect two cities in the same direction.
+
+Output Specification
+
+In a single line of output, print the number of different ways Mirko can arrive in city 
+𝑁
+, starting from city 
+1
+, while respecting the aforementioned requirements. Since this number can be quite big, print the remainder of that number when divided by 
+10
+007
+.
+
+Sample Input 1
+Copy
+2 1 10
+1 2 a
+Sample Output 1
+Copy
+0
+Sample Input 2
+Copy
+7 9 5
+1 2 A
+2 3 B
+2 5
+5 3 C
+3 4 b
+3 6 c
+3 7
+4 7 a
+6 7 a
+Sample Output 2
+Copy
+4
+Comments
+
+There are no comments at the moment.

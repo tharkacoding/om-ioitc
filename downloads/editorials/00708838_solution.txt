@@ -1,0 +1,106 @@
+https://usaco.guide/problems/coi-2016palinilap/solution
+
+Solution - Palinilap (COI 2016) · USACO Guide
+USACO Guide
+
+Settings
+Contact Us
+
+Table of Contents
+ExplanationInitial PalindomresWannabe PalindromesPutting it TogetherImplementation
+
+Table of Contents
+ExplanationInitial PalindomresWannabe PalindromesPutting it TogetherImplementation
+
+Official Analysis (C++)
+
+Explanation
+
+When we change a character, all substrings can do one of 3 things:
+
+Stop being a palindrome
+
+Become a palindrome (we'll call these "wannabe palindromes")
+
+Nothing (not affected at all)
+
+If we find the number of substrings that are in each state for a certain change, we're basically set!
+
+Initial Palindomres
+
+To find all palindromes in our string, we iterate through all centers and see how far we can extend
+the sides will still having the string remain a palindrome.
+
+Notice that if we know that an extension of, say, 5 characters gives us a palindrome, we know that
+an extension of 4 characters would also give us a palindrome.
+Similarly, if we know that an extension of 7 characters doesn't give us a palindrome, an extension
+of 8 characters definitely won't work either.
+Thus, we can binary search on the maximum length we can extend the sides.
+
+To quickly check if a substring is a palindrome, we get the rolling hash of a string and its reverse
+and check if the two give the same hash.
+
+For all these palindromes, a change in the character on any side (except the center) would result
+in the destruction of the palindrome.
+
+Take this palindrome: s=youruoys=\text{youruoy}s=youruoy.
+If we let bad[i]\texttt{bad}[i]bad[i] be the number of palindromes (relative to this center) that would be destroyed
+if sis_isi​ were changed, this would be the array:
+
+[1,2,3,0,3,2,1][1,2,3,0,3,2,1][1,2,3,0,3,2,1]
+
+Note how the numbers increase to half the length of the palindrome, then decrease back to 1.
+The center of bad\texttt{bad}bad is 0 because its position isn't changed when reversed.
+
+For all the centers, we have to add up all their bad\texttt{bad}bads to get the total number of palindromes
+destroyed for each character changed.
+
+To do this, we have to efficiently add consecutive sequences of numbers to an array,
+which we can do with two iterations of a difference array.
+
+Wannabe Palindromes
+
+Since we can change a character, we should also find all substrings that are just one character
+away from becoming a palindrome, like these strings:
+
+baaac\text{baaac}baaac
+
+abcdeba\text{abcdeba}abcdeba
+
+After we finish getting the maximum extension from the binary search we just discussed,
+we can run another binary search to find the maximum extension with one character replaced.
+We can either replace a character on the left or the right with the same result: for example, replacing
+eee with ccc or ccc with eee in the second string would yield the same results for that wannabe.
+
+This time, to compare two strings, we need to be able to get a hash with a replaced character
+as well, so we need a small modification to our hashing function.
+
+Putting it Together
+
+With both of the binary searches, we can obtain the two final structures we need:
+
+bad[i]\texttt{bad}[i]bad[i], the number of ruined palindromes if we change character iii
+
+good[i][c]\texttt{good}[i][c]good[i][c], the number of new palindromes if we change character iii to ccc
+
+Now we iterate through all changed characters and take the best change for our final answer!
+
+Implementation
+
+Time Complexity: O(Nlog⁡N)\mathcal{O}(N \log N)O(NlogN)
+
+Copy#include <algorithm>
+#include <cassert>
+#include <functional>
+#include <iostream>
+#include <map>
+#include <vector>
+
+using namespace std;
+
+ Code Snippet: String Hashing (Click to expand)
+
+Join the USACO Forum!
+Stuck on a problem, or don't understand a module? Join the USACO Forum and get help from other competitive programmers!
+
+Join Forum

@@ -1,0 +1,565 @@
+https://dmoj.ca/problem/coi13p2
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:30 (partial)
+Time limit:1.0s
+Memory limit:256M
+Problem types
+
+A histogram is a graphical representation of a statistical distribution of data. In other words, it is a function that assigns a positive integer value to each number in the interval 
+0
+,
+1
+,
+2
+,
+…
+,
+𝑊
+−
+1
+. For this task, we describe a histogram with a series of points in the standard coordinate system which, sequentially, determine the top edge of the area that the histogram encloses.
+
+More specifically, we define a histogram of width 
+𝑊
+ with an even number of points in the form:
+
+(
+𝑥
+0
+,
+𝑦
+1
+)
+,
+(
+𝑥
+1
+,
+𝑦
+1
+)
+,
+(
+𝑥
+1
+,
+𝑦
+2
+)
+,
+(
+𝑥
+2
+,
+𝑦
+2
+)
+,
+(
+𝑥
+2
+,
+𝑦
+3
+)
+,
+…
+,
+(
+𝑥
+𝑁
+/
+2
+−
+1
+,
+𝑦
+𝑁
+/
+2
+)
+,
+(
+𝑥
+𝑁
+/
+2
+,
+𝑦
+𝑁
+/
+2
+)
+
+Therefore, starting from the first point, for every pair of adjacent points it must hold that their 
+𝑦
+ coordinates are equal and that their 
+𝑥
+ coordinates are equal. Thus, the histogram begins and ends with a horizontal segment and in between horizontal and vertical segments alternate.
+
+Additionally, the following holds for the shape of a histogram:
+
+𝑥
+0
+=
+0
+ - the histogram begins on the line 
+𝑥
+=
+0
+.
+𝑥
+𝑁
+/
+2
+=
+𝑊
+ - the histogram ends on the line 
+𝑥
+=
+𝑊
+.
+𝑥
+𝑖
+<
+𝑥
+𝑖
++
+1
+, for each 
+𝑖
+=
+1
+,
+2
+,
+…
+,
+𝑁
+/
+2
+−
+1
+ - the histogram is defined from left to right and the length of each horizontal segment is at least one.
+𝑦
+𝑖
+>
+0
+ - the height of the histogram is always greater than zero.
+𝑦
+𝑖
+≠
+𝑦
+𝑖
++
+1
+ - the length of each vertical segment is at least one.
+
+For a histogram 
+𝐻
+, let 
+𝑦
+𝐻
+(
+𝑥
+)
+ be the height of the histogram in the interval 
+[
+𝑥
+,
+𝑥
++
+1
+]
+. For example, the surface area which the histogram encloses can be calculated by the formula 
+∑
+𝑥
+=
+0
+𝑊
+−
+1
+𝑦
+𝐻
+(
+𝑥
+)
+. If two histograms, 
+𝐻
+ and 
+𝐻
+′
+, are given, with equal width 
+𝑊
+ (which can possibly be defined with a different number of points), then we can measure the difference between these two histograms in various ways. This measure of difference between two histograms is also called inaccuracy of histogram 
+𝐻
+′
+ with regard to histogram 
+𝐻
+. In this task, we examine two different ways of measuring differences between two histograms and we define them in the following way:
+
+diffcount
+(
+𝐻
+′
+,
+𝐻
+)
+=
+∑
+𝑥
+=
+0
+𝑊
+−
+1
+diff
+(
+𝑦
+𝐻
+(
+𝑥
+)
+,
+𝑦
+𝐻
+′
+(
+𝑥
+)
+)
+, where 
+	
+
+	
+diff
+(
+𝑦
+1
+,
+𝑦
+2
+)
+=
+{
+0
+	
+if 
+𝑦
+1
+=
+𝑦
+2
+
+
+1
+	
+if 
+𝑦
+1
+≠
+𝑦
+2
+
+
+
+abserror
+(
+𝐻
+′
+,
+𝐻
+)
+=
+∑
+𝑥
+=
+0
+𝑊
+−
+1
+|
+𝑦
+𝐻
+(
+𝑥
+)
+−
+𝑦
+𝐻
+′
+(
+𝑥
+)
+|
+
+In other words, the first way measures the number of unit segments 
+[
+𝑥
+,
+𝑥
++
+1
+]
+ in which the two histograms differ, whereas the second way is the sum of absolute values of differences on those individual unit segments.
+
+Write a program that will, for a given histogram 
+𝐻
+, set of points 
+𝑆
+ and way of measuring inaccuracy, find and output histogram 
+𝐻
+′
+ which only uses points from the set 
+𝑆
+ in its definition and has the least possible inaccuracy with regard to the given histogram 
+𝐻
+.
+
+Figure 1. Illustration of the histogram and the set 
+𝑆
+ in both test cases given below and the solutions for the first and the second way of measuring inaccuracy.
+
+The definition of histogram 
+𝐻
+′
+ must comply with all aforementioned conditions (for example, there shouldn't be two continuous horizontal segments in the definition of histogram 
+𝐻
+′
+), and each point in the definition must be one of the points from the set 
+𝑆
+.
+
+Input Specification
+
+The first line of input contains integers 
+𝑁
+,
+𝑀
+,
+𝐺
+ 
+(
+2
+≤
+𝑁
+,
+𝑀
+≤
+10
+5
+,
+1
+≤
+𝐺
+≤
+2
+,
+𝑁
+ even
+)
+: the total number of points in the definition of histogram 
+𝐻
+, number of points in set 
+𝑆
+ and the number which determines what method of measuring the inaccuracy is used: 
+1
+ for 
+diffcount
+ and 
+2
+ for 
+abserror
+.
+
+Each of the following 
+𝑁
+ lines contains integers 
+𝑋
+ and 
+𝑌
+ 
+(
+0
+≤
+𝑋
+≤
+10
+6
+,
+1
+≤
+𝑌
+≤
+10
+6
+)
+ - coordinates of one point from the definition of histogram 
+𝐻
+. The histogram's definition will comply with all the conditions from the task statement.
+
+Each of the following 
+𝑀
+ lines contains integers 
+𝑋
+ and 
+𝑌
+ 
+(
+0
+≤
+𝑋
+≤
+10
+6
+,
+1
+≤
+𝑌
+≤
+10
+6
+)
+ - coordinates of one point from set 
+𝑆
+. All the points in the set 
+𝑆
+ will be different from one another, but they can match with points from the definition of the histogram 
+𝐻
+.
+
+Output Specification
+
+The first line of output must contain the least possible inaccuracy 
+𝐷
+.
+
+The second line of output must contain an even integer 
+𝐿
+ - the total number of points in the definition of the required optimal histogram.
+
+In each of the following 
+𝐿
+ lines, output two integers 
+𝑋
+ and 
+𝑌
+ - coordinates of the point in the histogram's definition.
+
+The histogram's definition must comply with all the conditions from the task.
+
+Please note: The solution may not be unique, but the input data will be such that there is always at least one solution.
+
+Constraints
+Subtask	Points	Constraints
+1	25	
+𝐺
+=
+1
+, 
+𝑀
+≤
+5
+000
+
+2	25	
+𝐺
+=
+1
+
+3	25	
+𝐺
+=
+2
+, 
+𝑀
+≤
+5
+000
+
+4	25	
+𝐺
+=
+2
+Scoring
+
+If the histogram's definition is incorrect or wasn't output, but the first line of output is correct (minimal inaccuracy), your solution will get 
+70
+%
+ of total points for that test case.
+
+Sample Input 1
+Copy
+10 12 1
+0 2
+2 2
+2 3
+4 3
+4 1
+5 1
+5 5
+9 5
+9 2
+10 2
+0 4
+0 6
+3 3
+3 6
+9 4
+9 1
+5 3
+5 5
+10 5
+9 2
+10 1
+8 5
+Sample Output 1
+Copy
+5
+6
+0 6
+3 6
+3 3
+5 3
+5 5
+10 5
+Sample Input 2
+Copy
+10 12 2
+0 2
+2 2
+2 3
+4 3
+4 1
+5 1
+5 5
+9 5
+9 2
+10 2
+0 4
+0 6
+3 3
+3 6
+9 4
+9 1
+5 3
+5 5
+10 5
+9 2
+10 1
+8 5
+Sample Output 2
+Copy
+14
+4
+0 4
+9 4
+9 1
+10 1
+Comments
+
+There are no comments at the moment.

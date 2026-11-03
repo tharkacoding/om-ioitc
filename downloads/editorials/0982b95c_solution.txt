@@ -1,0 +1,45 @@
+https://usaco.guide/problems/joi-joi-spring-camp-2019-day-4cake-3/solution
+
+Solution - Cake Circle (JOI 2019) · USACO Guide
+USACO Guide
+
+Settings
+Contact Us
+
+Table of Contents
+ExplanationImplementation
+
+Table of Contents
+ExplanationImplementation
+
+Explanation
+
+First, given some set of cakes SSS, it is always optimal to arrange them in sorted order by color. To prove this, consider inductively adding the cakes in ascending order. It can be shown that placing the cake between the greatest one added so far and the smallest one is always optimal. Thus, the total color is 2(max⁡(S)−min⁡(S))2(\max(S) - \min(S))2(max(S)−min(S)).
+
+Sort the cakes by color. For any set of cakes, the smallest is the leftmost one and the largest is the rightmost one. The task now becomes choosing some range [l,r][l, r][l,r] that maximizes the sum of the mmm largest beauty values, minus 2⋅(Cr−Cl)2 \cdot (C_r - C_l)2⋅(Cr​−Cl​).
+
+Let opt(l)\texttt{opt}(l)opt(l) be the optimal right endpoint for some left endpoint. We can observe that opt\texttt{opt}opt is a non-decreasing function (the proof of this has been left as an exercise to the reader). This motivates a divide and conquer solution.
+
+Suppose we know that opt(i)∈[p,q]\texttt{opt}(i) \in [p, q]opt(i)∈[p,q] for i∈[l,r]i \in [l, r]i∈[l,r]. If p=qp = qp=q, then we are done. Otherwise, let m=⌊l+r2⌋m = \lfloor \frac{l+r}{2}\rfloorm=⌊2l+r​⌋, and compute opt(m)\texttt{opt}(m)opt(m). We now know that opt(i)\texttt{opt}(i)opt(i) lies in the range [p,opt(m)][p, \texttt{opt(m)}][p,opt(m)] for i∈[l,m)i \in [l, m)i∈[l,m), and in the range [opt(m),q][\texttt{opt}(m), q][opt(m),q] for i∈(m,r]i \in (m, r]i∈(m,r]. We can then recurse. By the master theorem, this will run in O~(n)\tilde{\mathcal{O}}(n)O~(n) time.
+
+The only step left is to compute the sum of the mmm largest values in a range. This can be done with a variety of data structures in logarithmic time.
+
+Time Complexity: O(nlog⁡2n)\mathcal{O}(n\log^2n)O(nlog2n)
+
+Implementation
+
+Copy#include <bits/stdc++.h>
+using namespace std;
+
+namespace std {
+
+template <class Fun> class y_combinator_result {
+	Fun fun_;
+
+  public:
+	template <class T>
+
+Join the USACO Forum!
+Stuck on a problem, or don't understand a module? Join the USACO Forum and get help from other competitive programmers!
+
+Join Forum

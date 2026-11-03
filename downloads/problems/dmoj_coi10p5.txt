@@ -1,0 +1,128 @@
+https://dmoj.ca/problem/coi10p5
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:35 (partial)
+Time limit:1.0s
+Memory limit:64M
+Problem types
+
+Mirko drew a 
+2
+𝑁
+ by 
+2
+𝑁
+ chessboard and decided to play the following game:
+
+On each square, he inscribed an integer denoting the value of that square. In the middle of the first row (columns 
+𝑁
+ and 
+𝑁
++
+1
+), he placed two bishops. Mirko now calculates the lines of sight of the two bishops: these are squares on the same diagonal as one of the bishops, but not on the square covered by any of the bishops.
+
+For instance, if 
+𝑁
+=
+3
+, the squares within the line of sight of the two bishops (denoted by X) at their starting positions (denoted by L) are as follows:
+
+Copy
+OOLLOO
+OXXXXO
+XXOOXX
+XOOOOX
+OOOOOO
+OOOOOO
+
+In a limited number of moves, Mirko tries to gain the maximum score by the following strategy:
+
+Before making any moves, Mirko calculates the sum of the values on squares within the lines of sight of the two bishops. That is Mirko's initial score.
+On each turn, Mirko chooses one of the bishops and moves it to a square within its line of sight.
+In its new position, the bishop can now see new squares. The sum of those squares, previously unseen by any of the bishops from the start of the game, is now added to Mirko's score.
+
+Write a program which calculates the maximum score that Mirko can achieve in 
+𝐾
+ turns.
+
+Input Specification
+
+The first line of input contains two integers 
+𝑁
+,
+𝐾
+ 
+(
+1
+≤
+𝑁
+≤
+10
+,
+0
+≤
+𝐾
+≤
+100
+)
+, the dimension of the chessboard and the number of turns.
+
+The following 
+2
+𝑁
+ lines contain the values of the squares in the corresponding row, 
+2
+𝑁
+ values per row. Those values are integers from range 
+−
+1
+000
+000
+ to 
+1
+000
+000
+, inclusive.
+
+Output Specification
+
+In a single line of output, print the maximum score that Mirko can achieve.
+
+Scoring
+
+In test cases worth a total of 
+40
+%
+ points, 
+𝐾
+≤
+5
+.
+
+Sample Input 1
+Copy
+2 0
+0 -9 -9 0
+0 1 1 0
+1 0 0 1
+0 0 6 0
+Sample Output 1
+Copy
+4
+Sample Input 2
+Copy
+2 1
+0 -9 -9 0
+0 1 1 0
+1 0 0 1
+0 0 6 0
+Sample Output 2
+Copy
+1
+Comments
+
+There are no comments at the moment.

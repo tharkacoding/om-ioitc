@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI19_mergers
+
+View problem - Mergers (JOI19_mergers) :: oj.uzView problem - Mergers (JOI19_mergers)
+
+Mergers Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o mergers mergers.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o mergers mergers.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o mergers mergers.cpp
+Java/usr/bin/javac -encoding UTF-8 mergers.java
+/bin/sh -c echo "Main-Class: mergers" > __manifest__.txt
+/bin/sh -c jar cfm mergers.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b mergers.py
+/bin/mv mergers.pyc __main__.pyc
+/usr/bin/zip mergers.pyz.zip __main__.pyc
+/bin/mv mergers.pyz.zip mergers.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms256 MiB199141437991.55%
+
+Problem Source
+2018 JOI Spring Training Camp/Qualifying Trial Day 4 Problem 2
+
+ Attachments
+File nameSize
+mergers.zip850 bytes

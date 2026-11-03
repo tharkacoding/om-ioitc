@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI20_treatment
+
+View problem - Treatment Project (JOI20_treatment) :: oj.uzView problem - Treatment Project (JOI20_treatment)
+
+Treatment Project Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o treatment treatment.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o treatment treatment.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o treatment treatment.cpp
+Java/usr/bin/javac -encoding UTF-8 treatment.java
+/bin/sh -c echo "Main-Class: treatment" > __manifest__.txt
+/bin/sh -c jar cfm treatment.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b treatment.py
+/bin/mv treatment.pyc __main__.pyc
+/usr/bin/zip treatment.pyz.zip __main__.pyc
+/bin/mv treatment.pyz.zip treatment.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms512 MiB80015212682.89%
+
+Problem Source
+2020 JOI Spring Training Camp/Qualifying Trial Day 4 Problem 3
+
+ Attachments
+File nameSize
+treatment.zip944 bytes

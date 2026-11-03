@@ -1,0 +1,36 @@
+https://oj.uz/problem/view/JOI26_multi
+
+View problem - Multi Communication 2 (JOI26_multi) :: oj.uzView problem - Multi Communication 2 (JOI26_multi)
+
+Multi Communication 2 Interactive Communication Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o multi multi.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o multi multi.cpp grader.cpp multi.h
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o multi multi.cpp grader.cpp multi.h
+Java/usr/bin/javac -encoding UTF-8 multi.java
+/bin/sh -c echo "Main-Class: multi" > __manifest__.txt
+/bin/sh -c jar cfm multi.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b multi.py
+/bin/mv multi.pyc __main__.pyc
+/usr/bin/zip multi.pyz.zip __main__.pyc
+/bin/mv multi.pyz.zip multi.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms1024 MiB4212325.00%
+
+Problem Source
+2026 JOI Spring Training Camp/Qualifying Trial Day 1 Problem 3
+
+ Attachments
+File nameSize
+multi.cpp252 bytes
+multi-dist.zip6.54 KiB
+multi.h234 bytes
+sample_grader.cpp2.80 KiB

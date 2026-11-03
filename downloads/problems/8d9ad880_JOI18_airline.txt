@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI18_airline
+
+View problem - Airline Route Map (JOI18_airline) :: oj.uzView problem - Airline Route Map (JOI18_airline)
+
+Airline Route Map Two steps Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Alice Alice.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Alice Alice.cpp
+
+Step #2
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Bob Bob.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Bob Bob.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2500 ms1024 MiB106723719381.43%
+
+CAUTION: We additionally shuffle the direction of edges, so that u -&gt; v may be sent as v -&gt; u.
+
+Problem Source
+2018 JOI Spring Training Camp/Qualifying Trial Day 3 Problem 1
+
+ Attachments
+File nameSize
+airline_route_map.zip5.12 KiB

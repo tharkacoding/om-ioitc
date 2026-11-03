@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI20_joitter2
+
+View problem - Making Friends on Joitter is Fun (JOI20_joitter2) :: oj.uzView problem - Making Friends on Joitter is Fun (JOI20_joitter2)
+
+Making Friends on Joitter is Fun Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o joitter2 joitter2.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o joitter2 joitter2.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o joitter2 joitter2.cpp
+Java/usr/bin/javac -encoding UTF-8 joitter2.java
+/bin/sh -c echo "Main-Class: joitter2" > __manifest__.txt
+/bin/sh -c jar cfm joitter2.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b joitter2.py
+/bin/mv joitter2.pyc __main__.pyc
+/usr/bin/zip joitter2.pyz.zip __main__.pyc
+/bin/mv joitter2.pyz.zip joitter2.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+5000 ms1024 MiB197339432983.50%
+
+Problem Source
+2020 JOI Spring Training Camp/Qualifying Trial Day 2 Problem 2
+
+ Attachments
+File nameSize
+joitter2.zip639 bytes

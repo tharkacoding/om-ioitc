@@ -1,0 +1,28 @@
+https://oj.uz/problem/view/IOI20_plants
+
+View problem - Comparing Plants (IOI20_plants) :: oj.uzView problem - Comparing Plants (IOI20_plants)
+
+Comparing Plants Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o plants plants.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o plants plants.cpp
+Java/usr/bin/javac -encoding UTF-8 plants.java
+/bin/sh -c echo "Main-Class: plants" > __manifest__.txt
+/bin/sh -c jar cfm plants.jar __manifest__.txt *.class
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms2048 MiB425644615434.53%
+
+Problem Source
+IOI 2020 Day 1 Problem 1
+
+ Attachments
+File nameSize
+public.zip4.72 KiB

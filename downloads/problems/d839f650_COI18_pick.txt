@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI18_pick
+
+View problem - Pick (COI18_pick) :: oj.uzView problem - Pick (COI18_pick)
+
+Pick Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o pick pick.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o pick pick.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o pick pick.cpp
+Java/usr/bin/javac -encoding UTF-8 pick.java
+/bin/sh -c echo "Main-Class: pick" > __manifest__.txt
+/bin/sh -c jar cfm pick.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b pick.py
+/bin/mv pick.pyc __main__.pyc
+/usr/bin/zip pick.pyz.zip __main__.pyc
+/bin/mv pick.pyz.zip pick.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms1024 MiB124231043.48%
+
+Problem Source
+Croatian Olympiad in Informatics 2018 Problem 2

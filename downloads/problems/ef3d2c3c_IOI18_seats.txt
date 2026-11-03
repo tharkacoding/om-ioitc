@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI18_seats
+
+View problem - Seats (IOI18_seats) :: oj.uzView problem - Seats (IOI18_seats)
+
+Seats Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o seats seats.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o seats seats.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms256 MiB357253825547.40%
+
+Problem Source
+IOI 2018 Day 1 Problem 2
+
+ Attachments
+File nameSize
+dist.zip4.57 KiB

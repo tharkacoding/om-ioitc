@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI17_golf
+
+View problem - Golf (JOI17_golf) :: oj.uzView problem - Golf (JOI17_golf)
+
+Golf Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o golf golf.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o golf golf.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o golf golf.cpp
+Java/usr/bin/javac -encoding UTF-8 golf.java
+/bin/sh -c echo "Main-Class: golf" > __manifest__.txt
+/bin/sh -c jar cfm golf.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b golf.py
+/bin/mv golf.pyc __main__.pyc
+/usr/bin/zip golf.pyz.zip __main__.pyc
+/bin/mv golf.pyz.zip golf.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+10000 ms1024 MiB292633961.90%
+
+Problem Source
+JOI Open Contest 2017 Problem 3
+
+ Attachments
+File nameSize
+golf.zip870 bytes

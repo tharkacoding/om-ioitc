@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI18_highway
+
+View problem - Highway Tolls (IOI18_highway) :: oj.uzView problem - Highway Tolls (IOI18_highway)
+
+Highway Tolls Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o highway highway.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o highway highway.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1500 ms256 MiB464557024142.28%
+
+Problem Source
+IOI 2018 Day 2 Problem 2
+
+ Attachments
+File nameSize
+dist.zip7.30 KiB

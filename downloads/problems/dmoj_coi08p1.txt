@@ -1,0 +1,331 @@
+https://dmoj.ca/problem/coi08p1
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:30 (partial)
+Time limit:0.6s
+Memory limit:128M
+Problem type
+
+It is election time. 
+𝑉
+ voters attend the election, each casting their vote for one of 
+𝑁
+ political parties. 
+𝑀
+ officials will be elected into the parliament.
+
+The conversion from votes to parliament seats is done using the D'Hondt method with a 
+5
+%
+ threshold. More precisely, suppose that the parties are numbered 
+1
+ through 
+𝑁
+ and that they receive 
+𝑉
+1
+,
+𝑉
+2
+,
+…
+,
+𝑉
+𝑁
+ votes. Parliament seats are allocated as follows:
+
+All parties that receive strictly less than 
+5
+%
+ of 
+𝑉
+ votes are erased from the list of parties.
+The parliament is initially empty i.e. every party has zero seats allocated.
+For each party 
+𝑃
+, the quotient 
+𝑄
+𝑃
+=
+𝑉
+𝑃
+𝑆
+𝑃
++
+1
+ is calculated, where 
+𝑉
+𝑃
+ is the total number of votes received by party 
+𝑃
+, and 
+𝑆
+𝑃
+ is the number of seats already allocated to party 
+𝑃
+.
+The party with the largest quotient 
+𝑄
+𝑃
+ is allocated one seat. If multiple parties have the same largest quotient, the lower numbered party wins the seat.
+Repeat steps 
+3
+ and 
+4
+ until the parliament is full.
+
+The votes are being counted and only part of the 
+𝑉
+ votes has been tallied. It is known how many votes each party has received so far.
+
+Write a program that calculates for each party, among all possible outcomes of the election after all 
+𝑉
+ votes are counted, the largest and smallest number of seats the party wins.
+
+Input Specification
+
+The first line contains the integers 
+𝑉
+, 
+𝑁
+ and 
+𝑀
+ 
+(
+1
+≤
+𝑉
+≤
+10
+000
+000
+,
+1
+≤
+𝑁
+≤
+100
+,
+1
+≤
+𝑀
+≤
+200
+)
+, the numbers of votes, parties and seats in the parliament.
+
+The second line contains 
+𝑁
+ integers – how many votes (of those that have been counted) each party got. The sum of these numbers will be at most 
+𝑉
+.
+
+Output Specification
+
+On the first line output 
+𝑁
+ integers separated by spaces – the largest number of seats each party can win.
+
+On the second line output 
+𝑁
+ integers separated by spaces – the smallest number of seats each party can win.
+
+Scoring
+
+For each test case, the two subtasks (two lines of output) are scored independently.
+
+Solving the first subtask correctly is worth 
+20
+%
+ of points.
+
+Solving the second subtask correctly is worth 
+80
+%
+ of points. It is necessary to output exactly 
+𝑁
+ integers on the first line (even if they are completely wrong) for the second subtask to be graded.
+
+Sample Input 1
+Copy
+20 4 5
+4 3 6 1
+Sample Output 1
+Copy
+3 3 3 2
+1 0 1 0
+Explanation for Sample Output 1
+
+In the first example, 
+14
+ votes have been tallied and 
+6
+ are yet to be counted. To illustrate one possible outcome, suppose that the first party receives 
+2
+ of those 
+6
+ votes, the second none, the third 
+1
+ vote and the fourth 
+3
+ votes. The parties' totals are 
+6
+,
+3
+,
+7
+ and 
+4
+ votes. All parties exceeded the 
+5
+%
+ threshold. Seats are allocated as follows:
+
+The quotients are initially 
+6
+/
+1
+,
+3
+/
+1
+,
+7
+/
+1
+ and 
+4
+/
+1
+; the largest is 
+7
+/
+1
+ so party 
+3
+ wins a seat.
+The quotients are 
+6
+/
+1
+,
+3
+/
+1
+,
+7
+/
+2
+ and 
+4
+/
+1
+; the largest is 
+6
+/
+1
+ so party 
+1
+ wins a seat.
+The quotients are 
+6
+/
+2
+,
+3
+/
+1
+,
+7
+/
+2
+ and 
+4
+/
+1
+; the largest is 
+4
+/
+1
+ so party 
+4
+ wins a seat.
+The quotients are 
+6
+/
+2
+,
+3
+/
+1
+,
+7
+/
+2
+ and 
+4
+/
+2
+; the largest is 
+7
+/
+2
+ so party 
+3
+ wins a seat.
+The quotients are 
+6
+/
+2
+,
+3
+/
+1
+,
+7
+/
+3
+ and 
+4
+/
+2
+; parties 
+1
+ and 
+2
+ are tied with quotients 
+6
+/
+2
+ and 
+3
+/
+1
+, but party 
+1
+ is lower numbered so it wins the last seat.
+
+In this outcome, the numbers of seats won by the parties are 
+2
+,
+0
+,
+2
+ and 
+1
+. Since it is possible for the second party not to win any seats, the second number on the second line of output is zero.
+
+Sample Input 2
+Copy
+100 3 5
+30 20 10
+Sample Output 2
+Copy
+4 3 3
+1 1 0
+Comments
+
+There are no comments at the moment.

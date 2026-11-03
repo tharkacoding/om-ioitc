@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/IOI15_teams
+
+View problem - Teams (IOI15_teams) :: oj.uzView problem - Teams (IOI15_teams)
+
+Teams Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o teams teams.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o teams teams.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o teams teams.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms512 MiB428651822643.63%
+
+Problem Source
+IOI 2015 Day 1 Problem 3
+
+ Attachments
+File nameSize
+graders.zip6.24 KiB

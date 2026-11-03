@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI19_ljetopica
+
+View problem - Ljetopica (COI19_ljetopica) :: oj.uzView problem - Ljetopica (COI19_ljetopica)
+
+Ljetopica Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o ljetopica ljetopica.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o ljetopica ljetopica.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o ljetopica ljetopica.cpp
+Java/usr/bin/javac -encoding UTF-8 ljetopica.java
+/bin/sh -c echo "Main-Class: ljetopica" > __manifest__.txt
+/bin/sh -c jar cfm ljetopica.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b ljetopica.py
+/bin/mv ljetopica.pyc __main__.pyc
+/usr/bin/zip ljetopica.pyz.zip __main__.pyc
+/bin/mv ljetopica.pyz.zip ljetopica.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+500 ms512 MiB219504080.00%
+
+Problem Source
+Croatian Olympiad in Informatics 2019 Problem 2

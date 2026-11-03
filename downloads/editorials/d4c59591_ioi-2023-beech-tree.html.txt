@@ -1,0 +1,500 @@
+https://blog.brucemerry.org.za/2023/11/ioi-2023-beech-tree.html
+
+Entropy always increases: IOI 2023: Beech Tree
+
+Sunday, November 26, 2023
+
+IOI 2023: Beech Tree
+
+Here's my solution to Beech Tree, from IOI 2023 day 2. For a while I hated the problem, but after seeing the solution I think it's quite beautiful (excuse the pun). It's definitely a problem that requires a lot of thinking time before writing relatively little code.
+The key is to identify the conditions under which a subtree is beautiful, in a way that can easily be checked. I'll talk just about whether a "tree" is beautiful, because I'll want to talk about subtrees of that tree. I'll also ignore the original labelling and just work with the permuted labels, which eliminates a level of indirection from all the indices. So for example, the parent of A must be f(A). I'll also talk freely about the colour of a node, by which I mean the colour of the edge between that node and its parent (C[i]).
+
+We can make quite a few observations about a beautiful permutation; I'll focus on the relevant ones here. Some of them seem to come from nowhere: I found them by trying to work out a procedure for choosing a beautiful permutation, and then discovering conditions under which it would fail.
+
+If A and B have the same colour, then A < B if and only if f(A) < f(B). This follows directly from the definition of f.
+
+If A is a parent of B, then A < B. Proof: A must be f(B), and f(B) is the number of times C(B) appears in a sequence of length B - 1, so A = f(B) ≤ B - 1.
+No node can have two children of the same colour. Proof: suppose A has two children X < Y with the same colour. Then A = f(X) < f(Y) = A, a contradiction.
+Let S(X) be the set of colours of children of X. If A < B, then S(A) ⊇ S(B). Proof: Suppose colour D appears in S(B) but not S(A), i.e., B has a child X of colour D but A does not. X must be the B'th node with colour D (counting from 0). The A'th node with colour D should have A as its parent, a contradiction since A has no child of colour D.
+
+If A < B, then |T(A)| ≥ |T(B)|. Proof: suppose this is not the case i.e., there exist A < B with |T(A)| < |T(B)|. We can choose the largest such B. Since S(A) ⊇ S(B), there must be some colour D such that A and B have children X and Y of that colour with |T(X)| < |T(Y)|. But since f(X) = A < B = f(Y), we get X < Y, which means the pair (X, Y) contradictions the maximality of B.
+Let z(A, D) be the size of the subtree rooted at A's child of colour D, or 0 if A does not have a child of colour D. If A < B, then z(A, D) ≥ z(B, D) for all colours D. Proof: Suppose this is not true for some A, B, D. Observation 4 rules out z(A, D) = 0, z(B, D) > 0. Let the children of A and B with colour D be X and Y. Then f(X) = A < B = f(Y), so X < Y, but |T(X)| < |T(Y)|, contradicting observation 5. 
+If |T(A)| ≥ |T(B)|, then z(A, D) ≥ z(B, D) for all colours D. If A < B then this follows from (6), so assume A > B, giving z(A, D) ≤ z(B, D) for all D. But |T(A)| = 1 + Σ z(A, D), so if any of those inequalities are strict we would have |T(A)| < |T(B)|, a contradiction.
+We now claim that if a tree satisfies conditions 3 and 7, it is a beautiful tree. Note that these conditions are independent of the labelling, and hence can easily be tested. The proof is constructive, in the form of an algorithm to assign the labels in increasing order. Maintain a queue of unlabelled nodes per colour; the head of the each queue must be the next node to be assigned a label. To start, consider the root to have colour 0, and place it in the queue for colour 0. All other queues are empty.
+To advance, select the head-of-queue with the largest |T(X)|, and assign it the next available label. Then place its children at the tails of their respective queues. This process maintains the following invariants:
+Within each queue, |T(X)| is decreasing.
+The elements in the queues have (non-strictly) smaller |T(X)| than any labelled node.
+The labels are assigned in decreasing order of |T(X)|.
+The proof is left as an exercise for the reader. A key observation is that if some node A is labelled, and it does not have a child of colour D to append to the D queue, then no other nodes will later be appended to the D queue, because 0 = z(A, D) ≥ z(B, D) for any B > A. This ensures that every node will have the correct parent.
+Now we are left with the problem of testing conditions 3 and 7 for every subtree. Testing condition 3 is quite easy. For condition 7 it helps to note that the condition is transitive, so that if |T(A)| ≥ |T(B)| ≥ T(C) and (A, B), (B, C) each satisfy the condition, it is not necessary to check (A, C) as well. We can thus easily check a tree of size K in O(KM) time, but this will be too slow to get a full score. There are two observations that help speed this up:
+To test the condition for some A, B, we can just iterate over S(B), and for each colour D look up z(A, D). If we sort the children of each node by colour, this will take O(|S(B)| log M) time. A tree of size K has only O(K) edges, so checking a whole tree can be done in O(K log M) time.
+We can re-use results from subtrees. If any child of A is not the root of a beautiful subtree, then nor is A. If they all are, we can use small-into-large merging to combine information about the subtrees. For each subtree, keep an ordered map from subtree size to a representative vertex of that size. Then we can merge subtrees by taking each element from the smaller map and inserting it into the larger map, checking that it has the appropriate relationship with its immediate neighbours. Each insertion requires O(log N) time to find the location in the map structure and amortised O(log M) to perform the verification, and each node will be inserted O(log N) times. Thus, the running time is O(N log N (log N + log M)).
+
+This sounds complicated but requires less than 100 lines of code.
+
+Posted by
+
+Bruce Merry
+
+at
+
+1:41 AM
+
+Email ThisBlogThis!Share to XShare to FacebookShare to Pinterest
+
+No comments:
+
+Post a Comment
+
+Newer Post
+
+Older Post
+
+Home
+
+Subscribe to:
+Post Comments (Atom)
+
+Blog Archive
+
+        ► 
+
+2025
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ▼ 
+
+2023
+
+(3)
+
+        ► 
+
+December
+
+(1)
+
+        ▼ 
+
+November
+
+(2)
+
+IOI 2023: Beech Tree
+
+IOI 2023: Day 1
+
+        ► 
+
+2022
+
+(2)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+2021
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+2020
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2018
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2017
+
+(3)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+2016
+
+(6)
+
+        ► 
+
+November
+
+(4)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2015
+
+(1)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2014
+
+(11)
+
+        ► 
+
+October
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+June
+
+(6)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+2013
+
+(4)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+July
+
+(2)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+2012
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+2011
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+March
+
+(1)
+
+        ► 
+
+2010
+
+(5)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+April
+
+(2)
+
+        ► 
+
+2009
+
+(10)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+August
+
+(3)
+
+        ► 
+
+June
+
+(1)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+February
+
+(1)
+
+        ► 
+
+January
+
+(1)
+
+        ► 
+
+2008
+
+(30)
+
+        ► 
+
+December
+
+(1)
+
+        ► 
+
+November
+
+(1)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+September
+
+(2)
+
+        ► 
+
+August
+
+(1)
+
+        ► 
+
+July
+
+(1)
+
+        ► 
+
+June
+
+(2)
+
+        ► 
+
+May
+
+(3)
+
+        ► 
+
+April
+
+(1)
+
+        ► 
+
+March
+
+(6)
+
+        ► 
+
+February
+
+(5)
+
+        ► 
+
+January
+
+(5)
+
+        ► 
+
+2007
+
+(15)
+
+        ► 
+
+November
+
+(2)
+
+        ► 
+
+October
+
+(3)
+
+        ► 
+
+June
+
+(9)
+
+        ► 
+
+May
+
+(1)
+
+        ► 
+
+2006
+
+(14)
+
+        ► 
+
+November
+
+(5)
+
+        ► 
+
+October
+
+(2)
+
+        ► 
+
+August
+
+(4)
+
+        ► 
+
+July
+
+(3)

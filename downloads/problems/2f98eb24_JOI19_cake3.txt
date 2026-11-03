@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI19_cake3
+
+View problem - Cake 3 (JOI19_cake3) :: oj.uzView problem - Cake 3 (JOI19_cake3)
+
+Cake 3 Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o cake3 cake3.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o cake3 cake3.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o cake3 cake3.cpp
+Java/usr/bin/javac -encoding UTF-8 cake3.java
+/bin/sh -c echo "Main-Class: cake3" > __manifest__.txt
+/bin/sh -c jar cfm cake3.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b cake3.py
+/bin/mv cake3.pyc __main__.pyc
+/usr/bin/zip cake3.pyz.zip __main__.pyc
+/bin/mv cake3.pyz.zip cake3.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms256 MiB202033124874.92%
+
+Problem Source
+2018 JOI Spring Training Camp/Qualifying Trial Day 4 Problem 1
+
+ Attachments
+File nameSize
+cake3.zip708 bytes

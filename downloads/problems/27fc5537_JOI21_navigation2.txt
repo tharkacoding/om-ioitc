@@ -1,0 +1,31 @@
+https://oj.uz/problem/view/JOI21_navigation2
+
+View problem - Navigation 2 (JOI21_navigation2) :: oj.uzView problem - Navigation 2 (JOI21_navigation2)
+
+Navigation 2 Interactive Communication Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Anna Anna.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Anna Anna.cpp
+
+Step #2
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Bruno Bruno.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Bruno Bruno.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2500 ms512 MiB365834048.19%
+
+Problem Source
+2021 JOI Spring Training Camp/Qualifying Trial Day 4 Problem 2
+
+ Attachments
+File nameSize
+navigation2.zip4.45 KiB

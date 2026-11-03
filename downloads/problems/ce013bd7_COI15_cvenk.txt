@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI15_cvenk
+
+View problem - ČVENK (COI15_cvenk) :: oj.uzView problem - ČVENK (COI15_cvenk)
+
+ČVENK Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o cvenk cvenk.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o cvenk cvenk.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o cvenk cvenk.cpp
+Java/usr/bin/javac -encoding UTF-8 cvenk.java
+/bin/sh -c echo "Main-Class: cvenk" > __manifest__.txt
+/bin/sh -c jar cfm cvenk.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b cvenk.py
+/bin/mv cvenk.pyc __main__.pyc
+/usr/bin/zip cvenk.pyz.zip __main__.pyc
+/bin/mv cvenk.pyz.zip cvenk.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms512 MiB268423378.57%
+
+Problem Source
+Croatian Olympiad in Informatics 2015 Problem 1

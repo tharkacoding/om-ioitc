@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/IOI16_railroad
+
+View problem - Roller Coaster Railroad (IOI16_railroad) :: oj.uzView problem - Roller Coaster Railroad (IOI16_railroad)
+
+Roller Coaster Railroad Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o railroad railroad.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o railroad railroad.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o railroad railroad.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms512 MiB273454524745.32%
+
+Problem Source
+IOI 2016 Day 1 Problem 2
+
+ Attachments
+File nameSize
+grader.zip3.17 KiB

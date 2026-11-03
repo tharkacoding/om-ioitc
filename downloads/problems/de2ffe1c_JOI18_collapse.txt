@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/JOI18_collapse
+
+View problem - Collapse (JOI18_collapse) :: oj.uzView problem - Collapse (JOI18_collapse)
+
+Collapse Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o collapse collapse.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o collapse collapse.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+15000 ms512 MiB850946771.28%
+
+Problem Source
+JOI Open Contest 2018 Problem 3
+
+ Attachments
+File nameSize
+dist.zip5.27 KiB

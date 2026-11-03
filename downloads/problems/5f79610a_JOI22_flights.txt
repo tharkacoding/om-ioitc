@@ -1,0 +1,31 @@
+https://oj.uz/problem/view/JOI22_flights
+
+View problem - Flights (JOI22_flights) :: oj.uzView problem - Flights (JOI22_flights)
+
+Flights Interactive Communication Compilation commands
+
+×Compilation commands
+
+Step #1
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Ali Ali.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Ali Ali.cpp
+
+Step #2
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o Benjamin Benjamin.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o Benjamin Benjamin.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+4000 ms512 MiB5756246.45%
+
+Problem Source
+2022 JOI Spring Training Camp/Qualifying Trial Day 2 Problem 2
+
+ Attachments
+File nameSize
+flights.zip3.65 KiB

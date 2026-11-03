@@ -1,0 +1,735 @@
+https://codeforces.com/blog/entry/103280#comment-917355
+
+Croatian Olympiad in Informatics (COI) 2022 - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        keko37
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        keko37's blog
+
+                        Croatian Olympiad in Informatics (COI) 2022
+
+                By keko37,
+                    history,
+                    4 years ago,
+
+        Croatian Open Competition in Informatics — COCI 2021/2022
+Internet online contest series
+As part of the COCI series, we are hosting an Internet online contest with problems from the Croatian Olympiad in Informatics 2022. The contest is primarily intended for high school contestants, but is open to all interested!
+This contest is used in Croatia to select members of the IOI 2022 team. There will be three to five tasks and the contest will be five hours long. The contestants will have full feedback with at most 50 submissions per task.
+It will be held on Sunday, May 29, starting at 15:00 (GMT/UTC).
+Check out your local times at https://hsin.hr/coci/next_contest.html
+You may use Python, Pascal, C, C++ or Java as your programming language of choice.
+The two relevant websites are:
+https://hsin.hr/coci/ — information about the contest
+https://evaluator.hsin.hr/ — judging system
+We hope that you will join us or encourage your students to do so!
+
+    ioi,
+
+    croatia,
+
+    coci
+
+        +71
+
+        keko37
+
+        4 years ago
+
+        14
+
+                Comments (14)
+
+                Write comment?
+
+                                    »
+
+                     paula
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+        paula
+
+                        4 years ago,
+                        hide
+                        #
+                        |
+
++9
+
+                        Reminder: the contest starts in less than 30 minutes.
+
+                        →
+                        Reply
+
+                                    »
+
+                     14th_onresp
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        14th_onresp
+
+                        4 years ago,
+                        hide
+                        #
+                        |
+
++11
+
+                        When upsolving will be available?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     keko37
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        keko37
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++11
+
+                        The problems have now been added to the judging system.
+You can access them here under Srednje Škole / 2022 / HIO.
+
+                        →
+                        Reply
+
+                                    »
+
+                     ko_osaga
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        ko_osaga
+
+                        4 years ago,
+                        hide
+                        #
+                        |
+
++8
+
+                        This contest is used in Croatia to select members of the IOI 2022 team
+ So there will be no Izborne pripreme 2022?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ppavic
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ppavic
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++24
+
+                        This contest is added up with the Izborne pripreme, so technically it is used to select the IOI team, but yes there will be Izborne pripreme 2022.
+
+                        →
+                        Reply
+
+                                    »
+
+                     bmerry
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        bmerry
+
+                        4 years ago,
+                        hide
+                        #
+                        |
+
++40
+
+                        My solutions, in case anyone is interested:
+ AConsider each possible centre point of the palindrome in turn (so either a character or the midpoint between characters). Check if it's the centre of a palindrome that's either one or two longer than the previous longest (depending on parity). If so, keep extending it until you hit a non-palindrome, before moving on the next centre point.
+The right endpoint increases with each query except that it can stay the same when switching the centre point.
+
+ BFirst add 2^20 to both A and B. This won't change their order, and ensures they both have exactly 21 bits. When given A, output every prefix of A with at least 2 bits for which the last bit is a 1. When given B, output each prefix of B with at least 2 bits for which the last bit is a zero, but replace that bit with a 1 in the output. Note that each output array will contain only unique values, because the position of the leading 1 allows the number of discarded bits to be determined.
+Suppose a value appears in both lists. Then there is some prefix that appears in both A and B, except that the last bit is a 1 in A and a 0 in B e.g. they are 110101xxx... and 110100yyy.... This makes A > B. Conversely, if A > B then there is a first position where they differ, and A will have a 1 in this position and B will have a 0, and we will find a duplicate. So A > B if and only if C contains a 2.
+
+ CI found this one the toughest, and I feel like perhaps I missed an easier solution.
+Let's consider the people to be nodes in a graph. Paint a node red if it's chosen to be part of the committee, and blue if it is excluded. Initially all nodes are unpainted. We can immediately infer some rules:
+    When painting a node red, paint all its incoming and outgoing neighbours blue.
+   If all the out neighbours of a node have been painted blue, paint it red.
+ If applying these rules repeatedly paints the whole graph, we are done, and the solution is valid: the first rule can only lead to problems when an outgoing neighbour is painted blue (if it ends up without any red outgoing neighbours), but because nodes only become red through the second rule, newly red nodes have all their outgoing neighbours already blue.
+However, one may reach a point where no more nodes can be painted using this rule. We can impose an order on the nodes by considering a topological ordering on the strongly connected components, with an arbitrary order within each SCC. Pick the last node X in this ordering which is not yet painted, and identify the set of nodes S reachable from X (including X) without using any painted nodes. The ordering ensures that S can only contain nodes in the same SCC as X. For any node Y in X, if the path from X to Y has odd length, paint it blue, otherwise red (it is unambiguous because if both odd- and even-length paths existed, one of those paths would complete an odd-length cycle with a path from Y to X, which exists because X and Y are in the same SCC). Every blue node in Y must have an outgoing edge to a red node: either it already did, or else it must have started with an outgoing edge to an unpainted node (because rule 2 didn't kick in) and that node will have been painted red. No red node in Y can point at another red node in Y (because they must both be an even distance from X in S), not at a previously-red node (otherwise rule 1 would have kicked in).
+Having done this, again apply rules 1 and 2 until it's not possible to continue, and then pick another set S to paint etc.
+
+ DUse a persistent segment tree. Walk the tree recursively, and when descending into any child, update the segment tree (creating a new view which doesn't destroy the original) with the vignette range for that edge.
+I'm pretty sure it's also possible to use a regular segment tree, rewinding changes when exiting a subtree. This requires each node to keep a counter of the number of times the corresponding range has been flagged, rather than just a boolean. To rewind, just decrement this counter again. Note that this structure doesn't allow arbitrary ranges to be removed, just ones that were originally added.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     never_giveup
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        never_giveup
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        In C I think I proved that each SCC has no odd cycle even if you make edges undirected, so you can paint each SCC as bipartite graph beforehand, then do steps 1 and 2, and if next SCC was not fully painted, paint remaining nodes in it with precalculated colors and continue with regular algorithm.
+Btw, your solution looks natural (steps 1 and 2 are the only way to solve for DAG, for SCC my approach takes advantage that the SCC is bipartite, but your approach is more or less the same).
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     bmerry
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        bmerry
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        In C I think I proved that each SCC has no odd cycle even if you make edges undirected
+ I agree.
+ if next SCC was not fully painted, paint remaining nodes in it with precalculated colors and continue with regular algorithm.
+ I don't think it's quite that simple, because it's not always possible to colour an SCC just according to its bipartite graph. Consider the following graph: 1->2->3->4->5->6->1 (cycle of 6 vertices), plus edges 1->7 and 4->7. The only valid committee is {3, 6, 7}. In this case everything was forced by steps 1 and 2, but I suspect it would be easy enough to find an example where not everything was forced but it was necessary to colour an SCC in a way that doesn't match the bipartite structure.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     ppavic
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        ppavic
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++18
+
+                        After applying rules 1 and 2, look at the graph formed by the unpainted vertcies. Every node points to at least one other node, and since the graph is bipartite it always goes to the other "side". Therefore painting one whole "side" of the bipartite graph is enough. So you can apply this process to the SCC which points nowhere and then remove it completely and all nodes from other SCCs which now point to a red node. You can repeat this recursively. This was my solution.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     never_giveup
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        never_giveup
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        The proof of why my solution works is above. Regarding your example, you actually have an odd cycle on undirected edges (1, 2, 3, 4, 7), which can't exist in SCC.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     bmerry
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        bmerry
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++10
+
+                        I'd missed that you only wanted to paint the vertices that weren't already painted. In the example, 7 is one SCC, and 1..6 is another.
+
+                        →
+                        Reply
+
+                                    »
+
+                     Abito
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Abito
+
+                        4 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Sorry for necroposting but where can I find the standings? I did a virtual contest and want to check how well I did
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     AlanSkarica
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        AlanSkarica
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        The official standings: https://hsin.hr/hio2022/rezultati.php
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Abito
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Abito
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        Thank you
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:33 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

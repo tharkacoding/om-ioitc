@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI17_simurgh
+
+View problem - Simurgh (IOI17_simurgh) :: oj.uzView problem - Simurgh (IOI17_simurgh)
+
+Simurgh Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o simurgh simurgh.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o simurgh simurgh.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms1024 MiB315642215436.49%
+
+Problem Source
+International Olympiad in Informatics 2017 Day 2 Problem 2
+
+ Attachments
+File nameSize
+public.zip6.00 KiB

@@ -1,0 +1,211 @@
+https://dmoj.ca/problem/coi11p2
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:30 (partial)
+Time limit:5.0s
+Memory limit:256M
+Problem types
+
+The fully automated lunar station's upkeep is the responsibility of the service robot M1RK8. The robot is moving along a circular track (a track forming a cycle). The track consists of straight segments with north, south, east, or west orientations, and in-place 
+90
+-degree turns to the left or right. The length of each straight segment is a positive integer number of metres, so the entire track can be shown in a Cartesian plane with segments passing through lattice (integer-coordinates) points and parallel to the coordinate axes. The track never intersects with itself, and no two segments touch or overlap (except, of course, at adjacent endpoints, i.e. turns).
+
+Here is an example track with 
+8
+ turns:
+
+A meteorite has struck the Moon near the station, so most sensors went offline. Thus, neither the position of the robot nor the direction that it is facing is currently known. We cannot begin repair work on the station until we have established the robot's position along the track.
+
+This task will not be easy since the only command available for moving the robot is move K, where 
+𝐾
+ is the positive integer number of metres that the robot must move along the track. After executing the command, the robot returns two integers: 
+𝐿
+ and 
+𝑅
+. The number 
+𝐿
+ is the number of left turns that the robot had to make while executing the last move command, and 
+𝑅
+ is the number of right turns.
+
+Notes: The robot's starting position, as well as the position after each command, is always a lattice (integer-coordinates) point. If the robot ends the move command at a turn point, it will turn in the direction of the rest of the track before ending the move command, so the next move command will start with going straight.
+
+For example, if the robot is at the coordinates 
+(
+3
+,
+3
+)
+ and facing east, after executing the command move 4 it will end up at 
+(
+6
+,
+2
+)
+ facing north and return the result 2 1, meaning that it has made two left and one right turns while executing the command. After that, the command move 1 will move the robot to 
+(
+6
+,
+3
+)
+ and return 0 0.
+
+Write a program that will determine the position of the robot using at most 
+5
+000
+ commands of the form move K. The program has to finish with the command stop X Y, where 
+𝑋
+ and 
+𝑌
+ are the final coordinates of the robot after executing all commands.
+
+Interaction
+
+Before interacting with the robot, the program needs to read the following data from the input:
+
+The first line of input contains the positive integer 
+𝑁
+ 
+(
+6
+≤
+𝑁
+≤
+10
+000
+)
+, the number of turns on the track, which is also equal to the number of straight segments.
+The following 
+𝑁
+ lines of input contain the coordinates of turns in order that they appear along the track, one per line, given as pairs of integers 
+𝑋
+ and 
+𝑌
+ 
+(
+1
+≤
+𝑋
+,
+𝑌
+≤
+100
+000
+)
+.
+
+Notes: The direction of the robot along the track can be in order that the coordinates are given, or the opposite order. The track will be such that the robot's position is uniquely determinable, i.e. the test data will never contain two track points with different orientation that give the same result for every possible "move" command sequence.
+
+After reading the data above, it is possible to give commands to the robot using standard output. Make sure to flush the output after each move K command; after flushing, you can read in the two numbers 
+𝐿
+ and 
+𝑅
+ from standard input. 
+𝐾
+ must be between 
+1
+ and 
+1
+000
+000
+000
+, inclusive.
+
+After determining the coordinates of the robot, your program must output stop X Y to standard output, flush the output, and regularly finish execution.
+
+Scoring
+
+The following constraints will hold in a subset of the test data:
+
+worth a total of 
+40
+ points: 
+𝑁
+≤
+100
+ and 
+𝑋
+,
+𝑌
+≤
+50
+worth a total of 
+60
+ points: 
+𝑁
+≤
+100
+ and 
+𝑋
+,
+𝑌
+≤
+100
+000
+worth a total of 
+80
+ points: 
+𝑁
+≤
+2
+000
+ and 
+𝑋
+,
+𝑌
+≤
+100
+000
+Testing
+
+Your solution can be tested either locally. For this, you first need to create a file describing the desired test case.
+
+The first line must contain the positive integer 
+𝑁
+, the number of turns.
+The following 
+𝑁
+ lines must contain the coordinates of turns in the order that they appear along the track: two integers, 
+𝑋
+ and 
+𝑌
+, for each line.
+The following line must contain the two integers 
+𝑋
+0
+ and 
+𝑌
+0
+ and the word 
+𝑆
+. 
+𝑋
+0
+ and 
+𝑌
+0
+ represent the starting coordinates of the robot, while 
+𝑆
+ describes the robot's direction. 
+𝑆
+ can be one of the following: same if the robot is moving along the track in the order of turns given in input, or opposite if the robot is moving in the opposite direction. The starting coordinates can be either at a turn or along a straight segment of the track.
+
+An example of a test input file corresponding to the track example given earlier:
+
+Copy
+8
+2 4
+6 4
+6 2
+4 2
+4 3
+3 3
+3 2
+2 2
+3 3 opposite
+Comments
+
+There are no comments at the moment.

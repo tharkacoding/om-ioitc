@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/JOI25_telepathy
+
+View problem - Telepathy (JOI25_telepathy) :: oj.uzView problem - Telepathy (JOI25_telepathy)
+
+Telepathy Interactive Communication Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o telepathy telepathy.cpp stub.cpp telepathy.h
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o telepathy telepathy.cpp stub.cpp telepathy.h
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms1024 MiB15015320.00%
+
+Problem Source
+JOI Open Contest 2025 Problem 3
+
+ Attachments
+File nameSize
+2025-open-telepathy-dist.zip3.16 KiB

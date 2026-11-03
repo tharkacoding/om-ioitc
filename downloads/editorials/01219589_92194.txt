@@ -1,0 +1,1505 @@
+https://codeforces.com/blog/entry/92194#comment-808628
+
+IOI 2021 Day 2 Tasks - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        ojuz
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        ojuz's blog
+
+                        IOI 2021 Day 2 Tasks
+
+                By ojuz,
+                    history,
+                    5 years ago,
+
+        Since nobody posted this...
+Tasks are here: https://ioi2021.sg/ioi-2021-tasks/
+You can solve all Day 2 tasks here: https://oj.uz/problems/source/577
+In case you want to solve it in 5 hours, you can try here: https://oj.uz/contest/view/IOI2021DAY2
+    Related post: https://codeforces.com/blog/entry/92088
+
+    ioi 2021,
+
+    #ioi2021,
+
+    ioi2021
+
+        +45
+
+        ojuz
+
+        5 years ago
+
+        39
+
+                Comments (35)
+
+                        Show archived
+
+                    |
+                Write comment?
+
+                                    »
+
+                     Zlobober
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Zlobober
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++19
+
+                        Similarly to Pajaraja few days ago, let me come out as an author of Registers problem. I am very happy that this problem made it to the day 2 problemset, kudos to the scientific committee for choosing and preparing it :) Let me share a few thoughts related to this problem. 
+First of all, I hope that it was interesting to the contestants; it is somehow similar to IOI'2012 Odometer problem in its setting: you must generate program in artificial programming language with some desired properties. I was participating in that IOI and I liked that problem very much, and maybe that's what led me to come up with something similar 9 years later.
+In my original proposal there was an extra subtask for sorting $$$n$$$ integers in $$$o(n)$$$ instructions, e.g. in $$$O(log^2 n)$$$ or even $$$O(log n)$$$. Such subtask is heavily related to the notion of a sorting network: almost any efficient sorting network consists of regular comparison patterns which may be executed in parallel using comparison primitive from the earlier part of the problem. My personal opinion was that including a subtask for $$$O(poly(log n))$$$-depth sorting network would be fine since coming up with something like bitonic sorting network is possible with pen and paper without any beforehand knowledge, but I also believe that scientific committee had some reasons not to include that subtask :) Maybe there are issues with proper constraints for such subtask, I'm not sure. But neverthless, for me it seems as an impressive fact that sorting $$$n$$$ integers in such computation model may be done in $$$o(n)$$$ instructions, that sounds quite counter-intuitive at the first glance.
+Finally let me note that this problem is quite practical; there are actual implementations of similar concepts that allow sorting short vectors of integers using modern SIMD instructions which are amazingly fast. For example, here one can find a repository with quite good implementation of small sorting networks in assembly language: SortingNetworks.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     dorijanlendvaj
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        dorijanlendvaj
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        How do you solve subtask 6 using $$$\Omega(n)$$$ instructions? The only way I know to solve that subtask is using bitonic sort.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Zlobober
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Zlobober
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++20
+
+                        You may use simple bubble-sort like procedure.
+On even steps perform "swap if wrong order" among pairs $$$(a[0], a[1]), (a[2], a[3]), ...$$$; on odd steps perform "swap if wrong order" among pairs $$$(a[1], a[2]), (a[3], a[4]), ...$$$. One may show that it is enough to do $$$n$$$ such operations in order to obtain sorted sequence.
+Refer to "When allowing for parallel comparators, bubble sort and insertion sort are identical" picture here for an illustration.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Benq
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        Benq
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        This idea was also used in this year's Baltic OI (see subtask 5).
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     MinaRagy06
+
+                        3 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        MinaRagy06
+
+                        3 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++19
+
+                        UPD: I didn't notice Benq's comment, sorry :D
+The comment is 2 years late but I think they decided not to include the subtask because sorting networks and bitonic sorting network appeared in BOI 2021 P4 (swaps) 2 months before the IOI.
+
+                        →
+                        Reply
+
+                                    »
+
+                     mohammedehab2002
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        mohammedehab2002
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++39
+
+                        my solution for dungeonsLet's compute a binary-lifting kind of $$$dp$$$: $$$dp[i][j][k]$$$ simulates the game starting from opponent $$$i$$$ for $$$2^j$$$ steps with the following rules: if you face an opponent with strength less than $$$2^k$$$, you beat them. Otherwise, they beat you. Note that it neither depends on your strength nor changes it. We'll figure out what it returns later. Suppose you currently have strength $$$z$$$ with most significant bit at index $$$k$$$, and suppose you simulate using the $$$dp$$$. The simulation will be absolutely correct until the moment you face an opponent with strength at least $$$2^k$$$ and beat them. But notice that after this happens, the most significant bit in your strength must increase, so this can only happen $$$O(log(s_i))$$$ times. So we can afford to simulate up to this opponent with the $$$dp$$$, beat this opponent, then start again. What's left? We need to figure out when we'll face that opponent. We beat an opponent if (initial strength)+(gained strength)-(opponent strength)>=0, so we can make our $$$dp$$$ return the maximum value of (gained strength)-(opponent strength) and binary-lift to find the opponent that will move us to a higher most significant bit. Of course, you'd need another $$$dp$$$ that gives you the gained strength to compute this $$$dp$$$, and a third $$$dp$$$ that gives you the monster's index, but they all have the same concept.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     T1duS
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        T1duS
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++21
+
+                        I did the same. How did this not MLE?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     mohammedehab2002
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        mohammedehab2002
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++29
+
+                        I didn't write a code, and I didn't really pay attention to the memory. My fix in rev. 1 is stupid. I'll think of a way to fix it.
+UPD: an ugly way to fix it is to work in a base higher than base $$$2$$$. You'll use a bit more time and a bit less memory.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     ecnerwala
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        ecnerwala
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++10
+
+                        I think your memory problems mostly come from using jump-pointers, which take $$$O(N \log N)$$$ memory for a single tree. Instead, just consider this functional graph for each $$$k$$$, and build something more memory-efficient, like HLD or these jump pointers https://codeforces.com/blog/entry/74847.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     mango_lassi
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        mango_lassi
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Yep, working in a base higher than 2 works. But I TLE'd when I tried to use base 3 for both parts. Instead, I use base 8 for the power of two range containing the values, and base 2 for the sparse table. This took like 5s and a bit over half of ML on oj.uz
+ code#include "dungeons.h"
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+
+const int N = 4 * (int)1e5;
+const int C0 = 8;
+const int C1 = 1;
+const int H = 24;
+const ll INF = 1e9 + 7;
+
+pair<int, pair<ll, ll>> jmp[N + 1][H / C0][H / C1];
+ll add[N + 1];
+ll str[N + 1];
+ll bns[N + 1];
+int wt[N + 1];
+int lt[N + 1];
+int n;
+
+pair<int, ll> advance(pair<int, ll> cur) {
+	if (str[cur.first] > cur.second) return {lt[cur.first], bns[cur.first] + cur.second};
+	else return {wt[cur.first], str[cur.first] + cur.second};
+}
+
+void init(int n_, vector<int> s, vector<int> p, vector<int> w, vector<int> l) {
+	n = n_;
+	for (int i = 0; i < n; ++i) str[i] = s[i];
+	for (int i = 0; i < n; ++i) bns[i] = p[i];
+	for (int i = 0; i < n; ++i) wt[i] = w[i];
+	for (int i = 0; i < n; ++i) lt[i] = l[i];
+	str[n] = INF;
+	bns[n] = INF;
+	wt[n] = n;
+	lt[n] = n;
+
+	add[n] = 0;
+	for (int i = n-1; i >= 0; --i) add[i] = add[wt[i]] + str[i];
+
+	for (int a = 0; a < H / C0; ++a) {
+		ll lo = 1 << (C0 * a);
+		ll hi = 1 << (C0 * (a + 1));
+		for (int i = 0; i <= n; ++i) {
+			if ((lo < str[i] && str[i] < hi) || i == n) {
+				jmp[i][a][0] = {lt[i], {str[i], bns[i]}};
+			} else if (str[i] <= lo) {
+				jmp[i][a][0] = {wt[i], {INF, str[i]}};
+			} else {
+				jmp[i][a][0] = {lt[i], {INF, bns[i]}};
+			}
+		}
+		for (int b = 1; b < H / C1; ++b) {
+			for (int i = 0; i <= n; ++i) {
+				int j = i;
+				ll min_str = INF, str_add = 0;
+				for (int it = 0; it < (1 << C1); ++it) {
+					auto pr = jmp[j][a][b - 1];
+					min_str = min(min_str, pr.second.first - str_add);
+					str_add += pr.second.second;
+					j = pr.first;
+				}
+				jmp[i][a][b] = {j, {min_str, str_add}};
+			}
+		}
+	}
+}
+
+long long simulate(int start_i, int ini_pwr) {
+	pair<int, ll> state = {start_i, (ll)ini_pwr};
+	for (int a = 0; a < H; ++a) {
+		ll lo = 1 << (C0 * a);
+		ll hi = 1 << (C0 * (a + 1));
+		while(state.first != n && lo <= state.second && state.second < hi) {
+			for (int b = (H/C1) - 1; b >= 0; --b) {
+				while(state.second < jmp[state.first][a][b].second.first && state.second + jmp[state.first][a][b].second.second < hi) {
+					state.second += jmp[state.first][a][b].second.second;
+					state.first = jmp[state.first][a][b].first;
+				}
+			}
+			if (state.first != n) state = advance(state); // either win against opponent in same strength bracket, or break out of strength bracket
+		}
+	}
+	return state.second + add[state.first];
+}
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     BJoozz
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        BJoozz
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        You can use log4() :)) as i was
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     ko_osaga
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        ko_osaga
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++10
+
+                        My shit attemptI have a solution that works in $$$O(N \log X + Q \log X \log N)$$$ time and $$$O(N \log X)$$$ memory, I'm very angry because this fails assert from a stupid place and I have no idea how it's possible. But probably the idea is correct. 
+Do HLD on each functional graph (remove arbitrary cycle edges). If you reach the root of the forest, you can calculate how much time you have to turn through the cycle with simple maths. So the issue is to find the first failure point from each vertex-to-root path. With some prefix sum stuffs you can determine in $$$O(1)$$$, if the failure point is in the prefix of some chains. So you can determine the chain with failure point in $$$O(\log N)$$$ time. 
+If you find that chain, you can binary search for the first failure point. First criteria assumes that you simply failed but earned enough money to jump to next level. This is a partial sum, so ofc $$$O(\log N)$$$ time suffices. Next criteria is whether you have some point with $$$S_i \in [2^k, hp]$$$. This can be considered as finding a largest $$$l$$$ where $$$min[l, r] \gt X$$$ for some array. So walking down the RMQ suffices. Since we spent $$$O(\log N) + O(\log N)$$$ time for query, time complexity for query is $$$O(\log X \log N)$$$. Since we need linear time for constructing RMQ, time complexity for initialization is $$$O(N \log X)$$$.
+
+                        →
+                        Reply
+
+                                    »
+
+                     Coder
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Coder
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++28
+
+                        Isn't DNA similar to Another IOI task?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     elsantodel90
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        elsantodel90
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++65
+
+                        Hi, I am the author of the dna problem :)
+Indeed, the final version used in the contest ends up being fairly similar to that task, now with queries. However, in my original proposal the four DNA bases were used and there was no restriction to only three (which makes for a more natural story :) ). Also it had updates on the strings, but that is indeed a fairly minor thing, as I can only imagine that it would make a different for students knowing prefix sums but not knowing segment/fenwick trees.
+The original proposal even suggested inventing an alien or extra DNA base to have 5 bases, as the task can be solved extending the same idea to that case, and the proof that it works for 5 came as quite a surprising result to me when I noticed it. Specially since for the case of an unrestricted number of different letters, the problem becomes NP-hard, and the same natural "greedy" approach that works up to 5 letters breaks precisely for the case of 6 letters.
+In the end, I am very happy that the problem was selected and used, even though it was simplified, and I think that the jury made the right call to change it, since specially after seeing IOI 2021 Day 1, I think that the contest was lacking one easy problem for overall balance.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Coder
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Coder
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++71
+
+                        Original version with four bases would've been much better in many ways IMHO
+With 3 it was too easy (didn't affect medal distribution at all), too similar to that task and also not very natural
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     mani100011
+
+                        4 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        mani100011
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Hello, Is there any complete analysis of this task on the internet? I mean the proof of the 3 DNAs, 4 DNAs, and 5 DNAs case, and also the NP-hard version?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     elsantodel90
+
+                        4 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        elsantodel90
+
+                        4 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        Here is an extract from my old submission of the problem https://filebin.net/xovlisuc39fnvdlw/dnaswapsolution.pdf
+
+                        →
+                        Reply
+
+                                    »
+
+                     Bakry
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        Bakry
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++16
+
+                        I had this approach for problem dungeons in the contest but didn't manage to code it in time, Did anyone pass with this approach?
+ My approachLet's have a magic number $$$x$$$ that equals 11835, Let's divide the nodes into Heavy and Light nodes, node $$$u$$$ is heavy node iff $$$S_u \geq x$$$ and light otherwise.
+Let's construct a graph, If $$$u$$$ is heavy node then there's a directed edge from $$$w_u$$$ to $$$u$$$, else if $$$u$$$ is Light node then there's a directed edge from $$$L_u$$$ to $$$u$$$, It turns out that this graph is functional graph such that it consists of multiple trees linked by a cycle.
+Let the initial strength be $$$z$$$ where $$$z \geq x$$$, notice that we will need at most $$$ \lceil{\frac{10^7}{x}}\rceil$$$ steps to get a value $$$\geq 10^7$$$ If we can jump from every node to some node such that the difference between strength $$$\geq x$$$
+Now to find for every node the next node to jump to, we can Just binary lifting on this, Notice that we will need at most $$$x$$$ operations to get to next node.
+Total time complexity $$$O(Q * \lceil{\frac{10^7}{x}}\rceil * log(x))$$$ (timelimit is 4 seconds)
+
+                        →
+                        Reply
+
+                                    »
+
+                     dorijanlendvaj
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        dorijanlendvaj
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++5
+
+                        Is it possible to solve DNA in $$$o(n)$$$ time per query if you're only allowed to swap adjacent elements? 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Osama_Alkhodairy
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        Osama_Alkhodairy
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++13
+
+                        I actually misread the problem and solved this version during the contest.
+ my solutionFirst of all, we will count the number of inversions among each pair of distinct characters (A and T, A and C, and T and C). We will then sum those counts up, and we should have our final answer.
+WLOG, let's assume that the strings contain only characters A and T. Let's split the given range greedily from left to right into several subranges such that each subrange can be sorted independently. Here, the observation is that the answer for each such subrange equals the absolute value of (sum of indices that contain A in the first string) — (sum of indices that contain A in the second string). We will use binary lifting to calculate these values quickly.
+
+                        →
+                        Reply
+
+                                    »
+
+                     MladenP
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        MladenP
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
++70
+
+                        I'm interested to know, if someone from the ISC is reading this, why such a weird difficulty distribution? The number of solves per problem are 24 17 11 300+ 15 7, respectively. I know that selecting the tasks for IOI is a difficult job, but I'm not sure how you end up with such contest, While the tasks themselves were interesting, it's hard to see a point in having the difference of 275+ solves between the easiest and the second easiest task. 
+Did you lack easier task proposals? Was there misjudgment in the task difficulty? Or did you intend it to be like this (while having highscores without ACs)?
+Certainly, it's not a new thing for IOI to have a large gap between the easiest and second easiest task, but this year it was especially so. Again, no hate, just curious what happened.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     elsantodel90
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        elsantodel90
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++1
+
+                        Not speaking about this particular contest (dna is clearly much easier than all the other 5 regardless of the way you measure) but more about the "general trend" and the importance (or not :) ) of measuring by "full score".
+I might be completely mistaken, but based on previous commentary during IOI General Assemblies, I am under the impression that "score distribution" is generally prioritized more than "Number of full solves". For example, past members of the ISC have said (when asked about giving difficulty feedback to students / sorting problems by difficulty) that speaking of overall "task difficulty" is quite misleading, as there is no inherent "extra bonus" for solving a problem with 100 points vs 90, and it is very often the case that something more or less like this happens:
+1) Achieving 100 for task A is extremely hard 2) Achieving say 50 points for task A is extremely easy, as it has a "gift" subtask. 3) For another problem B, there is little difference in the difficulty of achieving 50 points or 100 points (the task is more "all or nothing" so to speak, probably relies on having one "click" moment or great idea), and solving it is between 1) and 2) in difficulty.
+For the previous situation, which problem is easier? By full solves, B is easier by far, but maybe by average score they are similar or maybe even task A can be easier. One example is Horses vs Sorting in 2015 https://stats.ioinformatics.org/tasks/ : One problem has twice as many full solves, but they have very similar average score.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     elsantodel90
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        elsantodel90
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++11
+
+                        The full-solve measure is probably useful to directly compare the difficulty of subtasks, as opposed to full tasks. The IOI can be considered to be a contest made up of a lot (About 15?) of little (sub)problems each having different scores, and some of them being very related to each other. If thought in this way (as if each subtask were a different "ICPC style problem", say), I guess that the distribution of full solves among all subtasks might look like a more balanced "ICPC style" contest.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     MladenP
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        MladenP
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++39
+
+                        Yes, that's something I considered as an option, it's just that I don't agree with that kind of thinking. In some cases I understand it, for instance problem Big Prize from 2017, I liked the 90 point vs 100 point distinction and of course for a problem like that, the number of full solves will be deceiving. But for something like Parks, giving 70 points for solutions that don't have much in common with the main solution (and are probably much easier), while at the same time valuing the full solution at 30 points (assuming you already coded the other subtasks, as you said, as separate ICPC tasks) is a little absurd for such a difficult task. Since this would obviously be intentional, I think it's a good thing to have discussions about it. I don't think most contestants view IOI in the same way as the ISC does then and I think that's a problem. At least for me, while I was still competing, while collecting subtasks was seen as the easiest way to get a medal, it was always (and I would say always will be) viewed as less honorable than solving full tasks. 
+Also, as a final note: just because the score distribution is good for medal distribution (aka there are not too many ties, especially for medals), it does not mean that the scores accurately represent the contestants coding/problemsolving ability, which I think is more important. In this way, while having so many options, strategy becomes a much bigger issue than I would like. 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     elsantodel90
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        elsantodel90
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I fully agree with the way that you describe the facts. For a long time now, the IOI has been a much more "strategical" contest than ICPC or Codeforces, for example. Is that the way the community wants it to be? Good question, I don't really know but I would expect it to be quite split to different opinions, some loving the IOI format as is, some preferring an ICPC or Codeforces style much more.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     FelixMP
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        FelixMP
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        The "task A" situation you describe (a hard task with many points from easy subtasks) should never happen. It pretty much takes away the problem-solving part of the competition for everyone except the ones competing for the very top spots, by failing to reward contestants who choose to spend their time thinking about solving problems instead of thinking about which subtasks give most points. I don't understand why anyone who appreciates IOI being a problem-solving competition would consider it desirable to have this, and yet as you said it happens very often. 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     ecnerwala
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        ecnerwala
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++34
+
+                        While it's true that subtasks can help with the difficulty distribution, the subtasks in this contest seem just about as bad: on day 1, there are an absurd number of 11s and 37s on the first two problems and not nearly enough people who scored between that and full score. Dungeons seems better on this front, but the rest are pretty awful.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     errorgorn
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        errorgorn
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++46
+
+                        I heard from ISC that the intended difficulty of day 1 tasks was supposed to be park<keys<candies (opposite of what ACs show).
+I think parks is very easy to underestimate the difficulty as the construction is stupidly simple. And they even gave multiple of 5 subtasks to hint that it was the "easy" problem :|
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     elsantodel90
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        elsantodel90
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Very interesting!
+Extending on my other comment about general score and not only full solves, MUCH more people have above 50 points in parks than in either candies or keys, and A LOT have 70 points which few people have on the other problems. So even when not that many got to the precious 100 point mark, the problem parks gave away a lot of points. I would not dare call it "the absolute hardest of day one" taking this into account, even though it was the hardest to get 100 points.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     MladenP
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        MladenP
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++28
+
+                        Yeah, I can definitely see how you can underestimate a construction problem, especially if you've been looking at it for a while, after a while it starts to look obvious :) And there's always the scary possibility that someone will think of an easier construction than the committee.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     icypiggy
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        icypiggy
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++38
+
+                        The difficulty for parks was indeed underestimated. When two silver medalists (who tested the contest blind) failed to solve parks, I realized that the difficulty estimation was off.
+On the other hand, candies difficulty was over-estimated and I felt that it was closer to being a "medium" rather than a "hard" problem.
+The result was having 3 medium problems instead (or maybe you could consider parks as "hard"). Regardless, I decided not to change the line-up and it does not warrant replacing the questions with backups.
+
+                        →
+                        Reply
+
+                                    »
+
+                     duckladydinh
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+        duckladydinh
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Will Codeforces host those problems one day?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     I_love_Hoang_Yen
+
+                        5 years ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        I_love_Hoang_Yen
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
++3
+
+                        I assume you can read Vietnamese from your name, you can submit IOI problems in Vietnamese OJ
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     duckladydinh
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        duckladydinh
+
+                        5 years ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Wow, thanks. It's great to see that VNOI has improved so much.
+
+                        →
+                        Reply
+
+                                    »
+
+                     Radewoosh
+
+                        5 years ago,
+                        show
+                        #
+
+                                »
+
+        Radewoosh
+
+                        5 years ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Will we see the combined standings of the people who participated in the virtual competition?
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:35 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI22_insects
+
+View problem - Rarest Insects (IOI22_insects) :: oj.uzView problem - Rarest Insects (IOI22_insects)
+
+Rarest Insects Interactive Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o insects insects.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o insects insects.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+2000 ms2048 MiB704053321840.90%
+
+Problem Source
+IOI 2022 Day 2 Problem 2
+
+ Attachments
+File nameSize
+insects.zip2.19 KiB

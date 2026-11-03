@@ -1,0 +1,77 @@
+https://usaco.guide/problems/joi-2021robot/solution
+
+Solution - Robot (JOI 2021) · USACO Guide
+USACO Guide
+
+Settings
+Contact Us
+
+Table of Contents
+ExplanationImplementation
+
+Table of Contents
+ExplanationImplementation
+
+Explanation
+
+Lemma: We can always recolour an edge (u,v)(u, v)(u,v) so that its colour is
+different from those of the other edges incident to uuu and vvv.
+
+Proof: If we take away (u,v)(u, v)(u,v), then there are at most M−1M - 1M−1 edges
+incident to uuu and vvv. Since there are MMM colours in total, there must exist
+some colour such that none of those edges have it (by the pigeonhole principle).
+Therefore, we can simply recolour (u,v)(u, v)(u,v) to that colour.
+
+This means we can define the cost to traverse an edge as:
+
+min⁡(Cost to recolour it,Cost to recolour same-coloured neighbours)\min(\text{Cost to recolour it}, \text{Cost to recolour same-coloured neighbours})min(Cost to recolour it,Cost to recolour same-coloured neighbours)
+
+It may be tempting to use Dijkstra's algorithm at this point, but that will
+unfortunately result in a wrong answer. Consider the following:
+
+The robot goes on the path u→v→wu \rightarrow v \rightarrow wu→v→w.
+
+(u,v)(u, v)(u,v) and (v,w)(v, w)(v,w) have the same colour.
+
+It's optimal to recolour (u,v)(u, v)(u,v) when going u→vu \rightarrow vu→v, but it's
+optimal to recolour the same-coloured neighbours of (v,w)(v, w)(v,w) when going
+v→wv \rightarrow wv→w.
+
+In this case, using Dijkstra's algorithm naively will count the cost to recolour
+(u,v)(u, v)(u,v) twice in our answer!
+
+To amend this, let's define two DP arrays instead of just one:
+
+dp1[i]\texttt{dp1}[i]dp1[i] is the minimum cost to get to node iii.
+
+dp2[i][c]\texttt{dp2}[i][c]dp2[i][c] is the minimum cost to get to node iii if:
+
+The robot just traversed a ccc-coloured edge to get to node iii.
+
+We're meant to have recoloured that edge, but haven't yet.
+
+The robot will definitely leave node iii via another ccc-coloured edge and
+we will recolour all of its same-coloured neighbours.
+
+We can then use Dijkstra's algorithm and some casework to solve this problem in
+amortized O((N+M)log⁡N)\mathcal O((N + M) \log N)O((N+M)logN) time.
+
+Implementation
+
+Time Complexity: O((N+M)log⁡N)\mathcal O((N + M) \log N)O((N+M)logN)
+
+Copy#include <bits/stdc++.h>
+typedef long long ll;
+using namespace std;
+
+const ll INF = 1e18;
+
+struct Edge {
+	int to, c;
+	ll p;
+};
+
+Join the USACO Forum!
+Stuck on a problem, or don't understand a module? Join the USACO Forum and get help from other competitive programmers!
+
+Join Forum

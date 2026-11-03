@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/IOI08_fish
+
+View problem - Fish (IOI08_fish) :: oj.uzView problem - Fish (IOI08_fish)
+
+Fish Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o fish fish.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o fish fish.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o fish fish.cpp
+Java/usr/bin/javac -encoding UTF-8 fish.java
+/bin/sh -c echo "Main-Class: fish" > __manifest__.txt
+/bin/sh -c jar cfm fish.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b fish.py
+/bin/mv fish.pyc __main__.pyc
+/usr/bin/zip fish.pyz.zip __main__.pyc
+/bin/mv fish.pyz.zip fish.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+3000 ms64 MiB8441147767.54%
+
+Problem Source
+IOI 2008 Day 1 Problem 3

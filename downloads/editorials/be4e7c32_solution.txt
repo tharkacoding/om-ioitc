@@ -1,0 +1,49 @@
+https://usaco.guide/problems/joi-2018snake-escaping/solution
+
+Solution - Snake Escaping (JOI 18 Final Round) · USACO Guide
+USACO Guide
+
+Settings
+Contact Us
+
+We use SOS DP to compute super[mask]super[mask]super[mask] and sub[mask]sub[mask]sub[mask], which denote
+∑mask∈SaS\sum\limits_{mask\in S} a_Smask∈S∑​aS​ and ∑S∈maskaS\sum\limits_{S\in mask} a_SS∈mask∑​aS​ respectively.
+
+For a query, let AAA be the set of 000's, BBB be the set of 111's, and CCC be
+the set of ???'s. By Pigeonhole principle, min⁡{A,B,C}≤6\min\{A,B,C\}\le 6min{A,B,C}≤6, and I claim we
+can answer queries in O(2min⁡{A,B,C})\mathcal{O}(2^{\min\{A,B,C\}})O(2min{A,B,C}).
+
+If a query has ∣C∣≤6|C|\le 6∣C∣≤6, we can brute force over all the subsets with 0's at A
+and 1's at B. Since there are 2∣C∣2^{|C|}2∣C∣ subsets, this takes
+O(2∣C∣)\mathcal{O}(2^{|C|})O(2∣C∣) operations.
+
+Otherwise, we can answer queries with the principle of inclusion-exclusion.
+The answer is simply ∑a∈Asuper[B∣a](−1)∣a∣\sum\limits_{a\in A} super[B | a] (-1)^{|a|}a∈A∑​super[B∣a](−1)∣a∣, which we
+can calculate in O(2∣A∣)\mathcal{O}(2^{|A|})O(2∣A∣).
+
+The answer is also ∑b∈Bsub[C∣b](−1)∣B∣−∣b∣\sum\limits_{b\in B} sub[C | b] (-1)^{|B|-|b|}b∈B∑​sub[C∣b](−1)∣B∣−∣b∣, which we
+can calculate in O(2∣B∣)\mathcal{O}(2^{|B|})O(2∣B∣). They can be computed efficiently with
+submask enumeration. For a detailed explanation on how submask enumeration
+works, check
+cp-algorithms.
+
+Time Complexity: O(2L⋅L+2L3Q)\mathcal{O}(2^L\cdot L+2^{\frac{L}{3}}Q)O(2L⋅L+23L​Q)
+
+We compute supersupersuper and subsubsub in O(2L⋅L)\mathcal{O}(2^L\cdot L)O(2L⋅L) with SOS DP, and we
+process each query in O(2L3)\mathcal{O} (2^{\frac L3})O(23L​).
+
+Copyimport java.io.*;
+import java.util.*;
+
+public class snake_escaping {
+	static class FastReader {
+		BufferedReader br;
+		StringTokenizer st;
+
+		public FastReader() {
+			br = new BufferedReader(new InputStreamReader(System.in));
+
+Join the USACO Forum!
+Stuck on a problem, or don't understand a module? Join the USACO Forum and get help from other competitive programmers!
+
+Join Forum

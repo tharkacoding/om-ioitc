@@ -1,0 +1,26 @@
+https://oj.uz/problem/view/IOI14_holiday
+
+View problem - Holiday (IOI14_holiday) :: oj.uzView problem - Holiday (IOI14_holiday)
+
+Holiday Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o holiday holiday.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o holiday holiday.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o holiday holiday.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+5000 ms64 MiB392856535562.83%
+
+Problem Source
+IOI 2014 Day 2 Problem 3
+
+ Attachments
+File nameSize
+holiday-templates.tar896.50 KiB

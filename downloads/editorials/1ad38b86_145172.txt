@@ -1,0 +1,2607 @@
+https://codeforces.com/blog/entry/145172#comment-1299575
+
+IOI 2025 tasks - Codeforces
+
+                        Enter
+                     | 
+                        Register
+
+                Home
+
+                Top
+
+                Catalog
+
+                Contests
+
+                Gym
+
+                Problemset
+
+                Groups
+
+                Rating
+
+                Edu
+
+                API
+
+                Calendar
+
+                Help
+
+        → Pay attention
+
+            Before contest
+Educational Codeforces Round 196 (Rated for Div. 2)
+2 days
+Register now »
+
+→ Top rated
+
+#
+User
+Rating
+
+1
+Benq
+3676
+
+2
+Kevin114514
+3659
+
+3
+jiangly
+3640
+
+4
+turmax
+3450
+
+5
+tourist
+3382
+
+6
+strapple
+3360
+
+7
+Um_nik
+3354
+
+8
+squareOf105
+3348
+
+9
+maroonrk
+3312
+
+10
+idontwannadothis…e
+3191
+
+Countries |
+Cities |
+Organizations
+
+View all →
+
+        → Top contributors
+
+                            #
+                            User
+                            Contrib.
+
+                                1
+                                Qingyu
+                                157
+
+                                2
+                                nik_exists
+                                151
+
+                                3
+                                maspy
+                                149
+
+                                4
+                                AmShZ
+                                145
+
+                                5
+                                Um_nik
+                                143
+
+                                6
+                                Errichto
+                                139
+
+                                7
+                                adamant
+                                136
+
+                                8
+                                BledDest
+                                133
+
+                                9
+                                maroonrk
+                                132
+
+                                10
+                                cry
+                                130
+
+                                    View all →
+
+        → Find user
+
+                Handle:
+
+        → Recent actions
+
+wakanda-forever        →
+        Codeforces Round 1131 (Div. 3) Editorial
+
+cel.in        →
+        Croatian Open Competition in Informatics (COCI) 2026/2027 — Round #1
+
+qwerty_2seven        →
+        Mercor is hiring Generalists for Project Odin — $40–$75/hour
+
+AmShZ        →
+        Repovive Premier Round 10 — Sponsored by Cognition | $2,550 in Prizes!
+
+joelgun14        →
+        SEATST 2027 Call for Tasks (up to USD 1000 per problem)
+
+Thunder8971        →
+        The Person Behind the Handle: Finding Myself Again
+
+SanguineChameleon        →
+        Leo's 20th Birthday Bash (win up to $576!!!)
+
+NgChiPhat        →
+        Contest segment tree after 1k8
+
+BledDest        →
+        Educational Codeforces Round 195 — Editorial
+
+_O_v_O_        →
+        Codeforces Round 1129 (Div. 2)
+
+MaxBlazeIceInk        →
+        Codeforces Round 1130 (Div. 2)
+
+atcoder_official        →
+        AtCoder Beginner Contest 482 Announcement
+
+awoo        →
+        Educational Codeforces Round 158 Editorial
+
+C0me_back        →
+        Burnout
+
+wrusb        →
+        Bad news for number theory lovers
+
+pashka        →
+        JetBrains Youth Coding Club 2026
+
+wuhudsm        →
+        Codeforces Round 1131 (Div. 3)
+
+Artix        →
+        Artix AI Contest Fall 2026: online machine learning contest, November 28
+
+Francisco_Martin        →
+        Codeforces Round 1127 (Div. 1, Div. 2, Based on Mexican Olympiad in Informatics 2026) Editorial
+
+clerisy47        →
+        IEEE Xtreme 20.0
+
+.o.        →
+        Codeforces Round #233 Editorial
+
+fatespeaker        →
+        I am FFT
+
+AzizbekSabirov        →
+        Is it possible to play chess optimally.
+
+Anubhav_Maheshwari        →
+        Any resource for learning Java for software industry
+
+sahal        →
+        ICPC Dhaka Regional and Preliminary Problemset and Editorials
+
+                                    Detailed →
+
+        NajmuddinSabr
+
+        Blog
+
+        Teams
+
+        Submissions
+
+        Groups
+
+        Contests
+
+        Problemsetting
+
+        NajmuddinSabr's blog
+
+                        IOI 2025 tasks
+
+                By NajmuddinSabr,
+                    history,
+                    15 months ago,
+
+        Hello!
+ Day 1First Task: https://drive.google.com/file/d/191Czj7ryG5Aq2macy4mOeDmpxEiaoBc6/view?usp=sharing
+Second Task: https://drive.google.com/file/d/19r40OAK7Ot6ZRbC3JL_xz44M36AitMZy/view?usp=sharing
+Third Task: https://drive.google.com/file/d/1ne1g8c2DoowT7MJI6Qbw6Fhfq7yDIS7J/view?usp=sharing
+
+ Day 2First Task: https://drive.google.com/file/d/12g4UdIabJs1qKHwpw-rsPL9_hNyRJLUF/view?usp=sharing
+Second Task: https://drive.google.com/file/d/1jMpszX2nPZ79jrK8yzDFIZXNb0CG_efi/view?usp=sharing
+Third Task: https://drive.google.com/file/d/1vBHRgTt9eaifo4oWLRcFQA1GxgzBZgkB/view?usp=sharing
+
+Total Results: https://ranking.ioi2025.bo/
+Congratulations to BreakPlay on winning IOI 2025!
+
+    ioi2025,
+
+    tasks
+
+        +227
+
+        NajmuddinSabr
+
+        15 months ago
+
+        77
+
+                Comments (67)
+
+                        Show archived
+
+                    |
+                Write comment?
+
+                                    »
+
+                     Errichto
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Errichto
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++303
+
+                        I guess I can finally reveal that Triple Peaks (second problem) was my task! It was so strange during my stream today — the problems and authors weren't public so I assumed I can't say anything.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     vali
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        vali
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++11
+
+                        Do you plan on solving it on some livestream?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Errichto
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Errichto
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++4
+
+                        Sure, I will discuss the solution during the day 2 stream. I will also check out the other two problems.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     _totoro
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        _totoro
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        It was a very fun two-part problem, thanks! And* crazy that China solved the big output only and not the small ones lol, I didn't expect those to be easier.
+* potential spoiler incoming
+
+                        →
+                        Reply
+
+                                    »
+
+                     Ergodic137
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+        Ergodic137
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++36
+
+                        Is an online mirror possible for it?
+
+                        →
+                        Reply
+
+                                    »
+
+                     Martinc021
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Martinc021
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        How does someone get 0.99 points away? How does the point system work?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     nik_exists
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        nik_exists
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        On the second question, your score is dependent on how many mythical triples are in your solution, and the score for each subtask can be a decimal
+
+                        →
+                        Reply
+
+                                    »
+
+                     Dominater069
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Dominater069
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++63
+
+                        Solution Write up for Day 1 (excluding the Output only 30 points for P2) 
+Note that I have not submitted my solutions anywhere, but I have stress tested locally to a sufficient extent. You can access my code files at Github Repo.
+ SouvenirsWe will try to figure out the values of $$$p_0, p_1, \ldots, p_{n - 1}$$$ while not overshooting the allowed limits on the number of times we are allowed to use each. We maintain a set of equations which represent the stuff we know. Initially, all we know is $$$p_0 = P0$$$. 
+The only information that we actually use from the queries is the sum of the elements that were chosen (which we can easily find). It is a bit disappointing (to me) that nothing smarter is needed.
+Suppose we have an equation $$$p_{x_1} + p_{x_2} + \ldots + p_{x_k} = s$$$ where $$$x_i$$$ is increasing (assume $$$k \gt 1$$$). The important idea here is to query $$$\frac{s}{k}$$$ (rounded down), and then there are $$$2$$$ important properties.
+    $$$x_1$$$ or any number smaller than $$$x_1$$$ cannot appear in that equation because by PHP, $$$p_{x_1} \gt \frac{s}{k}$$$, and thus all $$$p_i$$$ with $$$i \lt x_1$$$ can also not appear as they will be larger.
+
+   It is still a valid query, because again by PHP, $$$p_{x_k} \le \frac{s}{k}$$$.
+
+ When $$$k = 1$$$, we can instead query $$$s - 1$$$ if needed to get info about the smaller values.
+This is actually sufficient to solve the problem, because this gives us a descending set of equations which we can keep on using to find more and more equations till we eventually go into the base case of $$$k = 1$$$ where we figure out the value of $$$p_i$$$.
+For the set of equations that you have (the ones where you have not yet figured out everything), order them by the minimum element, and then look at the last equation, and break it into subcase by doing the above.
+
+ TriplesNote that there is some algebra ahead, because that is how I think of things. It is useful to work out the algebra yourself, reading it doesn't have the same effect imo.
+Let's casework on which of the values among $$$h_i, h_j, h_k$$$ is the largest value, i.e. $$$k - i$$$.
+When $$$h_i = k - i$$$, let us fix $$$i$$$, and this fixes $$$k = i + h_i$$$. Further, either $$$h_k = j - i$$$ or $$$h_k = k - j$$$ and in both cases, $$$j$$$ also gets fixed. Thus, there are potentially $$$2 \cdot N$$$ triples, and we can verify all easily in $$$O(n)$$$.
+Same analysis holds for $$$h_k = k - i$$$. Let's move on to the more challenging $$$h_j = k - i$$$ case.
+We further subdivide into $$$2$$$ cases:
+Case 1: $$$h_i = j - i, h_k = k - j$$$ : Again this case is pretty simple. Bruteforce on $$$i$$$, it fixes $$$j$$$. Fixing $$$j$$$ in turn fixes the value of $$$k$$$. At most $$$n$$$ triples, verify in $$$O(n)$$$ time.
+Case 2 : $$$h_i = k - j, h_k = j - i$$$ : This is a hard case, and the only case where there are more than $$$O(n)$$$ triples. However, the idea is still the same, enumerate all triples and verify.
+We have the equations $$$h_i = k - j, h_j = k - i$$$. Subtract these to get $$$h_i - h_j = i - j$$$ or $$$h_i - i = h_j - j$$$. This already imposes a constraint on the pair $$$(i, j)$$$ to possibly be extended to form a valid triplet. We can now solve this problem in $$$\sum f_x^2$$$ where $$$f_x$$$ is the number of occurences of $$$h_i - i = x$$$.
+Let us group things by the same value of $$$x = h_i - i$$$. Now, if we fix $$$k$$$ instead of $$$(i, j)$$$, we get the following: $$$k = h_i + j$$$ and $$$h_k = j - i$$$. Subtract to get $$$k - h_k = h_i + i = x + i + i$$$. So, this fixes $$$i$$$ and hence, it fixes $$$j$$$. 
+In summary, every pair of $$$(k, x)$$$ where $$$x$$$ is the required difference of $$$h_i - i$$$ has exactly one suitable pair $$$(i, j)$$$ and we can enumerate all possible $$$k$$$ to solve each group in $$$O(n)$$$. However, this still has a worst case complexity of $$$O(n^2)$$$ when there are a lot of distinct values of $$$h_i - i$$$.
+As a final trick, we use square root decomposition, breaking groups into $$$ \gt sqrt(n)$$$ size or $$$\le sqrt(n)$$$ size. For the smaller groups, we use the bruteforce $$$f_x^2$$$ method, for the larger groups, we use the $$$O(n)$$$ method. It is not hard to show that the total runtime is $$$O(n^{1.5})$$$
+
+ World MapObviously, if the graph is not connected, it is impossible. Assume it is connected. Let's go step by step. Actually, when you solve the first step, the rest falls into place.
+Looking at the final construction visually is useful if my explanation sucks. You can run my code.
+ Step 1 : M = N - 1A dfs actually gives you the valid order! Whenever we enter a node $$$u$$$, push $$$u$$$ into a order vector. For each child of $$$u$$$, call the recursive dfs function and after the function returns, push $$$u$$$ into the order vector again. 
+This has a total length of $$$2 \cdot n - 1$$$, and also all adjacent nodes in the order vector are also adjacent in the graph (because whenever a function is currently $$$dfs(u)$$$, $$$u$$$ is also the last item in the order vector).
+If the order you got is $$$a_1, a_2, \ldots, a_{2 \cdot n - 1}$$$, you can make a $$$(2 \cdot n - 1) \cdot (2 \cdot n - 1)$$$ matrix where the $$$i$$$-th row is just filled with $$$a_i$$$.
+You can note that this is Euler tour, but I HATE giving names to such simple concepts, as they appear scary
+
+ Step 2 : 4N ConstructionPick a spanning tree. Find it's dfs order. Do the same initial construction as Step $$$1$$$. 
+Now, look at the first row where some node $$$u$$$ occurs, insert $$$2$$$ new rows just below it. Fill the second new row with $$$u$$$. And fill the first new row with alternating $$$u$$$ and other things adjacent to $$$u$$$. 
+This will take $$$4 \cdot n$$$ rows at most.
+
+ Step 3 : 3N ConstructionDo the same as Step 2, but now utilize diagonals. With diagonals, there are $$$2$$$ powerful properties. Firstly, there are twice as many diagonals as rows. Secondly, $$$2$$$ things in the same diagonal are not considered adjacent so there is no need for filler elements in between. 
+This means that we need only diagonals of length $$$n$$$ instead of $$$2 \cdot n$$$ to accommodate all the neighbours of some node $$$u$$$. 
+A $$$3n \cdot 3n$$$ grid has $$$6n - 1$$$ diagonals, of which roughly $$$4n$$$ have the proper size, exactly how much we need.
+
+ Step 4 : 2N ConstructionWe need to remove the waste from Step $$$3$$$. We ignore $$$2 \cdot n$$$ diagonals completely which we cannot afford anymore. 
+The problem is that the starting and ending diagonals are too short, otherwise our construction would work. Ideally, we would like to pair up the starting and ending diagonals with nodes such that those nodes also do not have many non-tree edges adjacent to them. 
+To be more specific, we only need to make the non-tree edge $$$(u, v)$$$ solved at either $$$u$$$ or $$$v$$$ not both, so for the non-tree edges, we will choose to associate it with one of the endpoints, whatever is the most convenient for us. How to do that? 
+Let us use properties of the DFS tree. It is somewhat well known (and not hard to prove) that all non-tree edges in a DFS tree are node $$$\rightarrow$$$ ancestor. Importantly, this means $$$u$$$ has at most $$$depth(u)$$$ back-edges to ancestors. We will choose to associate all such edges with $$$u$$$ and not the ancestors.
+Further, the earliest diagonal that $$$u$$$ can occur at is definitely $$$depth(u) + 1$$$, which has a sufficient length. This means that the starting diagonals do not cause any issue. But what about the ending diagonals? i.e. if $$$u$$$ occurs in the last few diagonals? 
+We can actually limit the dfs order path that we got to a length of $$$2 \cdot n - 1 - md$$$ where $$$md$$$ is the max depth of any node in the graph by delaying visiting the subtree with the maximum depth as late as possible, and never returning back from the subtree of the maximum depth node. With this idea, we are done because the last $$$md$$$ diagonals never get used, and the others have length at least $$$md$$$ which is good enough.
+In my implementation, I do find the maximum depth node, but I do not limit my order path to $$$2 \cdot n - 1 - md$$$. I instead let it return from the maximum depth node as well. This does not change anything because I still will not be using the last $$$md$$$ cells (those are repeated nodes, not new nodes).
+
+Update : All the above solutions work correctly as tested on oj.uz. I have now updated the github repo to contain submittable codes.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     jonathanirvings
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        jonathanirvings
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 4
+                                →
+
++22
+
+                        Triples SpoilerThe way I was thinking for case 2 of triples is we need to find $$$i,j,k$$$ such that:
+    $$$i - h_i = j - h_j$$$
+   $$$j + h_j = k + h_k$$$
+   $$$i + h_i = k - h_k$$$
+ In other words, if we represent $$$(u_i, v_i) = (i - h_i, i + h_i)$$$, $$$i,j,k$$$ satisfies $$$u_i = u_j, v_i = u_k, v_j = v_k$$$. This is basically counting the number of triangles on a simple graph with $$$n$$$ edges, which can be done in $$$O(n^{1.5})$$$ time.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Nicolo_010
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Nicolo_010
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I see how that works, but is it possible there's some overcounting happening?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     -is-this-fft-
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        -is-this-fft-
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 4
+                                →
+
++32
+
+                        Here's a visual explanation for my solution to worldmap 100. It seems like some core ideas are the same, but I think my construction is a bit simpler.
+ ImageBlack squares represent back-edges to descendants in the DFS tree.
+https://i.imgur.com/rRLyo5w.png
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Benq
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Benq
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++3
+
+                        Could you explain what's going on in the image? This doesn't look simple to me.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     -is-this-fft-
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        -is-this-fft-
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++26
+
+                        Take the DFS tree of the given graph. We'll try to draw the DFS tree.
+Drawing only the tree is hopefully easy enough following the example of the first image. It can be shown that the height is at most $$$N$$$ and the width is less than $$$2N$$$. Now we need to add back-edges.
+For $$$R = 3$$$ we can make the topmost row of every node three times taller like in the second image. Now we have some spots (marked in black) to add back-edges to descendants. There is always enough space for the back-edges because the width of a node is $$$2d + 1$$$, where $$$d$$$ is the number of its descendants.
+To optimize for $$$R = 2$$$, instead make the topmost row of every node have only height 2, but use "jagged" edges. Now we have $$$(2d + 1 - 3) / 2 = d - 1$$$ spots for back-edges. This is sufficient because no node has a back-edge to its own children.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     qwerasdfzxcl
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        qwerasdfzxcl
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 9
+                                →
+
++41
+
+                        My solution for Triples Part 2 (Output only): link
+ SpoilerOur main interest is the triples which satisfy ($$$i \lt j \lt k$$$):
+    $$$i + H_j = j + H_i$$$
+   $$$j - H_k = k - H_j$$$
+   $$$k - H_i = i + H_k$$$
+ If we define $$$(x_i, y_i) = (i-H_i, i+H_i)$$$, we can rewrite as:
+    $$$x_i = x_j$$$
+   $$$y_j = y_k$$$
+   $$$y_i = x_k$$$
+ For a fixed $$$i$$$, $$$x_j$$$ and $$$x_k$$$ are fixed($$$x_j = x_i$$$, $$$x_k = y_i$$$), and $$$y_j = y_k$$$ must be satisfied. We can think of this as an intersection of points on two vertical lines.
+Let's think about the restrictions on $$$x_i$$$ and $$$y_i$$$. Since $$$i$$$ are distinct and $$$0 \le i \le N-1$$$, $$$x_i + y_i$$$ are distinct and $$$0 \le x_i + y_i \le 2N-2$$$. $$$1 \le H_i \le N-1$$$ can be written as $$$2 \le y_i - x_i \le 2N-2$$$. Additionally, $$$x_i + y_i$$$ and $$$x_i - y_i$$$ are even.
+Now, we will construct $$$(x_i, y_i)$$$ as follows:
+    $$$(x_0, y_0) = (-1, 1)$$$.
+
+   Let $$$S = \lbrace 0 \rbrace$$$.
+
+   For a set $$$S$$$, define $$$span(S) = \lbrace x+y | x \ne y, x, y \in S, 2 \le x+y \le 2N-2, x+y\textrm{ is even}\rbrace$$$. Our goal is to make a small set $$$S$$$ that satisfies $$$|span(S)| = N-1$$$.
+
+   We use a greedy approach. Choose a smallest even integer $$$t$$$ ($$$0 \le t \le 2N-2$$$, $$$t \notin S$$$) that maximizes $$$|span(S \cup \lbrace t \rbrace)| - |span(S)|$$$.
+
+   For $$$u \in S$$$, if $$$u + t \notin span(S)$$$ and $$$u + t \in span(S \cup \lbrace t \rbrace)$$$, add a point $$$(x, y) = (\min (u, t), \max(u, t))$$$. 
+
+   Insert $$$t$$$ to $$$S$$$. If $$$|span(S)| = N-1$$$, we are done. Otherwise, go back to step 4 and repeat.
+
+ Experimentally, $$$|S| \in \Theta(\sqrt{N})$$$. Since $$$x_i, y_i \in S$$$, the number of points on each vertical line is roughly $$$\Theta(\sqrt{N})$$$. Also, we can expect that the size of the intersection of two vertical lines is roughly $$$\Theta(\sqrt{N})$$$, giving us $$$\Theta (N\sqrt{N})$$$ construction. We can implement this algorithm with $$$O(N|S|)$$$ time complexity.
+This algorithm gets 99.33 points. ($$$cnt = 26$$$ for subtask 7) I made a better construction for subtask 7 by greedily applying the modification(modifying $$$H_i$$$ to $$$j$$$) which increases $$$cnt$$$.
+For subtask 12, this algorithm constructs $$$H$$$ with $$$cnt = 15723590$$$.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Enchom
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        Enchom
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++34
+
+                        Same core idea for 100 on WorldMap but was simpler to see for me (tested and got 100):
+ 2N constructionUse the diagonals in order without any regard for their length, but record the length of the free diagonal associated with each node. Now sort the nodes from smallest available diagonal to largest, and then in the $$$i$$$-th node's diagonal add just the neighbours earlier in that order. It has sufficient space because the minimal diagonal lengths you may get are $$$2, 2, 5, 5, 8, 8..$$$ which is clearly always larger than $$$0, 1, 2, 3$$$ (the number you might need to fill).
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Dominater069
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Dominater069
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
+0
+
+                        Oh i am so stupid
+I did not think to go "in that order" itself. Yeah this makes sense. 
+I was trying fixed orders instead and trying to find valid tree.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Benq
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        Benq
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++18
+
+                        Comment about World Map 2NBut what about the ending diagonals? i.e. if $$$u$$$ occurs in the last few diagonals?
+ Actually, this isn't a problem — it will always be the case that $$$u$$$ will first occur at depth at most $$$2n-1-\text{depth}(u)$$$ because you'll be adding extra diagonals every time you go up the tree. So modifying the DFS order is not necessary.
+Submission: https://oj.uz/submission/1251129
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     ivatopuria
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        ivatopuria
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++26
+
+                        I have a different solution for the World Map, which I think is worth noting.
+ Spoiler While solving this problem, I didn't come up with diagonals at all, and my construction completely bypasses that. Even though I have spent more than 5 hours solving it. I still find this construction to be more elegant than the intended one. 
+
+   Construction  We will construct the solution in the order of the dfs tree. 
+   Let's first solve when we don't have back edges (given graph is a tree):  
+   Let vector $$$f[v]$$$ denote the following vector:   
+$$$ \{ v, v, \dots, v,\ \mathrm{par}(v), \mathrm{par}(v),\ \mathrm{par}(\mathrm{par}(v)), \mathrm{par}(\mathrm{par}(v)),\ \dots,\ 1, 1 \}. $$$       basically, the ancestors of $$$v$$$ repeated twice, and the rest of the prefix filled with $$$v$$$.
+      Without back edges, we can simply do the following — in dfs order, as we enter vertex $$$v$$$, we append vector $$$f[v]$$$ to our grid, and as we leave we will append $$$f[par(v)]$$$. 
+    For example, if we have a graph:   
+$$$ N = 6 $$$   with edges   $$$
+
+~~~~~ (1,2),\ (2,3),\ (2,4),\ (4,5),\ (5,6) ~~~~~
+
+$$$        Grid will look like as: 
+
+     Why this works for a tree:
+          Vertical adjacencies —      Each edge $$$ (v, \mathrm{par}(v)) $$$ appears vertically when the tour enters or leaves $$$ v $$$.   
+        Horizontal adjacencies —      Within a row $$$ f(v) $$$, the vertex $$$ v $$$ is horizontally adjacent only to its ancestors one by one.   
+    Now, what to do about back edges?
+  We will modify the vector $$$f[v]$$$ in the following way:
+   Iterate from left to right; if $$$v$$$ and the current ancestor (call it $$$a$$$) share an edge, apply one of the following rewrites: 
+
+        If $$$\mathrm{par}(a)$$$ does not share an edge with $$$v$$$:
+     replace     $$$\big[\,a,\,a,\,\mathrm{par}(a),\,\mathrm{par}(a)\,\big]$$$     with     $$$\big[\,a,\,v,\,a,\,\mathrm{par}(a)\,\big]$$$,     then move on.   
+        Otherwise:
+     replace     $$$\big[\,a,\,a,\,\mathrm{par}(v),\,\mathrm{par}(v)\,\big]$$$     with     $$$\big[\,a,\,v,\,\mathrm{par}(v),\,\mathrm{par}(v)\,\big]$$$,     then move on.   
+     Notice that, in this construction and dfs order, $$$v$$$ still only touches $$$\mathrm{par}(v)$$$ vertically (above/below) and its ancestors horizontally (left/right). 
+   For example, if we have a graph:   
+$$$ N = 6 $$$   with edges   $$$ (1,2),\ (2,3),\ (2,4),\ (4,5),\ (5,6),\ (1,6),\ (2,5),\ (2,6),\ (4,6) $$$     
+ Grid will look like this: 
+
+   And one more example, just for fun: 
+
+                        →
+                        Reply
+
+                                    »
+
+                     MyBrainGotTLE
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+        MyBrainGotTLE
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++1
+
+                        China looks scary
+
+                        →
+                        Reply
+
+                                    »
+
+                     ojuz
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        ojuz
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++15
+
+                        Day 1 tasks here: https://oj.uz/problems/source/ioi2025day1
+We don't support the hybrid format, sorry.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     NajmuddinSabr
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        NajmuddinSabr
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        when day2?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     ojuz
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        ojuz
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++3
+
+                        Day 2 tasks here: https://oj.uz/problems/source/ioi2025day2
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     bronze_coder
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        bronze_coder
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I think the scoring for subtask 1 of migrations should only on Z (maximum integer) and not the number of messages.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     NajmuddinSabr
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        NajmuddinSabr
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        and what about adding virtual participation mode?
+
+                        →
+                        Reply
+
+                                    »
+
+                     Qingyu
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Qingyu
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 3
+                                →
+
++74
+
+                        I uploaded all the tasks to QOJ, with the support of the "Interactive-and-Output-Only" format on P2. You might start a virtual participation if you want )
+Personally, I found this innovative task type quite interesting, so I decided to implement this feature on QOJ when uploading the tasks of the Practice contest. I am still not sure the exact behaviors of the implementation of the CMS, and here is what I did:
+    General Idea: The priority of a submitted output file > The priority of the submitted programs
+   First, the judge will compile the contestant's program. If errored, a compilation error message is saved.
+   For each testcase, if there is a corresponding output file submitted by the contestant, the judge will run the checker for that testcase.
+   Otherwise, if the program of the contestant compiled successfully, we run this testcase normally.
+   Otherwise, the verdict of this test will be "Compile Error", and the compilation error message is provided for this testcase.
+   When submitting, contestants can submit both their program and a list of allowed output files (in this case, outputs for subtasks #7–#12). Each test corresponds to a full subtask in this case. (It's technically easy to support subtasks consisting of multiple testcases with allowed output files, though I'm not sure how useful that would be :< )
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     vahagngyozalyan
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        vahagngyozalyan
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++3
+
+                        It seems that test_cases are wrong for P1, as my solution for first 2 subtasks passes in oj.uz but not in QOJ
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Qingyu
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Qingyu
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++20
+
+                        Sorry, I found the issue now. It has been fixed.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     vahagngyozalyan
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        vahagngyozalyan
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Can you please check test cases for P1 subtask 3
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Qingyu
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        Qingyu
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++15
+
+                        Hm, I've verified it by writing a validator and submitting the official Subtask 3 solutions, and I didn't find any issues with the current configuration.
+
+                        →
+                        Reply
+
+                                    »
+
+                     tristansun
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        tristansun
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++3
+
+                        Anyone know the solution specifically for the $$$N \leq 15$$$ subtask for worldmap? How does the small $$$N$$$ help?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     MidoriFuse
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        MidoriFuse
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++11
+
+                        For N <= 15 you have 105 edges, so 2.28 rows per edge. DFS and just write down the edges you visit in order
+
+                        →
+                        Reply
+
+                                    »
+
+                     34z12000
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        34z12000
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++9
+
+                        Is there a link for day 2?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     34z12000
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        34z12000
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Oh, it appears to be the same link as for day 1, so nvm
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     wincg
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        wincg
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Can you please provide me the link? I don't know which link you are referring to?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     34z12000
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        34z12000
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        It's the link in this blog, labaled as "Day 1"
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     wincg
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        wincg
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Either I am blind, or I actually don't see the task for day 2 anywhere in any link yet.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     34z12000
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        34z12000
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        https://ranking.ioi2025.bo/
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     wincg
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        wincg
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Bruh, I mean the tasks' statement.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     34z12000
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        34z12000
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Bruh, idk about them
+
+                        →
+                        Reply
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Problem 4 has been murdered at 00:45
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     NajmuddinSabr
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        NajmuddinSabr
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        what do you mean?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     nik_exists
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        nik_exists
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I'd presume they mean solved
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     NajmuddinSabr
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        NajmuddinSabr
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        thx<3
+
+                        →
+                        Reply
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+-22
+
+                        Authors, you can come out now. Please. Since it appears the tasks are all very balanced and offered a very good score distribution, we won't jump you.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     FelixMP
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        FelixMP
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++49
+
+                        I'm the author of Souvenirs.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+-32
+
+                        Congratulations for your 3rd IOI task. Was it based on the reversed engineered version of 1951D?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     FelixMP
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        FelixMP
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Actually, I came up with the Souvenirs problem before that problem appeared, and I originally submitted Souvenirs to IOI 2024. 
+I think that, except for the similar story, they're quite different problems. 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+-48
+
+                        Given how nice the scoring turned out (well, I certainly don't know whether 50+ ACs plus some 67s and the rest were 39s would be considered nice scoring) for this supposed "easy" task.....and M*saic got in, it is a total shame. Should've been shortlisted for IOI24 tbh
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     2304
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        2304
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++48
+
+                        skill issue tbh, please stop yapping.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     MinaRagy06
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        MinaRagy06
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++15
+
+                        That’s actually interesting because the ISC’s argument for including Mosaic last year was that they didn’t have easy problems
+
+                        →
+                        Reply
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+-50
+
+                        Quick braindead initial impressions of Day2 tasks:
+Festivals: Another "simple setting" IOI task. No comment
+Migration: 
+ No ACs, only partial scores.
+Probably another OO
+looks inside
+Communication problem.
+ Yes it is very hard. Probably not the same situation as IOI19's Broken Line where a deterministic polynomial solution exists but people don't bother to do that.
+Obstacle for a Llama: M*saic, but good. Actual DS task. Yay. Probably in the same vein with those magical JOISC DS problem.
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Adam_GS
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        Adam_GS
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++17
+
+                        Where is all the mosaic hate coming from? It was not a bad problem
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     CountingGroup
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        CountingGroup
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++8
+
+                        Maybe the reason is, mosaic is an original problem? (https://atcoder.jp/contests/arc107/tasks/arc107_e)
+
+                        →
+                        Reply
+
+                                    »
+
+                     Enchom
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Enchom
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
+0
+
+                        Ideas for full score on Migration? We have quite reasonable solutions for up to 21 messages, and some harder ideas for getting down to 12, but 8 seems really crazy
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     indjev99
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        indjev99
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++3
+
+                        This is my solution with 11 messages: https://codeforces.com/blog/entry/145228
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     Enchom
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        Enchom
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Seems you were right for the direction of the full solution. The author's code also ends with 15 if cases about the last 3 nodes specifically (like yours). 
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     indjev99
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+                                »
+
+        indjev99
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        I editted my post to also outline the core extra idea in the full solution when compared to mine (though I haven't yet fully grasped all the details).
+
+                        →
+                        Reply
+
+                                    »
+
+                     CodingPokemon
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+        CodingPokemon
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+0
+
+                        Is there any place to submit day 2 problems?
+
+                        →
+                        Reply
+
+                                    »
+
+                     E869120
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        E869120
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++60
+
+                        We (E869120 and square1001) authored at least one problem in IOI 2025.
+ We will reveal the details after the update in IOI 2025 Tasks Page (or after closing ceremony).
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     kostka
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        kostka
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++10
+
+                        Always a pleasure :)
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     Down_bad_4_haiender288
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+                                »
+
+        Down_bad_4_haiender288
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        Were there any chance Migration was the backup shortlisted task you two had for IOI24?
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                                    »
+
+                     square1001
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+                                »
+
+        square1001
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++11
+
+                        In fact we also submitted Migrations in IOI 2024. It was semi-accepted, which means that it was rejected but ISC said that we should submit it next year because the problem is good. So we decided to submit it again this year, and luckily it was used in IOI 2025 Day 2 :)
+
+ Side note: Some source codes for this problem can be downloaded from the website and I wrote some of them. I think you can find a clue that we also submitted it to IOI 2024...
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     E869120
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        E869120
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
++50
+
+                        We can finally reveal: we authored 3 out of 6 tasks, worldmap, festival, and migration. Thank you for enjoying our problems!
+
+                        →
+                        Reply
+
+                                    »
+
+                     Dominater069
+
+                        15 months ago,
+                        show (+1)
+                        #
+
+                                »
+
+        Dominater069
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
+                                ←
+                                Rev. 2
+                                →
+
++24
+
+                        Solution Write up For Day 2 (100 + 79 + 100 points).
+I was originally waiting for the problems to be submittable on online judges, but doesn't look like that's happening. Implementations will be added once the problems are submittable.
+ FestivalsLet us go step by step. Once we fix a set of items to buy, what is the optimal order? We can easily find this with exchange argument, take $$$i$$$ before $$$j$$$, and take $$$j$$$ before $$$i$$$, and compare which leaves us with more money.
+Now, let us assume items are sorted in this order. What do we do? Write DP ofcourse. $$$dp_{i, j} = $$$ maximum money after buying $$$j$$$ items from $$$[1, i]$$$. We get a working $$$n^2$$$ solution after preventing overflow.
+Now, we move on to the subtask with $$$(A - p_i) \cdot t_i \lt A$$$. Ignore $$$t_i = 1$$$ for now. We can actually prove we will take only $$$log(A)$$$ many other items. This is because $$$(A - x - p_i) \cdot t_i \lt A - x \cdot t_i$$$, i.e. if the starting money was $$$A - x$$$, the current money will be less than $$$A - x \cdot t_i$$$, the difference from $$$A$$$ gets multiplied by at least $$$t_i$$$ each step.
+So we can write the same dp, but limit $$$j$$$ to $$$log(A)$$$, and then bruteforce over the number of $$$T_i \gt 1$$$ and look at how many $$$T_i = 1$$$ you can take.
+The idea for the full problem is the same as above, but some prefix will be non-negative value (i.e. increasing your coins), which you should process at the start, and then do the above solution, carefully handling overflow. The proof that it will only be a prefix which is non-negative value comes from the optimality of the exchange order.
+
+ MigrationWe will implement a solution with $$$Z = 4$$$ and $$$21$$$ messages. Ignore the first $$$N - 1 - 21$$$ calls, only focus on the last $$$21$$$. Note that there are actually $$$5$$$ allowed states, not just $$$4$$$ since you can use $$$S_i = 0$$$ as an information source too.
+The idea is to send the pair $$$(u, v)$$$ where $$$u$$$ and $$$v$$$ are diameter endpoints. We can encode them easily, but the problem is when a new node arrives and is a new diameter endpoint.
+Let us first focus on transmitting $$$u$$$. We transmit it in base $$$4$$$ using $$$0 \le S_i \le 3$$$, but if the current node $$$i$$$ becomes an endpoint of a diameter at any time, we transmit $$$S_i = 4$$$ to indicate that. In this way, at the end of this process, we will know one endpoint of a diameter for sure. This takes at most $$$log_4(10^4) = 7$$$ steps. 
+Now, we want to transmit the other endpoint $$$v$$$. When a new node $$$i$$$ arrives, the new diameters can be $$$(u, v), (u, i)$$$ or $$$(v, i)$$$. We will use $$$0 \le S_i \le 1$$$ to indicate the first, $$$S_i = 2$$$ to indicate the second, and $$$3 \le S_i \le 4$$$ to indicate the third. In the case of first and third, we can transmit one bit of $$$v$$$ because we have $$$2$$$ options. In the case of second, we already know our current diameter because we knew $$$u$$$ before, and we don't need $$$v$$$ anymore. This takes at most $$$log_2(10^4) = 14$$$ steps.
+
+ ObstaclesLet us solve $$$L = 0, R = M - 1$$$ for now. The important property is that the allowed segments in a row are always subsets or supersets of each other (which is easy to show). 
+You can travel from column $$$S$$$ to column $$$D$$$ only in the row that has both of them in the same segment. It is not hard to show that infact, the first row satisfying this property is optimal.
+Let us discuss a process by which we can decide how far you can travel from some column $$$S$$$. At row $$$0$$$, there is some segment of allowed columns $$$[L_1, R_1]$$$ with $$$L_1 \le S \le R_1$$$. Look at the first row where this segment is larger, say row $$$x$$$ has a segment $$$[L_2, R_2]$$$ ($$$L_2 \le L_1 \le R_1 \le R_2$$$). We need to check if our segment can reach this larger segment. How to do that? 
+We can reach the larger segment iff there is some column which is completely free for all rows $$$0, 1, \ldots x$$$. This is due to the subsets, supersets property. It is easy to check if such a column exists, because it is simply the column with the smallest value of $$$H_j$$$. 
+In general, the problem can be thought about as jumping to increasing segments (and checking if these jumps are valid). For a query $$$(S, D)$$$, we need to check if the largest segment that $$$S$$$ can reach is the same as the largest segment that $$$D$$$ can reach. Implementation details of finding the segments and validity of jumps are left to the reader.
+Let us move on to general $$$L$$$ and $$$R$$$. The core idea remains the same, but now for each jump to a larger segment, we actually care about what column we use. Also, now we will travel from $$$S$$$ and $$$D$$$ to their LCA in this tree of segments. Suppose $$$S \lt D$$$. Then, the path from $$$S$$$ to the LCA will have to use columns $$$\ge L$$$ ($$$\le R$$$ is pointless, because we never cross $$$D$$$ anyways), and vice versa. 
+For each jump to an increasing segment, we will now have to find the "maximum index" where such a jump can be made. This can be done with a Segment tree walk. Then, we build a binary lifting structure to answer path max/min queries, and check if $$$minjump(S, lca) \ge L$$$ and $$$maxjump(D, lca) \le R$$$
+
+Update: You can find the implementations at Github Link
+
+                        →
+                        Reply
+
+                                    »
+
+                                    »
+
+                     CSQ31
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+                                »
+
+        CSQ31
+
+                        15 months ago,
+                        hide
+                        #
+                            ^
+                        |
+
+0
+
+                        For Obstacles, I think I have a pretty clean solution that does not need to consider free segments explicitly though thinking in term of free segments is better for understanding and proofs.
+ SolutionDefine the power $$$pw(j)$$$ of column $$$j$$$ as the index of the row with greatest temperature you can reach from $$$(0,i)$$$ by only going downwards. 
+For some query $$$(L,R,S,D)$$$. Let $$$C_s$$$ be the column with smallest humidity/greatest power reachable by $$$(0,S)$$$, define $$$C_d$$$ similarly for $$$(0,D)$$$. The answer to the query is yes iff column $$$D$$$ and column $$$C_s$$$ are connected in row $$$pw(C_s)$$$ and column $$$S$$$ and column $$$C_d$$$ are connected in row $$$pw(C_d)$$$. The answer for a query reduces to finding $$$C_s$$$ and $$$C_d$$$. 
+Let's first solve for the subtasks with $$$(L,R) = (0,M-1)$$$. Let $$$lf(j)$$$ as the nearest column to the left of column $$$j$$$ with smaller humidity, define $$$rg(j)$$$ similarly for columns to the right. 
+To find $$$C_s$$$, start from column $$$S$$$ repeatedly move to column $$$lf(S)$$$ or $$$rg(S)$$$ (pick any if it is possible to move to either) , it does not matter which you choose as long as you always move to a column with smaller humidity. You can do the same with $$$C_d$$$ and the process can sped up with binary lifting. Note that moving from column $$$i$$$ to $$$j$$$ means moving from $$$(i,pw(i))$$$ to $$$(j,pw(i))$$$ with $$$pw(j) \geq pw(i)$$$.
+For the final subtask, we need the following key observation :
+The answer stays the same if starting from column $$$S$$$ we are allowed to move to a column past $$$R$$$ and starting from column $$$D$$$ we are allowed to move to a column past $$$L$$$. 
+With this observation we can modify the binary lifting to find $$$C_s$$$ by always greedily moving right for $$$S$$$ and ensuring we don't move past column $$$L$$$ during the binary lifting. Similarly modify the binary lifting for finding $$$C_d$$$ by always greedily moving right.
+I am omitting proofs and assuming that the reader already knows the solution or at least the partial solution, let me know if there are errors or if there should be proofs.
+
+Submission
+
+                        →
+                        Reply
+
+                                    »
+
+                     ainta
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+        ainta
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++94
+
+                        I’m the author of Llama(Obstacles). I know it’s a fairly standard problem, but I hope it was still a good fit for the contest :)
+
+                        →
+                        Reply
+
+                                    »
+
+                     Qingyu
+
+                        15 months ago,
+                        show
+                        #
+
+                                »
+
+        Qingyu
+
+                        15 months ago,
+                        hide
+                        #
+                        |
+
++26
+
+                        Day 2 tasks are now solvable on QOJ, with all translations and onsite scoreboard. You may start virtual contest if you want :)
+
+                        →
+                        Reply
+
+        In English
+        In Russian
+
+        ↑
+
+            ↓
+
+                Codeforces (c) Copyright 2010-2026 Mike Mirzayanov
+
+                The only programming contests Web 2.0 platform
+
+                    Server time: Nov/02/2026 11:28:34 (g1).
+
+                    Desktop version, switch to mobile version.
+
+                    Privacy Policy
+                    |
+                    Terms and Conditions
+
+                        Supported by
+
+                User lists
+
+                    Name

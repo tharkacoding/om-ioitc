@@ -1,0 +1,29 @@
+https://oj.uz/problem/view/COI15_sir
+
+View problem - SIR (COI15_sir) :: oj.uzView problem - SIR (COI15_sir)
+
+SIR Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o sir sir.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o sir sir.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o sir sir.cpp
+Java/usr/bin/javac -encoding UTF-8 sir.java
+/bin/sh -c echo "Main-Class: sir" > __manifest__.txt
+/bin/sh -c jar cfm sir.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b sir.py
+/bin/mv sir.pyc __main__.pyc
+/usr/bin/zip sir.pyz.zip __main__.pyc
+/bin/mv sir.pyz.zip sir.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms512 MiB312383181.58%
+
+Problem Source
+Croatian Olympiad in Informatics 2015 Problem 4

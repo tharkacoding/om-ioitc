@@ -1,0 +1,142 @@
+https://dmoj.ca/problem/coi09p4
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:25 (partial)
+Time limit:5.0s
+Memory limit:32M
+Problem types
+
+Two robots are lost in a warehouse. The robots are numbered 
+1
+ and 
+2
+. The warehouse is a grid with 
+𝑅
+ rows and 
+𝐶
+ columns with each field either blocked or free. The robots are controlled through radio commands. Each command consists of two pieces of data:
+
+𝑟
+𝑜
+𝑏
+𝑜
+𝑡
+ - 
+1
+ or 
+2
+, the number of robot we are moving.
+𝑑
+𝑖
+𝑟
+𝑒
+𝑐
+𝑡
+𝑖
+𝑜
+𝑛
+ - character U, D, L, or R representing the direction (up, down, left, right) we want to move the robot in.
+
+If the destination field is blocked, taken by another robot or outside the warehouse, nothing happens and the robot stays where he is. If the field is free, the robot moves in it.
+
+The robots are equipped with GPS devices, however due to malfunctions during deployment, we cannot receive the exact location of the robots, only their Manhattan distance to each other. If the robots are on fields 
+(
+𝑟
+1
+,
+𝑐
+1
+)
+ and 
+(
+𝑟
+2
+,
+𝑐
+2
+)
+, then their Manhattan distance is 
+|
+𝑟
+1
+−
+𝑟
+2
+|
++
+|
+𝑐
+1
+−
+𝑐
+2
+|
+.
+
+After each command, unsuccessful or successful, the only information we know is the current distance.
+
+Robots are currently in the warehouse on different, unoccupied locations. Write a program that will issue a series of commands required to place both robots on two special extraction points in the warehouse. The commands are issued by writing on the standard output. After each command, you must read the current distance on the standard input.
+
+The warehouse will be such that all free fields are connected.
+
+Interaction
+
+Before interacting with the robots, a few input data is given.
+
+The first line contains integers 
+𝑅
+ and 
+𝐶
+ 
+(
+2
+≤
+𝑅
+,
+𝐶
+≤
+200
+)
+, number of rows and columns in the warehouse.
+
+The next 
+𝑅
+ rows contain 
+𝐶
+ characters each. Only characters ., #, and x will appear. . represents a free field, # blocked field, and x one of the two extraction fields. There will be exactly two x characters.
+
+The next line contains the starting Manhattan distance.
+
+After loading all input data, you may begin issuing commands to the robots using standard input. Each command must be formatted robot direction followed by newline character. After each command, you must flush the standard output. Use fflush(stdout) in C/C++ or flush(StdOut) in Pascal.
+
+When you are done issuing commands, print 0 on a line by itself.
+
+Scoring
+
+Test cases worth 
+40
+ points do not contain blocked fields.
+
+Test cases worth 
+80
+ points have 
+𝑅
+,
+𝐶
+≤
+50
+.
+
+Sample Input
+Copy
+4 5
+##x..
+.##..
+.....
+....x
+Comments
+
+There are no comments at the moment.

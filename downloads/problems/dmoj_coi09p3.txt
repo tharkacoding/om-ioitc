@@ -1,0 +1,163 @@
+https://dmoj.ca/problem/coi09p3
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:20 (partial)
+Time limit:0.6s
+Memory limit:32M
+Problem type
+
+Scientists in Antarctica have found a new species! They extracted one sample and took it to the laboratory for testing.
+
+They quickly noticed the species reproduces quite often and that only one parent is required for reproduction. However after the parent reproduces twice, it becomes sterile and cannot reproduce again.
+
+In spite of this, the number of specimens in the laboratory skyrocketed and the need for family trees appeared.
+
+They decided to draw the tree in a simple text editor using the following conventions:
+
+The names of the specimens will be written inside nice boxes using characters -, | and o. The center point of the upper and lower border will be marked by the character +. If the length of the border is even, + will be on the left of the two center points.
+
+Copy
+o--+--o        o----+----o        o-+--o
+|anton|        |anamarija|        |pero|
+o--+--o        o----+----o        o-+--o
+
+The boxes will be connected with links. One link connects two or more boxes on their respective + characters, with the parent specimen placed above its children. The boxes and links must not overlap.
+
+Copy
++            +                  +
+|            |                  |
+o        o---o---o        o-----o-----o
+|        |       |        |           |
++        +       +        +           +
+
+If the parent has one child, a point to point (leftmost example) link is used. If the parent has two children, a branching link is used, with the older child on the left, and the younger on the right.
+
+Branching links may be expanded in the horizontal direction as long as the number of - characters on both sides stays equal. Links cannot be expanded vertically.
+
+Don't worry, you will not be asked to draw the tree, only determine the number of characters required to draw it. Space characters are not counted, only -, |, +, o and letters in the names.
+
+Input Specification
+
+The first line of input contains one integer 
+𝑁
+ 
+(
+1
+≤
+𝑁
+≤
+300
+000
+)
+, number of specimens in the laboratory.
+
+The specimens are marked with numbers 
+1
+ to 
+𝑁
+ in the order of birth, with the oldest marked 
+1
+ and youngest marked 
+𝑁
+.
+
+The next 
+𝑁
+ lines contain birth notes of all specimens in the order of birth. Each specimen (except the first whose parent is unknown) is described with two pieces of information:
+
+name - a sequence of at most 
+20
+ lowercase English alphabet characters
+parent - one integer denoting the parent of this specimen
+Output Specification
+
+The first and only line of input should contain the minimal number of characters needed to draw the family tree.
+
+Scoring
+
+Test data worth 
+50
+%
+ of points has 
+𝑁
+<
+30
+.
+
+Test data worth 
+75
+%
+ of points has 
+𝑁
+<
+3
+000
+.
+
+Sample Input 1
+Copy
+3
+adam
+kain 1
+abel 1
+Sample Output 1
+Copy
+64
+Sample Explanation 1
+Copy
+   o-+--o
+   |adam|
+   o-+--o
+     |
+  o--o--o
+  |     |
+o-+--oo-+--o
+|kain||abel|
+o-+--oo-+--o
+Sample Input 2
+Copy
+12
+anton
+ana 1
+luka 1
+mia 2
+tea 3
+jakov 3
+semiramida 5
+dominik 5
+anamarija 4
+eustahije 4
+lovro 2
+lovro 11
+Sample Output 2
+Copy
+371
+Sample Explanation 2
+Copy
+                             o--+--o
+                             |anton|
+                             o--+--o
+                                |
+                   o------------o------------o
+                   |                         |
+                 o-+-o                     o-+--o
+                 |ana|                     |luka|
+                 o-+-o                     o-+--o
+                   |                         |
+           o-------o-------o              o--o--o
+           |               |              |     |
+         o-+-o          o--+--o         o-+-oo--+--o
+         |mia|          |lovro|         |tea||jakov|
+         o-+-o          o--+--o         o-+-oo--+--o
+           |               |              |
+     o-----o-----o         o        o-----o-----o
+     |           |         |        |           |
+o----+----o o----+----o o--+--oo----+-----o o---+---o
+|anamarija| |eustahije| |lovro||semiramida| |dominik|
+o----+----o o----+----o o--+--oo----+-----o o---+---o
+Comments
+
+There are no comments at the moment.

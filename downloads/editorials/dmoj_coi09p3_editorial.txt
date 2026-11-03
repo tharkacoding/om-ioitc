@@ -1,0 +1,38 @@
+https://dmoj.ca/problem/coi09p3/editorial
+
+Remember to use this editorial only when stuck, and not to copy-paste code from it. Please be respectful to the problem author and editorialist.
+Submitting an official solution before solving the problem yourself is a bannable offence.
+
+Note that the only way we can influence the total number of characters is by adding or removing - characters on branched links. We are interested in the smallest possible number of characters. Note that this means finding the smallest possible number of characters on any link individually, since you can never reduce one link by adding characters to another.
+
+Given this observation, it makes sense to start creating the tree bottom up. So that when finding the minimal width of a branch, we already know its subtrees.
+
+For each node in tree already solved, we mark the relative 
+𝑥
+ coordinate of its + sign. Also, we maintain a list of pairs of 
+𝑥
+ coordinate of the leftmost and rightmost character for each tree depth, relative to the 
+𝑥
+ coordinate of + character.
+
+Each node is processed as follows:
+
+If the node has no children, then we arbitrarily select the coordinate of +. We create a new list containing only the leftmost and rightmost edge of this node's rectangle.
+
+If the node has one child, the + coordinate is equal to the child's + coordinate. The list is inherited from the child, adding the leftmost and rightmost edge of the new node's rectangle.
+
+If the node has two children, we need to determine how much to space them so that they may be drawn. On each depth, we observe the rightmost coordinate of the left subtree, and the leftmost coordinate of the right subtree. The difference of these coordinates determines the relative displacement of the left subtree to left, or the right subtree to the right. We select the smallest of these subtrees and move it. After the move, the + character coordinate is the center point between the children and the list can be inherited from the longer subtree, adding the current node.
+
+Time complexity is 
+𝑂
+(
+𝑁
+log
+⁡
+𝑁
+)
+.
+
+Comments
+
+There are no comments at the moment.

@@ -1,0 +1,138 @@
+https://dmoj.ca/problem/coi07p4
+
+Submit solution
+All submissions
+Best submissions
+Read editorial
+Points:25 (partial)
+Time limit:0.6s
+Memory limit:32M
+Problem type
+
+The digit-product of a positive integer is the product of the number's decimal digits. For example, the digit-product of 
+2612
+ is 
+2
+⋅
+6
+⋅
+1
+⋅
+2
+=
+24
+.
+
+The self-product of a number is the product of the number and its digit-product. For example, the self-product of 
+2612
+ is 
+2612
+⋅
+24
+=
+62
+688
+.
+
+Write a program that, given two positive integers 
+𝐴
+ and 
+𝐵
+, calculates the number of positive integers whose self-product is between 
+𝐴
+ and 
+𝐵
+, inclusive.
+
+Input Specification
+
+The first and only line contains two integers 
+𝐴
+ and 
+𝐵
+ 
+(
+1
+≤
+𝐴
+≤
+𝐵
+<
+10
+18
+)
+.
+
+Output Specification
+
+Output should consist of a single integer, the number of positive integers whose self-product is between 
+𝐴
+ and 
+𝐵
+.
+
+Scoring
+
+In test cases worth a total of 
+25
+ points, 
+𝐴
+ and 
+𝐵
+ will be at most 
+10
+8
+.
+
+In test cases worth another 
+15
+, 
+𝐴
+ and 
+𝐵
+ will be at most 
+10
+12
+.
+
+Sample Input 1
+Copy
+20 30
+Sample Output 1
+Copy
+2
+Sample Input 2
+Copy
+145 192
+Sample Output 2
+Copy
+4
+Explanation for Sample Output 2
+
+The self-products of numbers 
+19
+, 
+24
+, 
+32
+ and 
+41
+ are in order 
+171
+, 
+192
+, 
+192
+ and 
+164
+.
+
+Sample Input 3
+Copy
+2224222 2224222
+Sample Output 3
+Copy
+1
+Comments
+
+There are no comments at the moment.

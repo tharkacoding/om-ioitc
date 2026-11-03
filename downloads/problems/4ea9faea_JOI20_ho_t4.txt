@@ -1,0 +1,33 @@
+https://oj.uz/problem/view/JOI20_ho_t4
+
+View problem - Olympic Bus (JOI20_ho_t4) :: oj.uzView problem - Olympic Bus (JOI20_ho_t4)
+
+Olympic Bus Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o ho_t4 ho_t4.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o ho_t4 ho_t4.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o ho_t4 ho_t4.cpp
+Java/usr/bin/javac -encoding UTF-8 ho_t4.java
+/bin/sh -c echo "Main-Class: ho_t4" > __manifest__.txt
+/bin/sh -c jar cfm ho_t4.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b ho_t4.py
+/bin/mv ho_t4.pyc __main__.pyc
+/usr/bin/zip ho_t4.pyz.zip __main__.pyc
+/bin/mv ho_t4.pyz.zip ho_t4.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+1000 ms256 MiB275635627476.97%
+
+Problem Source
+The 19th Japanese Olympiad in Informatics Final Round Problem 4
+
+ Attachments
+File nameSize
+sample.zip1.56 KiB

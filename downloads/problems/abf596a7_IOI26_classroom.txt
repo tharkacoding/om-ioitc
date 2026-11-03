@@ -1,0 +1,25 @@
+https://oj.uz/problem/view/IOI26_classroom
+
+View problem - Classroom Game (IOI26_classroom) :: oj.uzView problem - Classroom Game (IOI26_classroom)
+
+Classroom Game Two steps Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o classroom classroom.cpp classroom.h stub.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o classroom classroom.cpp classroom.h stub.cpp
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+500 ms2048 MiB476561425.00%
+
+Problem Source
+IOI 2026 Day 2 Problem 1
+
+ Attachments
+File nameSize
+classroom.zip2.34 KiB

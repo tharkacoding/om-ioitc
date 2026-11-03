@@ -1,0 +1,35 @@
+https://oj.uz/problem/view/JOI18_wild_boar
+
+View problem - Wild Boar (JOI18_wild_boar) :: oj.uzView problem - Wild Boar (JOI18_wild_boar)
+
+Wild Boar Batch Compilation commands
+
+×Compilation commands
+
+LanguageCompilation command
+C11/usr/bin/gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o wild_boar wild_boar.c -lm
+C++20/usr/bin/g++ -DEVAL -std=gnu++20 -O2 -pipe -static -s -o wild_boar wild_boar.cpp
+C++17/usr/bin/g++ -DEVAL -std=gnu++17 -O2 -pipe -static -s -o wild_boar wild_boar.cpp
+Java/usr/bin/javac -encoding UTF-8 wild_boar.java
+/bin/sh -c echo "Main-Class: wild_boar" > __manifest__.txt
+/bin/sh -c jar cfm wild_boar.jar __manifest__.txt *.class
+Pypy 3/usr/bin/pypy3 -m compileall -b wild_boar.py
+/bin/mv wild_boar.pyc __main__.pyc
+/usr/bin/zip wild_boar.pyz.zip __main__.pyc
+/bin/mv wild_boar.pyz.zip wild_boar.pyz
+
+Statement
+Submit
+Statistics
+All submissions
+Time limitMemory limit# of submissions# of submitted usersSolved #Accepted user ratio
+18000 ms1024 MiB565775571.43%
+
+Since our server is pretty slow, the time limit is 18 seconds instead of 10 (the model solution runs in 11 seconds)
+
+Problem Source
+2018 JOI Spring Training Camp/Qualifying Trial Day 4 Problem 3
+
+ Attachments
+File nameSize
+wild_boar.zip958 bytes
